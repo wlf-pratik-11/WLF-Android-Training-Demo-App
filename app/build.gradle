@@ -1,7 +1,109 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android) // Remove if not mixing Java and Kotlin
+}
+
+android {
+    namespace 'com.example.wscube1'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.wscube1"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    // Core AndroidX and Material dependencies
+    implementation 'androidx.core:core-ktx:1.12.0' // Replace with core if no Kotlin
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+
+    // Navigation Component for Java projects
+    implementation 'androidx.navigation:navigation-fragment:2.6.0'
+    implementation 'androidx.navigation:navigation-ui:2.6.0'
+
+    // Room for Java
+    implementation 'androidx.room:room-runtime:2.6.1'
+    annotationProcessor 'androidx.room:room-compiler:2.6.1'
+
+    // Testing dependencies
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+    // Navigation dependencies
+    implementation 'androidx.navigation:navigation-fragment:2.6.0'
+    implementation 'androidx.navigation:navigation-ui:2.6.0'
+
+    // Lifecycle dependencies
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
+
+    // Jetpack Compose dependencies (optional; remove if Java-only)
+    implementation 'androidx.activity:activity-compose:1.7.2'
+    implementation platform('androidx.compose:compose-bom:2024.01.00')
+    implementation 'androidx.compose.ui:ui:1.5.1'
+    implementation 'androidx.compose.ui:ui-graphics:1.5.1'
+    implementation 'androidx.compose.ui:ui-tooling-preview:1.5.1'
+
+    // Material 3
+    implementation 'androidx.compose.material3:material3:1.2.0'
+
+    // Activity
+    implementation 'androidx.activity:activity:1.7.2'
+
+    // Testing dependencies
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation platform('androidx.compose:compose-bom:2024.01.00')
+    androidTestImplementation 'androidx.compose.ui:ui-test-junit4:1.5.1'
+
+    // Debugging dependencies
+    debugImplementation 'androidx.compose.ui:ui-tooling:1.5.1'
+    debugImplementation 'androidx.compose.ui:ui-test-manifest:1.5.1'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+
+
+}
+
+
+
+
+
+
+/*
+
+plugins {
+    alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
+//    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -41,16 +143,33 @@ android {
 }
 
 dependencies {
+    implementation libs.compose.ui
     implementation 'com.google.android.material:material:1.3.0-alpha02'
     implementation "androidx.room:room-runtime:2.6.1"
+    implementation libs.androidx.navigation.ui
     annotationProcessor "androidx.room:room-compiler:2.6.1"
-    implementation libs.material.v121
-    implementation libs.material.v120alpha02
-    implementation libs.glide
-    annotationProcessor libs.compiler
-    implementation libs.appcompat
-    implementation libs.material
-    implementation libs.constraintlayout
+//    implementation(libs.kotlin.stdlib)
+
+//    implementation libs.appcompat
+//    implementation libs.material
+//    implementation libs.constraintlayout
+//    implementation libs.lifecycle.livedata.ktx
+//    implementation libs.lifecycle.viewmodel.ktx
+//    implementation libs.navigation.fragment
+//    implementation libs.navigation.ui
+//    testImplementation libs.junit
+//    androidTestImplementation libs.ext.junit
+//    androidTestImplementation libs.espresso.core
+//    implementation libs.appcompat
+//    implementation libs.material
+//    implementation libs.constraintlayout
+//    implementation libs.material.v121
+//    implementation libs.material.v120alpha02
+//    implementation libs.glide
+//    annotationProcessor libs.compiler
+////
+
+
     implementation libs.navigation.fragment
     implementation libs.navigation.ui
     implementation libs.lifecycle.runtime.ktx
@@ -69,3 +188,4 @@ dependencies {
     debugImplementation libs.ui.tooling
     debugImplementation libs.ui.test.manifest
 }
+*/

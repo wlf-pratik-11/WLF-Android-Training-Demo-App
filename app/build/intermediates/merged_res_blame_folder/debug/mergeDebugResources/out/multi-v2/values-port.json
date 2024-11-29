@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.wscube1.app-mergeDebugResources-67:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\85db3358d74ca38243817b0a227883ab\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
