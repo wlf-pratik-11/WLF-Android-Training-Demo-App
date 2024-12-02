@@ -34,6 +34,7 @@
         android:textSize="20sp"
         style="@style/Base.CardView"/>
     <Button
+        android:id="@+id/listBtn2"
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:text="Android Relative Layout"
@@ -41,6 +42,7 @@
         android:textSize="20sp"
         style="@style/Base.CardView"/>
     <Button
+        android:id="@+id/listBtn3"
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:text="Android Constraint Layout"
@@ -48,6 +50,7 @@
         android:textSize="20sp"
         style="@style/Base.CardView"/>
     <Button
+        android:id="@+id/listBtn4"
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:text="Android Frame Layout"
@@ -55,6 +58,7 @@
         android:textSize="20sp"
         style="@style/Base.CardView"/>
     <Button
+        android:id="@+id/listBtn5"
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:text="Android Table Layout"
@@ -62,6 +66,7 @@
         android:textSize="20sp"
         style="@style/Base.CardView"/>
     <Button
+        android:id="@+id/listBtn6"
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:text="Android Web View"
@@ -69,6 +74,7 @@
         android:textSize="20sp"
         style="@style/Base.CardView"/>
     <Button
+        android:id="@+id/listBtn7"
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:text="Android ListView"
@@ -76,6 +82,7 @@
         android:textSize="20sp"
         style="@style/Base.CardView"/>
     <Button
+        android:id="@+id/listBtn8"
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:text="Android Grid View"

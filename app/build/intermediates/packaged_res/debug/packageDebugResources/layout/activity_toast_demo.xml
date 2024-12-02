@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    tools:context=".ToastDemoActivity">
+    tools:context=".ToastDemo.ToastDemoActivity">
 
     <include layout="@layout/appbar_layout" android:layout_height="wrap_content" android:layout_width="match_parent"/>
 

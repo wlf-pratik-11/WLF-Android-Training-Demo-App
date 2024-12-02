@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">574369455749-c5e96id6s0s06pil8q3kcibhgfn7tcm6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">574369455749</string>
+    <string name="google_api_key" translatable="false">AIzaSyDXRMastJDcVmXmFfTZWaCqZGS_XWOeRnQ</string>
+    <string name="google_app_id" translatable="false">1:574369455749:android:ec51f1d4ab9736d77413ec</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDXRMastJDcVmXmFfTZWaCqZGS_XWOeRnQ</string>
+    <string name="google_storage_bucket" translatable="false">wscube1-3ac31.firebasestorage.app</string>
+    <string name="project_id" translatable="false">wscube1-3ac31</string>
+</resources>

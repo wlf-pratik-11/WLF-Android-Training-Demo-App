@@ -1,0 +1,35 @@
+com.example.wscube1.test.app-core-ktx-1.12.0-0 C:\Users\Pratik\.gradle\caches\8.9\transforms\05fc4183d7a1c90ca1b958929db5333e\transformed\core-ktx-1.12.0\res
+com.example.wscube1.test.app-lifecycle-process-2.6.2-1 C:\Users\Pratik\.gradle\caches\8.9\transforms\17e6298f8a2913d848f32b1bdb8f5eed\transformed\lifecycle-process-2.6.2\res
+com.example.wscube1.test.app-ui-graphics-release-2 C:\Users\Pratik\.gradle\caches\8.9\transforms\2694436371fea4aa16f300074ca40ae2\transformed\ui-graphics-release\res
+com.example.wscube1.test.app-ui-test-junit4-release-3 C:\Users\Pratik\.gradle\caches\8.9\transforms\2a27ffc25aaee3f49f32a00b64a4ea5a\transformed\ui-test-junit4-release\res
+com.example.wscube1.test.app-core-1.12.0-4 C:\Users\Pratik\.gradle\caches\8.9\transforms\2ae01745bca5f95c18b888a689c84cd3\transformed\core-1.12.0\res
+com.example.wscube1.test.app-ui-util-release-5 C:\Users\Pratik\.gradle\caches\8.9\transforms\33da745de420d3aac5688c5e10d12258\transformed\ui-util-release\res
+com.example.wscube1.test.app-core-1.5.0-6 C:\Users\Pratik\.gradle\caches\8.9\transforms\50de9d461893d23fa50b090adc7c3108\transformed\core-1.5.0\res
+com.example.wscube1.test.app-lifecycle-livedata-core-2.6.2-7 C:\Users\Pratik\.gradle\caches\8.9\transforms\575db333328e24e567d684d88045e328\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.wscube1.test.app-activity-compose-1.8.0-8 C:\Users\Pratik\.gradle\caches\8.9\transforms\5d60c25309e6efd93d82d03ee68f871a\transformed\activity-compose-1.8.0\res
+com.example.wscube1.test.app-ui-test-release-9 C:\Users\Pratik\.gradle\caches\8.9\transforms\6accac882dd4bdd72ef9b40ade3456fa\transformed\ui-test-release\res
+com.example.wscube1.test.app-savedstate-1.2.1-10 C:\Users\Pratik\.gradle\caches\8.9\transforms\6ec2b4228c5f9c253bb2b08221fed70f\transformed\savedstate-1.2.1\res
+com.example.wscube1.test.app-ui-release-11 C:\Users\Pratik\.gradle\caches\8.9\transforms\7581fe33d156043eea520177f3fc2527\transformed\ui-release\res
+com.example.wscube1.test.app-lifecycle-viewmodel-savedstate-2.6.2-12 C:\Users\Pratik\.gradle\caches\8.9\transforms\8c05f223d5c6702181649b564046a73d\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.wscube1.test.app-profileinstaller-1.4.0-13 C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\res
+com.example.wscube1.test.app-emoji2-1.3.0-14 C:\Users\Pratik\.gradle\caches\8.9\transforms\90a204f774b006a0b8de83b88980f474\transformed\emoji2-1.3.0\res
+com.example.wscube1.test.app-savedstate-ktx-1.2.1-15 C:\Users\Pratik\.gradle\caches\8.9\transforms\974ac36d8eadfecaff08f2d0c4e87fec\transformed\savedstate-ktx-1.2.1\res
+com.example.wscube1.test.app-customview-poolingcontainer-1.0.0-16 C:\Users\Pratik\.gradle\caches\8.9\transforms\9c5954bbf00a098bddb4e1e5f5013cc3\transformed\customview-poolingcontainer-1.0.0\res
+com.example.wscube1.test.app-ui-unit-release-17 C:\Users\Pratik\.gradle\caches\8.9\transforms\9e6f5807c5ce9f851c9804672695c897\transformed\ui-unit-release\res
+com.example.wscube1.test.app-runtime-saveable-release-18 C:\Users\Pratik\.gradle\caches\8.9\transforms\a088b7a3d680296660e25cab0ac506fc\transformed\runtime-saveable-release\res
+com.example.wscube1.test.app-activity-ktx-1.8.0-19 C:\Users\Pratik\.gradle\caches\8.9\transforms\ab681c273cc8d91f4bd3e8498c1df44b\transformed\activity-ktx-1.8.0\res
+com.example.wscube1.test.app-annotation-experimental-1.4.0-20 C:\Users\Pratik\.gradle\caches\8.9\transforms\ae08116243e6d0dd6743d1d17150278c\transformed\annotation-experimental-1.4.0\res
+com.example.wscube1.test.app-startup-runtime-1.1.1-21 C:\Users\Pratik\.gradle\caches\8.9\transforms\b3ba1c50ec7357333b78bda4b3bda20d\transformed\startup-runtime-1.1.1\res
+com.example.wscube1.test.app-ui-text-release-22 C:\Users\Pratik\.gradle\caches\8.9\transforms\b3f404ec3afe423ace18628ce96704fa\transformed\ui-text-release\res
+com.example.wscube1.test.app-activity-1.8.0-23 C:\Users\Pratik\.gradle\caches\8.9\transforms\b86e3c81be6d3ee34025cd2282fee98d\transformed\activity-1.8.0\res
+com.example.wscube1.test.app-core-runtime-2.2.0-24 C:\Users\Pratik\.gradle\caches\8.9\transforms\c97afd3c455750e1c9f3b8ed0690ab22\transformed\core-runtime-2.2.0\res
+com.example.wscube1.test.app-lifecycle-runtime-ktx-2.6.2-25 C:\Users\Pratik\.gradle\caches\8.9\transforms\ca2fd92fa54e1590bd675cc4ad5756af\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.example.wscube1.test.app-lifecycle-viewmodel-2.6.2-26 C:\Users\Pratik\.gradle\caches\8.9\transforms\cef6a985acb6b3a68db93a4d4a15b2e8\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.wscube1.test.app-lifecycle-runtime-2.6.2-27 C:\Users\Pratik\.gradle\caches\8.9\transforms\cfaeb477374f840af65ddb28bd347fb0\transformed\lifecycle-runtime-2.6.2\res
+com.example.wscube1.test.app-lifecycle-viewmodel-ktx-2.6.2-28 C:\Users\Pratik\.gradle\caches\8.9\transforms\e83e561220dc62c1c950633e81c62c87\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.example.wscube1.test.app-ui-geometry-release-29 C:\Users\Pratik\.gradle\caches\8.9\transforms\f0e9df1e5810b10f406947bd8dab51ef\transformed\ui-geometry-release\res
+com.example.wscube1.test.app-runtime-release-30 C:\Users\Pratik\.gradle\caches\8.9\transforms\f6044377f5b550a42cbfe7076e0c5c34\transformed\runtime-release\res
+com.example.wscube1.test.app-androidTest-31 E:\WLF\Android Module\WSCube1\app\build\generated\res\resValues\androidTest\debug
+com.example.wscube1.test.app-mergeDebugAndroidTestResources-32 E:\WLF\Android Module\WSCube1\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.wscube1.test.app-mergeDebugAndroidTestResources-33 E:\WLF\Android Module\WSCube1\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.wscube1.test.app-debugAndroidTest-34 E:\WLF\Android Module\WSCube1\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

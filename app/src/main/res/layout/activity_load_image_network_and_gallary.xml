@@ -10,7 +10,7 @@
     android:gravity="top"
     app:layout_scrollFlags="scroll"
     android:isScrollContainer="true"
-    tools:context=".LoadImageNetworkAndGallaryActivity">
+    tools:context=".LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity">
 
     <include layout="@layout/appbar_layout"
         android:layout_width="match_parent"

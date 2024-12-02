@@ -18,320 +18,691 @@
 15    <uses-permission android:name="android.permission.INTERNET" />
 15-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:9:5-67
 15-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:9:22-64
-16    <uses-permission
-16-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:10:5-12:38
-17        android:name="android.permission.READ_EXTERNAL_STORAGE"
-17-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:11:9-64
-18        android:maxSdkVersion="32" />
-18-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:12:9-35
-19    <uses-permission
-19-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:13:5-15:38
-20        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-20-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:14:9-65
-21        android:maxSdkVersion="32" />
-21-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:15:9-35
-22    <uses-permission android:name="android.permission.CAMERA" />
-22-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:16:5-65
-22-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:16:22-62
-23    <uses-permission android:name="android.permission.GALLERY" />
-23-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:17:5-66
-23-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:17:22-63
-24
-25    <permission
-25-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\0db11a06885a80e5e51797a15fac1b91\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-26        android:name="com.example.wscube1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-26-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\0db11a06885a80e5e51797a15fac1b91\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-27        android:protectionLevel="signature" />
-27-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\0db11a06885a80e5e51797a15fac1b91\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-28
-29    <uses-permission android:name="com.example.wscube1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-29-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\0db11a06885a80e5e51797a15fac1b91\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-29-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\0db11a06885a80e5e51797a15fac1b91\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-30
-31    <application
-31-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:19:5-114:19
-32        android:allowBackup="true"
-32-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:20:9-35
-33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\0db11a06885a80e5e51797a15fac1b91\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-34        android:dataExtractionRules="@xml/data_extraction_rules"
-34-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:21:9-65
-35        android:debuggable="true"
-36        android:extractNativeLibs="false"
-37        android:fullBackupContent="@xml/backup_rules"
-37-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:22:9-54
-38        android:icon="@mipmap/ic_launcher"
-38-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:23:9-43
-39        android:label="@string/app_name"
-39-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:24:9-41
-40        android:requestLegacyExternalStorage="true"
-40-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:25:9-52
-41        android:roundIcon="@mipmap/ic_launcher_round"
-41-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:26:9-54
-42        android:supportsRtl="true"
-42-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:27:9-35
-43        android:testOnly="true"
-44        android:theme="@style/Theme.WSCube1" >
-44-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:28:9-45
-45        <activity
-45-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:30:9-33:52
-46            android:name="com.example.wscube1.SQLiteDemoActivity"
-46-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:31:13-47
-47            android:exported="false"
-47-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:32:13-37
-48            android:theme="@style/Theme.WSCube1" />
-48-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:33:13-49
-49        <activity
-49-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:34:9-37:52
-50            android:name="com.example.wscube1.RecyclerViewActivity"
-50-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:35:13-49
-51            android:exported="false"
-51-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:36:13-37
-52            android:theme="@style/Theme.WSCube1" />
-52-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:37:13-49
-53        <activity
-53-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:38:9-41:52
-54            android:name="com.example.wscube1.LoadImageNetworkAndGallaryActivity"
-54-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:39:13-63
-55            android:exported="false"
-55-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:40:13-37
-56            android:theme="@style/Theme.WSCube1" />
-56-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:41:13-49
-57        <activity
-57-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:42:9-45:52
-58            android:name="com.example.wscube1.PassDataOneActiityToAnother"
-58-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:43:13-56
-59            android:exported="false"
-59-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:44:13-37
-60            android:theme="@style/Theme.WSCube1" />
-60-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:45:13-49
-61        <activity
-61-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:46:9-49:52
-62            android:name="com.example.wscube1.ToastDemoActivity"
-62-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:47:13-46
-63            android:exported="false"
-63-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:48:13-37
-64            android:theme="@style/Theme.WSCube1" />
-64-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:49:13-49
+16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+16-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:10:5-76
+16-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:10:22-73
+17    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+17-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:11:5-75
+17-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:11:22-72
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:12:5-80
+18-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:13:5-81
+19-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:14:5-65
+20-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:14:22-62
+21    <uses-permission android:name="android.permission.GALLERY" />
+21-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:15:5-66
+21-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:15:22-63
+22    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+22-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:16:5-82
+22-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:16:22-79
+23
+24    <queries>
+24-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:9:5-20:15
+25        <intent>
+25-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:10:9-16:18
+26            <action android:name="android.intent.action.GET_CONTENT" />
+26-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:11:13-72
+26-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:11:21-69
+27
+28            <category android:name="android.intent.category.OPENABLE" />
+28-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:13:13-73
+28-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:13:23-70
+29
+30            <data android:mimeType="*/*" />
+30-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:15:13-44
+30-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:15:19-41
+31        </intent>
+32        <intent>
+32-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:17:9-19:18
+33            <action android:name="android.media.action.IMAGE_CAPTURE" />
+33-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:18:13-73
+33-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:18:21-70
+34        </intent>
+35    </queries>
+36
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
+37-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:22-76
+38    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+38-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\fa477ccdbf83e2fb8d7f359b63dd2a0b\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+38-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\fa477ccdbf83e2fb8d7f359b63dd2a0b\transformed\recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+39    <uses-permission android:name="android.permission.WAKE_LOCK" />
+39-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:24:5-68
+39-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:24:22-65
+40    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+40-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
+40-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
+41    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+41-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+41-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+42    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+42-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+42-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+43    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+43-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+43-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+44
+45    <permission
+45-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2ae01745bca5f95c18b888a689c84cd3\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+46        android:name="com.example.wscube1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+46-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2ae01745bca5f95c18b888a689c84cd3\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+47        android:protectionLevel="signature" />
+47-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2ae01745bca5f95c18b888a689c84cd3\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+48
+49    <uses-permission android:name="com.example.wscube1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+49-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2ae01745bca5f95c18b888a689c84cd3\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+49-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2ae01745bca5f95c18b888a689c84cd3\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+50
+51    <application
+51-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:18:5-137:19
+52        android:allowBackup="true"
+52-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:19:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.12.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2ae01745bca5f95c18b888a689c84cd3\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+54        android:dataExtractionRules="@xml/data_extraction_rules"
+54-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:20:9-65
+55        android:debuggable="true"
+56        android:extractNativeLibs="false"
+57        android:fullBackupContent="@xml/backup_rules"
+57-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:21:9-54
+58        android:icon="@mipmap/ic_launcher"
+58-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:22:9-43
+59        android:label="@string/app_name"
+59-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:23:9-41
+60        android:requestLegacyExternalStorage="true"
+60-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:24:9-52
+61        android:roundIcon="@mipmap/ic_launcher_round"
+61-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:25:9-54
+62        android:supportsRtl="true"
+62-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:26:9-35
+63        android:testOnly="true"
+64        android:theme="@style/Theme.WSCube1" >
+64-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:27:9-45
 65        <activity
-65-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:50:9-53:52
-66            android:name="com.example.wscube1.BundelDemoActivity"
-66-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:51:13-47
-67            android:exported="false"
-67-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:52:13-37
-68            android:theme="@style/Theme.WSCube1" />
-68-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:53:13-49
-69        <activity
-69-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:54:9-57:52
-70            android:name="com.example.wscube1.FragmentDemoActivity"
-70-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:55:13-49
-71            android:exported="false"
-71-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:56:13-37
-72            android:theme="@style/Theme.WSCube1" />
-72-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:57:13-49
-73        <activity
-73-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:58:9-61:52
-74            android:name="com.example.wscube1.SharedPreferencesActivity"
-74-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:59:13-54
-75            android:exported="false"
-75-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:60:13-37
-76            android:theme="@style/Theme.WSCube1" />
-76-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:61:13-49
-77        <activity
-77-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:62:9-65:52
-78            android:name="com.example.wscube1.CompatibleScreenActivity"
-78-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:63:13-53
-79            android:exported="false"
-79-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:64:13-37
-80            android:theme="@style/Theme.WSCube1" />
-80-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:65:13-49
-81        <activity
-81-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:66:9-68:40
-82            android:name="com.example.wscube1.LayoutList.LinearLayout"
-82-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:67:13-52
-83            android:exported="false" />
-83-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:68:13-37
-84        <activity
-84-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:69:9-72:52
-85            android:name="com.example.wscube1.LayoutList.LayoutListActivity"
-85-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:70:13-58
-86            android:exported="false"
-86-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:71:13-37
-87            android:theme="@style/Theme.WSCube1" />
-87-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:72:13-49
-88        <activity
-88-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:73:9-76:52
-89            android:name="com.example.wscube1.TextviewForListview"
-89-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:74:13-48
-90            android:exported="false"
-90-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:75:13-37
-91            android:theme="@style/Theme.WSCube1" />
-91-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:76:13-49
-92        <activity
-92-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:77:9-80:52
-93            android:name="com.example.wscube1.LayoutDemoActivity"
-93-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:78:13-47
-94            android:exported="false"
-94-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:79:13-37
-95            android:theme="@style/Theme.WSCube1" />
-95-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:80:13-49
-96        <activity
-96-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:81:9-84:52
-97            android:name="com.example.wscube1.DateAndTimeDemoActivity"
-97-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:82:13-52
-98            android:exported="false"
-98-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:83:13-37
-99            android:theme="@style/Theme.WSCube1" />
-99-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:84:13-49
-100        <activity
-100-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:85:9-87:40
-101            android:name="com.example.wscube1.FillFormActivity"
-101-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:86:13-45
-102            android:exported="false" />
-102-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:87:13-37
+65-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:29:9-37:20
+66            android:name="com.example.wscube1.SignInActivity"
+66-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:30:13-43
+67            android:exported="true" >
+67-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:31:13-36
+68            <intent-filter>
+68-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:32:13-36:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:33:17-69
+69-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:33:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:35:17-77
+71-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:35:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:38:9-41:52
+75            android:name="com.example.wscube1.ShimmerDemo.ShimmerDemoActivity"
+75-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:39:13-60
+76            android:exported="false"
+76-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:40:13-37
+77            android:theme="@style/Theme.WSCube1" />
+77-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:41:13-49
+78        <activity
+78-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:42:9-46:52
+79            android:name="com.example.wscube1.LayoutList.RelativeLayout"
+79-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:43:13-54
+80            android:exported="false"
+80-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:44:13-37
+81            android:label="@string/title_activity_relative_layout"
+81-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:45:13-67
+82            android:theme="@style/Theme.WSCube1" />
+82-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:46:13-49
+83        <activity
+83-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:47:9-50:52
+84            android:name="com.example.wscube1.SQLiteDemo.SQLiteDemoActivity"
+84-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:48:13-58
+85            android:exported="false"
+85-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:49:13-37
+86            android:theme="@style/Theme.WSCube1" />
+86-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:50:13-49
+87        <activity
+87-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:51:9-54:52
+88            android:name="com.example.wscube1.RecyclerViewDemo.RecyclerViewActivity"
+88-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:52:13-66
+89            android:exported="false"
+89-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:53:13-37
+90            android:theme="@style/Theme.WSCube1" />
+90-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:54:13-49
+91        <activity
+91-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:55:9-58:72
+92            android:name="com.yalantis.ucrop.UCropActivity"
+92-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:56:13-60
+93            android:screenOrientation="portrait"
+93-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:57:13-49
+94            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+94-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:58:13-69
+95        <activity
+95-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:59:9-62:52
+96            android:name="com.example.wscube1.LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity"
+96-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:60:13-94
+97            android:exported="false"
+97-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:61:13-37
+98            android:theme="@style/Theme.WSCube1" />
+98-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:62:13-49
+99        <activity
+99-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:63:9-66:52
+100            android:name="com.example.wscube1.PassDataDemo.PassDataOneActiityToAnother"
+100-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:64:13-69
+101            android:exported="false"
+101-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:65:13-37
+102            android:theme="@style/Theme.WSCube1" />
+102-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:66:13-49
 103        <activity
-103-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:88:9-91:52
-104            android:name="com.example.wscube1.AddContactPageActivity"
-104-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:89:13-51
+103-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:67:9-70:52
+104            android:name="com.example.wscube1.ToastDemo.ToastDemoActivity"
+104-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:68:13-56
 105            android:exported="false"
-105-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:90:13-37
+105-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:69:13-37
 106            android:theme="@style/Theme.WSCube1" />
-106-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:91:13-49
+106-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:70:13-49
 107        <activity
-107-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:92:9-95:52
-108            android:name="com.example.wscube1.BundlePracActivity"
-108-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:93:13-47
+107-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:71:9-74:52
+108            android:name="com.example.wscube1.BundelDemo.BundelDemoActivity"
+108-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:72:13-58
 109            android:exported="false"
-109-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:94:13-37
-110            android:theme="@style/Theme.WSCube1" /> <!-- <activity -->
-110-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:95:13-49
-111        <!-- android:name=".Second" -->
-112        <!-- android:exported="false" -->
-113        <!-- android:theme="@style/Theme.WSCube1" /> -->
-114        <!-- <activity -->
-115        <!-- android:name=".Activity1" -->
-116        <!-- android:exported="false" -->
-117        <!-- android:label="@string/title_activity_1" -->
-118        <!-- android:theme="@style/Theme.WSCube1" /> -->
+109-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:73:13-37
+110            android:theme="@style/Theme.WSCube1" />
+110-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:74:13-49
+111        <activity
+111-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:75:9-78:52
+112            android:name="com.example.wscube1.FragmentDemo.FragmentDemoActivity"
+112-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:76:13-62
+113            android:exported="false"
+113-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:77:13-37
+114            android:theme="@style/Theme.WSCube1" />
+114-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:78:13-49
+115        <activity
+115-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:79:9-82:52
+116            android:name="com.example.wscube1.SharedPreferencesDemo.SharedPreferencesActivity"
+116-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:80:13-76
+117            android:exported="false"
+117-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:81:13-37
+118            android:theme="@style/Theme.WSCube1" />
+118-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:82:13-49
 119        <activity
-119-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:104:9-113:20
-120            android:name="com.example.wscube1.MainActivity"
-120-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:105:13-41
-121            android:exported="true"
-121-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:106:13-36
-122            android:theme="@style/Theme.WSCube1" >
-122-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:107:13-49
-123            <intent-filter>
-123-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:108:13-112:29
-124                <action android:name="android.intent.action.MAIN" />
-124-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:109:17-69
-124-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:109:25-66
-125
-126                <category android:name="android.intent.category.LAUNCHER" />
-126-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:111:17-77
-126-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:111:27-74
-127            </intent-filter>
-128        </activity>
-129        <activity
-129-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\894c31fb68d15c51f05b74753969994e\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
-130            android:name="androidx.compose.ui.tooling.PreviewActivity"
-130-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\894c31fb68d15c51f05b74753969994e\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-131            android:exported="true" />
-131-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\894c31fb68d15c51f05b74753969994e\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
-132        <activity
-132-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7ff3e8d6931e71e4eb7653671415e42b\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:23:9-25:39
-133            android:name="androidx.activity.ComponentActivity"
-133-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7ff3e8d6931e71e4eb7653671415e42b\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:24:13-63
-134            android:exported="true" />
-134-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7ff3e8d6931e71e4eb7653671415e42b\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:25:13-36
-135
-136        <uses-library
-136-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\adb43f19051978a88e549c39bfa5fc32\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-137            android:name="androidx.window.extensions"
-137-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\adb43f19051978a88e549c39bfa5fc32\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-138            android:required="false" />
-138-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\adb43f19051978a88e549c39bfa5fc32\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-139        <uses-library
-139-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\adb43f19051978a88e549c39bfa5fc32\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-140            android:name="androidx.window.sidecar"
-140-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\adb43f19051978a88e549c39bfa5fc32\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-141            android:required="false" />
-141-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\adb43f19051978a88e549c39bfa5fc32\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-142
-143        <provider
-143-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\796026f76f6418e60722a5082d72e21e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-144            android:name="androidx.startup.InitializationProvider"
-144-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\796026f76f6418e60722a5082d72e21e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-145            android:authorities="com.example.wscube1.androidx-startup"
-145-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\796026f76f6418e60722a5082d72e21e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-146            android:exported="false" >
-146-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\796026f76f6418e60722a5082d72e21e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-147            <meta-data
-147-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\796026f76f6418e60722a5082d72e21e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-148                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-148-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\796026f76f6418e60722a5082d72e21e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-149                android:value="androidx.startup" />
-149-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\796026f76f6418e60722a5082d72e21e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-150            <meta-data
-150-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\3cafe444540d7c87cdd89f0d8e563e89\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-151                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-151-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\3cafe444540d7c87cdd89f0d8e563e89\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-152                android:value="androidx.startup" />
-152-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\3cafe444540d7c87cdd89f0d8e563e89\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-153            <meta-data
-153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-154                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-155                android:value="androidx.startup" />
-155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-156        </provider>
-157
-158        <service
-158-->[androidx.room:room-runtime:2.6.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\f103b4a345b2688c41842d33b01b242a\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-159            android:name="androidx.room.MultiInstanceInvalidationService"
-159-->[androidx.room:room-runtime:2.6.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\f103b4a345b2688c41842d33b01b242a\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-160            android:directBootAware="true"
-160-->[androidx.room:room-runtime:2.6.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\f103b4a345b2688c41842d33b01b242a\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-161            android:exported="false" />
-161-->[androidx.room:room-runtime:2.6.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\f103b4a345b2688c41842d33b01b242a\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-162
-163        <receiver
-163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-164            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-165            android:directBootAware="false"
-165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-166            android:enabled="true"
-166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-167            android:exported="true"
-167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-168            android:permission="android.permission.DUMP" >
-168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-169            <intent-filter>
-169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-170                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-171            </intent-filter>
-172            <intent-filter>
-172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-173                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-174            </intent-filter>
-175            <intent-filter>
-175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-176                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-177            </intent-filter>
-178            <intent-filter>
-178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-179                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\ff75e07e73e4b4417aef1e276ca476c1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-180            </intent-filter>
-181        </receiver>
-182    </application>
-183
-184</manifest>
+119-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:83:9-86:52
+120            android:name="com.example.wscube1.RelativeScreenDemo.CompatibleScreenActivity"
+120-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:84:13-72
+121            android:exported="false"
+121-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:85:13-37
+122            android:theme="@style/Theme.WSCube1" />
+122-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:86:13-49
+123        <activity
+123-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:87:9-89:40
+124            android:name="com.example.wscube1.LayoutList.LinearLayout"
+124-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:88:13-52
+125            android:exported="false" />
+125-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:89:13-37
+126        <activity
+126-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:90:9-93:52
+127            android:name="com.example.wscube1.LayoutList.LayoutListActivity"
+127-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:91:13-58
+128            android:exported="false"
+128-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:92:13-37
+129            android:theme="@style/Theme.WSCube1" />
+129-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:93:13-49
+130        <activity
+130-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:94:9-97:52
+131            android:name="com.example.wscube1.LayoutList.LayoutDemoActivity"
+131-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:95:13-58
+132            android:exported="false"
+132-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:96:13-37
+133            android:theme="@style/Theme.WSCube1" />
+133-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:97:13-49
+134        <activity
+134-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:98:9-101:52
+135            android:name="com.example.wscube1.DateTimeDemo.DateAndTimeDemoActivity"
+135-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:99:13-65
+136            android:exported="false"
+136-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:100:13-37
+137            android:theme="@style/Theme.WSCube1" />
+137-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:101:13-49
+138        <activity
+138-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:102:9-104:40
+139            android:name="com.example.wscube1.PassDataDemo.FillFormActivity"
+139-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:103:13-58
+140            android:exported="false" />
+140-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:104:13-37
+141        <activity
+141-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:105:9-108:52
+142            android:name="com.example.wscube1.SQLiteDemo.AddContactPageActivity"
+142-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:106:13-62
+143            android:exported="false"
+143-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:107:13-37
+144            android:theme="@style/Theme.WSCube1" />
+144-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:108:13-49
+145        <activity
+145-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:109:9-112:52
+146            android:name="com.example.wscube1.BundelDemo.BundlePracActivity"
+146-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:110:13-58
+147            android:exported="false"
+147-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:111:13-37
+148            android:theme="@style/Theme.WSCube1" /> <!-- <activity -->
+148-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:112:13-49
+149        <!-- android:name=".Second" -->
+150        <!-- android:exported="false" -->
+151        <!-- android:theme="@style/Theme.WSCube1" /> -->
+152        <!-- <activity -->
+153        <!-- android:name=".Activity1" -->
+154        <!-- android:exported="false" -->
+155        <!-- android:label="@string/title_activity_1" -->
+156        <!-- android:theme="@style/Theme.WSCube1" /> -->
+157        <activity
+157-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:121:9-130:20
+158            android:name="com.example.wscube1.MainActivity"
+158-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:122:13-41
+159            android:exported="false"
+159-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:123:13-37
+160            android:theme="@style/Theme.WSCube1" >
+160-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:124:13-49
+161
+162            <!-- <intent-filter> -->
+163            <!-- <action android:name="android.intent.action.MAIN" /> -->
+164
+165
+166            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+167            <!-- </intent-filter> -->
+168        </activity>
+169        <activity android:name="com.example.wscube1.LayoutList.ConstraintLayout" />
+169-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:131:9-65
+169-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:131:19-62
+170        <activity android:name="com.example.wscube1.LayoutList.FrameLayout" />
+170-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:132:9-60
+170-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:132:19-57
+171        <activity android:name="com.example.wscube1.LayoutList.GridViewLayout" />
+171-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:133:9-63
+171-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:133:19-60
+172        <activity android:name="com.example.wscube1.LayoutList.ListViewLayout" />
+172-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:134:9-63
+172-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:134:19-60
+173        <activity android:name="com.example.wscube1.LayoutList.TableLayout" />
+173-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:135:9-60
+173-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:135:19-57
+174        <activity android:name="com.example.wscube1.LayoutList.WebViewLayout" />
+174-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:136:9-62
+174-->E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:136:19-59
+175
+176        <provider
+176-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:23:9-31:20
+177            android:name="com.canhub.cropper.CropFileProvider"
+177-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:24:13-63
+178            android:authorities="com.example.wscube1.cropper.fileprovider"
+178-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:25:13-72
+179            android:exported="false"
+179-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:26:13-37
+180            android:grantUriPermissions="true" >
+180-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:27:13-47
+181            <meta-data
+181-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:28:13-30:62
+182                android:name="android.support.FILE_PROVIDER_PATHS"
+182-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:29:17-67
+183                android:resource="@xml/library_file_paths" />
+183-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:30:17-59
+184        </provider>
+185
+186        <activity
+186-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:33:9-35:39
+187            android:name="com.canhub.cropper.CropImageActivity"
+187-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:34:13-64
+188            android:exported="true" />
+188-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:35:13-36
+189        <activity
+189-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\1530d521bf745463877e440ba0135e97\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+190            android:name="androidx.compose.ui.tooling.PreviewActivity"
+190-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\1530d521bf745463877e440ba0135e97\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+191            android:exported="true" />
+191-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\1530d521bf745463877e440ba0135e97\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+192        <activity
+192-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+193            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+193-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+194            android:excludeFromRecents="true"
+194-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+195            android:exported="true"
+195-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+196            android:launchMode="singleTask"
+196-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+198            <intent-filter>
+198-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+199-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+201-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+202-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+203
+204                <data
+204-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:15:13-44
+205                    android:host="firebase.auth"
+206                    android:path="/"
+207                    android:scheme="genericidp" />
+208            </intent-filter>
+209        </activity>
+210        <activity
+210-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+211            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+211-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+212            android:excludeFromRecents="true"
+212-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+213            android:exported="true"
+213-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+214            android:launchMode="singleTask"
+214-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+215-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+216            <intent-filter>
+216-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+217                <action android:name="android.intent.action.VIEW" />
+217-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+217-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+218
+219                <category android:name="android.intent.category.DEFAULT" />
+219-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
+219-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
+220                <category android:name="android.intent.category.BROWSABLE" />
+220-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+220-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+221
+222                <data
+222-->[com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:15:13-44
+223                    android:host="firebase.auth"
+224                    android:path="/"
+225                    android:scheme="recaptcha" />
+226            </intent-filter>
+227        </activity>
+228
+229        <service
+229-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+230            android:name="com.google.firebase.components.ComponentDiscoveryService"
+230-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:67:13-84
+231            android:directBootAware="true"
+231-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+232            android:exported="false" >
+232-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:68:13-37
+233            <meta-data
+233-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+234                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+234-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7e53ae85015e729256c85d2b75c33624\transformed\firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+236            <meta-data
+236-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+237                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+237-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\dcf56f16da5acc07890d51cd2def7d2e\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+240                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+240-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\dcf56f16da5acc07890d51cd2def7d2e\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\dcf56f16da5acc07890d51cd2def7d2e\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+242            <meta-data
+242-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\dcf56f16da5acc07890d51cd2def7d2e\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+243                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+243-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\dcf56f16da5acc07890d51cd2def7d2e\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\dcf56f16da5acc07890d51cd2def7d2e\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7534dd5f431eee32cdf2e7c5836a9c34\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+246                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+246-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7534dd5f431eee32cdf2e7c5836a9c34\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\7534dd5f431eee32cdf2e7c5836a9c34\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+249                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+249-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+251        </service>
+252        <service
+252-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+253            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+253-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+254            android:enabled="true"
+254-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+255            android:exported="false" >
+255-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+256            <meta-data
+256-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+257                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+257-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+258                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+258-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+259        </service>
+260
+261        <activity
+261-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+262            android:name="androidx.credentials.playservices.HiddenActivity"
+262-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+263            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+263-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+264            android:enabled="true"
+264-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+265            android:exported="false"
+265-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+266            android:fitsSystemWindows="true"
+266-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+267            android:theme="@style/Theme.Hidden" >
+267-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Pratik\.gradle\caches\8.9\transforms\ecb7e1392f6e670016ea2ba90a0190b5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+268        </activity>
+269        <activity
+269-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+270            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+270-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+271            android:excludeFromRecents="true"
+271-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+272            android:exported="false"
+272-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+273            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+273-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+274        <!--
+275            Service handling Google Sign-In user revocation. For apps that do not integrate with
+276            Google Sign-In, this service will never be started.
+277        -->
+278        <service
+278-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+279            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+279-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+280            android:exported="true"
+280-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+281            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+281-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+282            android:visibleToInstantApps="true" />
+282-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\d33f76d6d9afab3c02594414de624364\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+283
+284        <property
+284-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+285            android:name="android.adservices.AD_SERVICES_CONFIG"
+285-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+286            android:resource="@xml/ga_ad_services_config" />
+286-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\932f739034360042f6eb513783555c5d\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+287
+288        <provider
+288-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+289            android:name="com.google.firebase.provider.FirebaseInitProvider"
+289-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+290            android:authorities="com.example.wscube1.firebaseinitprovider"
+290-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+291            android:directBootAware="true"
+291-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+292            android:exported="false"
+292-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+293            android:initOrder="100" />
+293-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\abbc605cebc5e32aa8cbe519761d1d8b\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+294
+295        <receiver
+295-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+296            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+296-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+297            android:enabled="true"
+297-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+298            android:exported="false" >
+298-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+299        </receiver>
+300
+301        <service
+301-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+302            android:name="com.google.android.gms.measurement.AppMeasurementService"
+302-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+303            android:enabled="true"
+303-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+304            android:exported="false" />
+304-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+305        <service
+305-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+306            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+306-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+307            android:enabled="true"
+307-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+308            android:exported="false"
+308-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+309            android:permission="android.permission.BIND_JOB_SERVICE" />
+309-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\f34c73871d637b44e3dbc2878dd64844\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+310
+311        <provider
+311-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\90a204f774b006a0b8de83b88980f474\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+312            android:name="androidx.startup.InitializationProvider"
+312-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\90a204f774b006a0b8de83b88980f474\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+313            android:authorities="com.example.wscube1.androidx-startup"
+313-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\90a204f774b006a0b8de83b88980f474\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+314            android:exported="false" >
+314-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\90a204f774b006a0b8de83b88980f474\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+315            <meta-data
+315-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\90a204f774b006a0b8de83b88980f474\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+316                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+316-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\90a204f774b006a0b8de83b88980f474\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+317                android:value="androidx.startup" />
+317-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\90a204f774b006a0b8de83b88980f474\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+318            <meta-data
+318-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\17e6298f8a2913d848f32b1bdb8f5eed\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+319                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+319-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\17e6298f8a2913d848f32b1bdb8f5eed\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+320                android:value="androidx.startup" />
+320-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Pratik\.gradle\caches\8.9\transforms\17e6298f8a2913d848f32b1bdb8f5eed\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+321            <meta-data
+321-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+322                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+322-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+323                android:value="androidx.startup" />
+323-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+324        </provider>
+325
+326        <uses-library
+326-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Pratik\.gradle\caches\8.9\transforms\a547143ab53687aff8de589665387b58\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+327            android:name="android.ext.adservices"
+327-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Pratik\.gradle\caches\8.9\transforms\a547143ab53687aff8de589665387b58\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+328            android:required="false" />
+328-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Pratik\.gradle\caches\8.9\transforms\a547143ab53687aff8de589665387b58\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+329        <uses-library
+329-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\48978e7638e9359be30a4896669e9eb2\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+330            android:name="androidx.window.extensions"
+330-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\48978e7638e9359be30a4896669e9eb2\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+331            android:required="false" />
+331-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\48978e7638e9359be30a4896669e9eb2\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+332        <uses-library
+332-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\48978e7638e9359be30a4896669e9eb2\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+333            android:name="androidx.window.sidecar"
+333-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\48978e7638e9359be30a4896669e9eb2\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+334            android:required="false" />
+334-->[androidx.window:window:1.0.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\48978e7638e9359be30a4896669e9eb2\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+335
+336        <activity
+336-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8386525d575b138b567ebb9f739efc82\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+337            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+337-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8386525d575b138b567ebb9f739efc82\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+338            android:exported="false"
+338-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8386525d575b138b567ebb9f739efc82\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+339            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+339-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8386525d575b138b567ebb9f739efc82\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+340
+341        <meta-data
+341-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\22d0ffd6bfe7be98715bddf961eebcf5\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+342            android:name="com.google.android.gms.version"
+342-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\22d0ffd6bfe7be98715bddf961eebcf5\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+343            android:value="@integer/google_play_services_version" />
+343-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\22d0ffd6bfe7be98715bddf961eebcf5\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+344
+345        <activity
+345-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2c32e250707f2655aa6cc84df61d9b88\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:23:9-25:39
+346            android:name="androidx.activity.ComponentActivity"
+346-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2c32e250707f2655aa6cc84df61d9b88\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:24:13-63
+347            android:exported="true" />
+347-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\2c32e250707f2655aa6cc84df61d9b88\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:25:13-36
+348
+349        <service
+349-->[androidx.room:room-runtime:2.6.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\3c63304ad80e16ee8d60abe141adb98a\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+350            android:name="androidx.room.MultiInstanceInvalidationService"
+350-->[androidx.room:room-runtime:2.6.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\3c63304ad80e16ee8d60abe141adb98a\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+351            android:directBootAware="true"
+351-->[androidx.room:room-runtime:2.6.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\3c63304ad80e16ee8d60abe141adb98a\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+352            android:exported="false" />
+352-->[androidx.room:room-runtime:2.6.1] C:\Users\Pratik\.gradle\caches\8.9\transforms\3c63304ad80e16ee8d60abe141adb98a\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+353
+354        <receiver
+354-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+355            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+355-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+356            android:directBootAware="false"
+356-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+357            android:enabled="true"
+357-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+358            android:exported="true"
+358-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+359            android:permission="android.permission.DUMP" >
+359-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+360            <intent-filter>
+360-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+361                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+361-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+361-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+362            </intent-filter>
+363            <intent-filter>
+363-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+364                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+364-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+364-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+365            </intent-filter>
+366            <intent-filter>
+366-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+367                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+367-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+367-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+368            </intent-filter>
+369            <intent-filter>
+369-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+370                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+370-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+370-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\8d20e15a51ed203355c3547f6156e79e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+371            </intent-filter>
+372        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+373        <activity
+373-->[com.google.android.play:core-common:2.0.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\c8c4a931d996814cabcb3d16d4153e37\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+374            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+374-->[com.google.android.play:core-common:2.0.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\c8c4a931d996814cabcb3d16d4153e37\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+375            android:exported="false"
+375-->[com.google.android.play:core-common:2.0.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\c8c4a931d996814cabcb3d16d4153e37\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+376            android:stateNotNeeded="true"
+376-->[com.google.android.play:core-common:2.0.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\c8c4a931d996814cabcb3d16d4153e37\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+377            android:theme="@style/Theme.PlayCore.Transparent" />
+377-->[com.google.android.play:core-common:2.0.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\c8c4a931d996814cabcb3d16d4153e37\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+378    </application>
+379
+380</manifest>

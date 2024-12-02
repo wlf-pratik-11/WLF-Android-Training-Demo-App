@@ -8,28 +8,39 @@ import android.os.Bundle;
 
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.ui.AppBarConfiguration;
 
+import com.example.wscube1.BundelDemo.BundelDemoActivity;
+import com.example.wscube1.DateTimeDemo.DateAndTimeDemoActivity;
+import com.example.wscube1.FragmentDemo.FragmentDemoActivity;
 import com.example.wscube1.LayoutList.LayoutListActivity;
+import com.example.wscube1.LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity;
+import com.example.wscube1.PassDataDemo.PassDataOneActiityToAnother;
+import com.example.wscube1.RecyclerViewDemo.RecyclerViewActivity;
+import com.example.wscube1.RelativeScreenDemo.CompatibleScreenActivity;
+import com.example.wscube1.SQLiteDemo.SQLiteDemoActivity;
+import com.example.wscube1.SharedPreferencesDemo.SharedPreferencesActivity;
+import com.example.wscube1.ShimmerDemo.ShimmerDemoActivity;
+import com.example.wscube1.ToastDemo.ToastDemoActivity;
 import com.example.wscube1.common.CommonFunctions;
 import com.example.wscube1.databinding.ActivityMainBinding;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 
     TextView mainName,mainEmail;
+    private Button logout;
+    private FirebaseAuth mAuth;
 
 
     @Override
@@ -51,9 +64,9 @@ public class MainActivity extends AppCompatActivity {
         mainName = findViewById(R.id.mainName);
         mainEmail = findViewById(R.id.mainEmail);
 
-        SharedPreferences sharedPreferences = getSharedPreferences("MyShredPref", MODE_PRIVATE);
-        String name = sharedPreferences.getString("name", "White Lable Fox");
-        String email = sharedPreferences.getString("email", "whitelabelfox123@gmail.com");
+        SharedPreferences sharedPreferences = getSharedPreferences("accountDetail", MODE_PRIVATE);
+        String name = sharedPreferences.getString("userName", "White Lable Fox");
+        String email = sharedPreferences.getString("userEmail", "whitelabelfox123@gmail.com");
         mainName.setText(name);
         mainEmail.setText(email);
 
@@ -78,19 +91,19 @@ public class MainActivity extends AppCompatActivity {
 
                 }
                 else if(id==R.id.fragmentDemo){
-                        startActivity(new Intent(getApplicationContext(),FragmentDemoActivity.class));
+                        startActivity(new Intent(getApplicationContext(), FragmentDemoActivity.class));
                 }
                 else if(id==R.id.bundleDemo){
-                    startActivity(new Intent(getApplicationContext(),BundelDemoActivity.class));
+                    startActivity(new Intent(getApplicationContext(), BundelDemoActivity.class));
                 }
                 else if(id==R.id.toastDemo){
-                    startActivity(new Intent(getApplicationContext(),ToastDemoActivity.class));
+                    startActivity(new Intent(getApplicationContext(), ToastDemoActivity.class));
                 }
                 else if(id==R.id.dateTimeDemo){
-                    startActivity(new Intent(getApplicationContext(),DateAndTimeDemoActivity.class));
+                    startActivity(new Intent(getApplicationContext(), DateAndTimeDemoActivity.class));
                 }
                 else if(id==R.id.passDataDemo){
-                    startActivity(new Intent(getApplicationContext(),PassDataOneActiityToAnother.class));
+                    startActivity(new Intent(getApplicationContext(), PassDataOneActiityToAnother.class));
                 }
                 else if(id==R.id.relativeScreenDemo){
                     Intent intent = new Intent(getApplicationContext(), CompatibleScreenActivity.class);
@@ -107,6 +120,30 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(id==R.id.sqliteDemo){
                     startActivity(new Intent(getApplicationContext(), SQLiteDemoActivity.class));
+                }
+                else if(id==R.id.shimmerDemo){
+                    startActivity(new Intent(getApplicationContext(), ShimmerDemoActivity.class));
+                }
+                else if(id==R.id.logOut){
+                    Log.d("LogOut Button","LogOut Button");
+                                // Sign out from Firebase
+                                mAuth = FirebaseAuth.getInstance();
+                                mAuth.signOut();
+
+                                // Sign out from Google (if you are using Google Sign-In as well)
+                                GoogleSignIn.getClient(getApplicationContext(), GoogleSignInOptions.DEFAULT_SIGN_IN).signOut();
+
+                                // Update SharedPreferences to mark the user as logged out
+                                SharedPreferences sharedPreferences = getSharedPreferences("Name", MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                editor.putBoolean("isLoggedIn", false); // Set login status to false
+                                editor.commit();
+
+                                // Redirect to the SignInActivity
+                                Intent intent = new Intent(getApplicationContext(), SignInActivity.class);
+                                Log.d("Pratik Tank","NotWorking2");
+                                startActivity(intent);
+                                finish();  // Close the current activity
                 }
                 else {
                     Log.d("Pratik Tank","NotWorking2");

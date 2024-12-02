@@ -25,11 +25,41 @@ public final class ActivityLayoutListBinding implements ViewBinding {
   @NonNull
   public final Button listBtn1;
 
+  @NonNull
+  public final Button listBtn2;
+
+  @NonNull
+  public final Button listBtn3;
+
+  @NonNull
+  public final Button listBtn4;
+
+  @NonNull
+  public final Button listBtn5;
+
+  @NonNull
+  public final Button listBtn6;
+
+  @NonNull
+  public final Button listBtn7;
+
+  @NonNull
+  public final Button listBtn8;
+
   private ActivityLayoutListBinding(@NonNull LinearLayout rootView,
-      @NonNull LinearLayout layoutList, @NonNull Button listBtn1) {
+      @NonNull LinearLayout layoutList, @NonNull Button listBtn1, @NonNull Button listBtn2,
+      @NonNull Button listBtn3, @NonNull Button listBtn4, @NonNull Button listBtn5,
+      @NonNull Button listBtn6, @NonNull Button listBtn7, @NonNull Button listBtn8) {
     this.rootView = rootView;
     this.layoutList = layoutList;
     this.listBtn1 = listBtn1;
+    this.listBtn2 = listBtn2;
+    this.listBtn3 = listBtn3;
+    this.listBtn4 = listBtn4;
+    this.listBtn5 = listBtn5;
+    this.listBtn6 = listBtn6;
+    this.listBtn7 = listBtn7;
+    this.listBtn8 = listBtn8;
   }
 
   @Override
@@ -67,7 +97,50 @@ public final class ActivityLayoutListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLayoutListBinding((LinearLayout) rootView, layoutList, listBtn1);
+      id = R.id.listBtn2;
+      Button listBtn2 = ViewBindings.findChildViewById(rootView, id);
+      if (listBtn2 == null) {
+        break missingId;
+      }
+
+      id = R.id.listBtn3;
+      Button listBtn3 = ViewBindings.findChildViewById(rootView, id);
+      if (listBtn3 == null) {
+        break missingId;
+      }
+
+      id = R.id.listBtn4;
+      Button listBtn4 = ViewBindings.findChildViewById(rootView, id);
+      if (listBtn4 == null) {
+        break missingId;
+      }
+
+      id = R.id.listBtn5;
+      Button listBtn5 = ViewBindings.findChildViewById(rootView, id);
+      if (listBtn5 == null) {
+        break missingId;
+      }
+
+      id = R.id.listBtn6;
+      Button listBtn6 = ViewBindings.findChildViewById(rootView, id);
+      if (listBtn6 == null) {
+        break missingId;
+      }
+
+      id = R.id.listBtn7;
+      Button listBtn7 = ViewBindings.findChildViewById(rootView, id);
+      if (listBtn7 == null) {
+        break missingId;
+      }
+
+      id = R.id.listBtn8;
+      Button listBtn8 = ViewBindings.findChildViewById(rootView, id);
+      if (listBtn8 == null) {
+        break missingId;
+      }
+
+      return new ActivityLayoutListBinding((LinearLayout) rootView, layoutList, listBtn1, listBtn2,
+          listBtn3, listBtn4, listBtn5, listBtn6, listBtn7, listBtn8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -7,14 +7,13 @@
         android:required="false" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="32" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.GALLERY" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -28,39 +27,61 @@
         android:theme="@style/Theme.WSCube1"
         tools:targetApi="31">
         <activity
-            android:name=".SQLiteDemoActivity"
+            android:name=".SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShimmerDemo.ShimmerDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".RecyclerViewActivity"
+            android:name=".LayoutList.RelativeLayout"
+            android:exported="false"
+            android:label="@string/title_activity_relative_layout"
+            android:theme="@style/Theme.WSCube1" />
+        <activity
+            android:name=".SQLiteDemo.SQLiteDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".LoadImageNetworkAndGallaryActivity"
+            android:name=".RecyclerViewDemo.RecyclerViewActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".PassDataOneActiityToAnother"
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".ToastDemoActivity"
+            android:name=".PassDataDemo.PassDataOneActiityToAnother"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".BundelDemoActivity"
+            android:name=".ToastDemo.ToastDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".FragmentDemoActivity"
+            android:name=".BundelDemo.BundelDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".SharedPreferencesActivity"
+            android:name=".FragmentDemo.FragmentDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".CompatibleScreenActivity"
+            android:name=".SharedPreferencesDemo.SharedPreferencesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WSCube1" />
+        <activity
+            android:name=".RelativeScreenDemo.CompatibleScreenActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
@@ -71,26 +92,22 @@
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".TextviewForListview"
+            android:name=".LayoutList.LayoutDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".LayoutDemoActivity"
+            android:name=".DateTimeDemo.DateAndTimeDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".DateAndTimeDemoActivity"
-            android:exported="false"
-            android:theme="@style/Theme.WSCube1" />
-        <activity
-            android:name=".FillFormActivity"
+            android:name=".PassDataDemo.FillFormActivity"
             android:exported="false" />
         <activity
-            android:name=".AddContactPageActivity"
+            android:name=".SQLiteDemo.AddContactPageActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
         <activity
-            android:name=".BundlePracActivity"
+            android:name=".BundelDemo.BundlePracActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" /> <!-- <activity -->
         <!-- android:name=".Second" -->
@@ -103,14 +120,20 @@
         <!-- android:theme="@style/Theme.WSCube1" /> -->
         <activity
             android:name=".MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:theme="@style/Theme.WSCube1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
+        <activity android:name=".LayoutList.ConstraintLayout" />
+        <activity android:name=".LayoutList.FrameLayout" />
+        <activity android:name=".LayoutList.GridViewLayout" />
+        <activity android:name=".LayoutList.ListViewLayout" />
+        <activity android:name=".LayoutList.TableLayout" />
+        <activity android:name=".LayoutList.WebViewLayout" />
     </application>
 
 </manifest>

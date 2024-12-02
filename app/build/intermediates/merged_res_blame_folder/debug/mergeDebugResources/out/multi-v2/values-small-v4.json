@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.wscube1.app-mergeDebugResources-67:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.wscube1.app-mergeDebugResources-83:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\97cfe09954e721a568434411ee1c5f92\\transformed\\material-1.10.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\5179e1a90235e5f46a6be7b731be924c\\transformed\\material-1.10.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

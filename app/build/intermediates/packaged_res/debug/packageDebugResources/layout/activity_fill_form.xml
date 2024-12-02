@@ -10,7 +10,7 @@
     android:background="@color/white"
     app:layout_scrollFlags="scroll"
     android:isScrollContainer="true"
-    tools:context=".FillFormActivity">
+    tools:context=".PassDataDemo.FillFormActivity">
 
 
         <include layout="@layout/appbar_layout"

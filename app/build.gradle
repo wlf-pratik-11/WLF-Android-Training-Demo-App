@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android) // Remove if not mixing Java and Kotlin
+    id 'com.google.gms.google-services'
+//    alias(libs.plugins.kotlin.android)
+//    alias(libs.plugins.kotlin.compose) // Remove if not mixing Java and Kotlin
 }
 
 android {
@@ -29,16 +31,30 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17
-    }
+//    kotlinOptions {
+//        jvmTarget = JavaVersion.VERSION_17
+//    }
 
     buildFeatures {
         viewBinding true
+        compose true
     }
 }
 
 dependencies {
+    //Firebase depen.
+    implementation platform('com.google.firebase:firebase-bom:33.6.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation"com.google.android.gms:play-services-auth:12.0.1"
+    //Google Progessbar
+    implementation 'com.jpardogo.googleprogressbar:library:1.2.0'
+    //Shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //other plugins
+    implementation 'com.github.yalantis:ucrop:2.2.8'
+    implementation 'com.github.yalantis:ucrop:2.2.8-native'
+    implementation("com.vanniktech:android-image-cropper:4.3.3")
     // Core AndroidX and Material dependencies
     implementation 'androidx.core:core-ktx:1.12.0' // Replace with core if no Kotlin
     implementation 'androidx.appcompat:appcompat:1.6.1'
@@ -50,6 +66,8 @@ dependencies {
 
     // Room for Java
     implementation 'androidx.room:room-runtime:2.6.1'
+    implementation libs.constraintlayout
+    implementation libs.firebase.auth
     annotationProcessor 'androidx.room:room-compiler:2.6.1'
 
     // Testing dependencies

@@ -45,5 +45,13 @@
         android:id="@+id/sqliteDemo"
         android:title="SQLite Demo"
         />
+    <item
+        android:id="@+id/shimmerDemo"
+        android:title="Shimmer Demo"
+        />
+    <item
+        android:id="@+id/logOut"
+        android:title="Logout"
+        />
 
 </menu>
