@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:2:1-139:12
-INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:2:1-139:12
-INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:2:1-139:12
-INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:2:1-139:12
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:2:1-145:12
 MERGED from [com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:2:1-38:12
 MERGED from [androidx.databinding:viewbinding:8.7.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\0c76d1ba6a82a7d873ef70844773c8ae\transformed\viewbinding-8.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\1af7c5724dc9eb45201e29eaa54bc192\transformed\material3-release\AndroidManifest.xml:17:1-22:12
@@ -188,8 +188,8 @@ ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:16:5-8
 	android:name
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:16:22-79
 application
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:18:5-137:19
-INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:18:5-137:19
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:18:5-143:19
+INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:18:5-143:19
 MERGED from [com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:22:5-36:19
 MERGED from [com.vanniktech:android-image-cropper:4.3.3] C:\Users\Pratik\.gradle\caches\8.9\transforms\1fe69ce922415153d8fdac4b706f5bc8\transformed\android-image-cropper-4.3.3\AndroidManifest.xml:22:5-36:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\Pratik\.gradle\caches\8.9\transforms\1530d521bf745463877e440ba0135e97\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
@@ -290,135 +290,135 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Pratik\.gradle\
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:27:9-45
 	android:dataExtractionRules
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:20:9-65
-activity#com.example.wscube1.SignInActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:29:9-37:20
+activity#com.example.wscube1.ApiCallDemo.ApiCallDemoActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:29:9-32:52
 	android:exported
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:31:13-36
-	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:30:13-43
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:32:13-36:29
-action#android.intent.action.MAIN
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:33:17-69
-	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:33:25-66
-category#android.intent.category.LAUNCHER
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:35:17-77
-	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:35:27-74
-activity#com.example.wscube1.ShimmerDemo.ShimmerDemoActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:38:9-41:52
-	android:exported
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:31:13-37
 	android:theme
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:41:13-49
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:32:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:39:13-60
-activity#com.example.wscube1.LayoutList.RelativeLayout
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:42:9-46:52
-	android:label
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:45:13-67
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:30:13-60
+activity#com.example.wscube1.SignInActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:exported
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:34:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.example.wscube1.ShimmerDemo.ShimmerDemoActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:42:9-45:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:44:13-37
 	android:theme
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:45:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:43:13-54
-activity#com.example.wscube1.SQLiteDemo.SQLiteDemoActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:47:9-50:52
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:43:13-60
+activity#com.example.wscube1.LayoutList.RelativeLayout
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:46:9-50:52
+	android:label
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:49:13-67
 	android:exported
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:48:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:50:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:48:13-58
-activity#com.example.wscube1.RecyclerViewDemo.RecyclerViewActivity
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:47:13-54
+activity#com.example.wscube1.SQLiteDemo.SQLiteDemoActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:51:9-54:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:53:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:54:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:52:13-66
-activity#com.yalantis.ucrop.UCropActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:55:9-58:72
-	android:screenOrientation
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:57:13-49
-	android:theme
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:58:13-69
-	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:56:13-60
-activity#com.example.wscube1.LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:59:9-62:52
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:52:13-58
+activity#com.example.wscube1.RecyclerViewDemo.RecyclerViewActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:55:9-58:52
 	android:exported
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:61:13-37
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:57:13-37
 	android:theme
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:62:13-49
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:58:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:60:13-94
-activity#com.example.wscube1.PassDataDemo.PassDataOneActiityToAnother
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:56:13-66
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:59:9-62:72
+	android:screenOrientation
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:61:13-49
+	android:theme
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:62:13-69
+	android:name
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:60:13-60
+activity#com.example.wscube1.LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:63:9-66:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:65:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:66:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:64:13-69
-activity#com.example.wscube1.ToastDemo.ToastDemoActivity
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:64:13-94
+activity#com.example.wscube1.PassDataDemo.PassDataOneActiityToAnother
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:67:9-70:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:69:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:70:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:68:13-56
-activity#com.example.wscube1.BundelDemo.BundelDemoActivity
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:68:13-69
+activity#com.example.wscube1.ToastDemo.ToastDemoActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:71:9-74:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:73:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:74:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:72:13-58
-activity#com.example.wscube1.FragmentDemo.FragmentDemoActivity
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:72:13-56
+activity#com.example.wscube1.BundelDemo.BundelDemoActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:75:9-78:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:77:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:78:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:76:13-62
-activity#com.example.wscube1.SharedPreferencesDemo.SharedPreferencesActivity
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:76:13-58
+activity#com.example.wscube1.FragmentDemo.FragmentDemoActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:79:9-82:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:81:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:82:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:80:13-76
-activity#com.example.wscube1.RelativeScreenDemo.CompatibleScreenActivity
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:80:13-62
+activity#com.example.wscube1.SharedPreferencesDemo.SharedPreferencesActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:83:9-86:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:85:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:86:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:84:13-72
-activity#com.example.wscube1.LayoutList.LinearLayout
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:87:9-89:40
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:84:13-76
+activity#com.example.wscube1.RelativeScreenDemo.CompatibleScreenActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:87:9-90:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:89:13-37
-	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:88:13-52
-activity#com.example.wscube1.LayoutList.LayoutListActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:90:9-93:52
-	android:exported
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:92:13-37
 	android:theme
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:90:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:91:13-58
-activity#com.example.wscube1.LayoutList.LayoutDemoActivity
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:88:13-72
+activity#com.example.wscube1.LayoutList.LinearLayout
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:91:9-93:40
+	android:exported
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:92:13-52
+activity#com.example.wscube1.LayoutList.LayoutListActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:94:9-97:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:96:13-37
@@ -426,68 +426,76 @@ ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:94:9-9
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:97:13-49
 	android:name
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:95:13-58
-activity#com.example.wscube1.DateTimeDemo.DateAndTimeDemoActivity
+activity#com.example.wscube1.LayoutList.LayoutDemoActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:98:9-101:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:100:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:101:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:99:13-65
-activity#com.example.wscube1.PassDataDemo.FillFormActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:102:9-104:40
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:99:13-58
+activity#com.example.wscube1.DateTimeDemo.DateAndTimeDemoActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:102:9-105:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:104:13-37
-	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:103:13-58
-activity#com.example.wscube1.SQLiteDemo.AddContactPageActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:105:9-108:52
-	android:exported
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:107:13-37
 	android:theme
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:108:13-49
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:105:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:106:13-62
-activity#com.example.wscube1.BundelDemo.BundlePracActivity
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:103:13-65
+activity#com.example.wscube1.PassDataDemo.FillFormActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:106:9-108:40
+	android:exported
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:108:13-37
+	android:name
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:107:13-58
+activity#com.example.wscube1.SQLiteDemo.AddContactPageActivity
 ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:109:9-112:52
 	android:exported
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:111:13-37
 	android:theme
 		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:112:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:110:13-58
-activity#com.example.wscube1.MainActivity
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:121:9-130:20
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:110:13-62
+activity#com.example.wscube1.BundelDemo.BundlePracActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:113:9-116:52
 	android:exported
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:123:13-37
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:115:13-37
 	android:theme
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:124:13-49
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:116:13-49
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:122:13-41
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:114:13-58
+activity#com.example.wscube1.MainActivity
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:125:9-136:20
+	android:exported
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:127:13-37
+	android:theme
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:128:13-49
+	android:name
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:126:13-41
 activity#com.example.wscube1.LayoutList.ConstraintLayout
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:131:9-65
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:137:9-65
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:131:19-62
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:137:19-62
 activity#com.example.wscube1.LayoutList.FrameLayout
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:132:9-60
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:138:9-60
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:132:19-57
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:138:19-57
 activity#com.example.wscube1.LayoutList.GridViewLayout
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:133:9-63
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:139:9-63
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:133:19-60
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:139:19-60
 activity#com.example.wscube1.LayoutList.ListViewLayout
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:134:9-63
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:140:9-63
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:134:19-60
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:140:19-60
 activity#com.example.wscube1.LayoutList.TableLayout
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:135:9-60
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:141:9-60
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:135:19-57
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:141:19-57
 activity#com.example.wscube1.LayoutList.WebViewLayout
-ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:136:9-62
+ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:142:9-62
 	android:name
-		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:136:19-59
+		ADDED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml:142:19-59
 uses-sdk
 INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\WLF\Android Module\WSCube1\app\src\main\AndroidManifest.xml

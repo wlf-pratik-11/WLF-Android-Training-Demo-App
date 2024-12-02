@@ -18,6 +18,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.ui.AppBarConfiguration;
 
+import com.example.wscube1.ApiCallDemo.ApiCallDemoActivity;
 import com.example.wscube1.BundelDemo.BundelDemoActivity;
 import com.example.wscube1.DateTimeDemo.DateAndTimeDemoActivity;
 import com.example.wscube1.FragmentDemo.FragmentDemoActivity;
@@ -144,6 +145,9 @@ public class MainActivity extends AppCompatActivity {
                                 Log.d("Pratik Tank","NotWorking2");
                                 startActivity(intent);
                                 finish();  // Close the current activity
+                }
+                else if(id==R.id.apiCallDemo){
+                    startActivity(new Intent(getApplicationContext(), ApiCallDemoActivity.class));
                 }
                 else {
                     Log.d("Pratik Tank","NotWorking2");

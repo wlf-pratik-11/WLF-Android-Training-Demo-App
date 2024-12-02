@@ -50,8 +50,13 @@
         android:title="Shimmer Demo"
         />
     <item
+        android:id="@+id/apiCallDemo"
+        android:title="API CAll Demo"
+        />
+    <item
         android:id="@+id/logOut"
         android:title="Logout"
         />
+
 
 </menu>

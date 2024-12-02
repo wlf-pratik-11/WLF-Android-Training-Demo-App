@@ -4,8 +4,16 @@
         "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\content_load_image_network_and_gallary.xml"
     },
     {
+        "merged": "com.example.wscube1.app-mergeDebugResources-84:/layout/activity_api_call_demo.xml",
+        "source": "com.example.wscube1.app-main-87:/layout/activity_api_call_demo.xml"
+    },
+    {
         "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\fragment_b.xml",
         "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\fragment_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\fragment_second11.xml",
+        "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\fragment_second11.xml"
     },
     {
         "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\fragment_first2.xml",
@@ -18,6 +26,10 @@
     {
         "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\activity_bundel_demo.xml",
         "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\activity_bundel_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\activity_api_call_demo.xml",
+        "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\activity_api_call_demo.xml"
     },
     {
         "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\fragment_first8.xml",
@@ -72,8 +84,8 @@
         "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\activity_fill_form.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-84:/layout/activity_shimmer_demo.xml",
-        "source": "com.example.wscube1.app-main-87:/layout/activity_shimmer_demo.xml"
+        "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\fragment_first11.xml",
+        "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\fragment_first11.xml"
     },
     {
         "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\activity_web_view_layout.xml",
@@ -168,6 +180,10 @@
         "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\content_sqlite_demo.xml"
     },
     {
+        "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\content_api_call_demo.xml",
+        "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\content_api_call_demo.xml"
+    },
+    {
         "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\content_toast_demo.xml",
         "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\content_toast_demo.xml"
     },
@@ -254,6 +270,10 @@
     {
         "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\activity_date_and_time_demo.xml",
         "source": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-87:\\layout\\activity_date_and_time_demo.xml"
+    },
+    {
+        "merged": "com.example.wscube1.app-mergeDebugResources-84:/layout/card_for_api_call_item.xml",
+        "source": "com.example.wscube1.app-main-87:/layout/card_for_api_call_item.xml"
     },
     {
         "merged": "C:\\Users\\Pratik\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-84:\\layout\\fragment_second5.xml",

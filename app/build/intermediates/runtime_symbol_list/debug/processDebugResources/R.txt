@@ -3330,6 +3330,7 @@ int id CropOverlayView 0x7f090004
 int id CropProgressBar 0x7f090005
 int id FUNCTION 0x7f090006
 int id First10Fragment 0x7f090007
+int id First11Fragment 0x7f090303
 int id First2Fragment 0x7f090008
 int id First3Fragment 0x7f090009
 int id First4Fragment 0x7f09000a
@@ -3348,6 +3349,7 @@ int id SHOW_PATH 0x7f090016
 int id SHOW_PROGRESS 0x7f090017
 int id SYM 0x7f090018
 int id Second10Fragment 0x7f090019
+int id Second11Fragment 0x7f090304
 int id Second2Fragment 0x7f09001a
 int id Second3Fragment 0x7f09001b
 int id Second4Fragment 0x7f09001c
@@ -3399,6 +3401,7 @@ int id actionDown 0x7f090049
 int id actionDownUp 0x7f09004a
 int id actionUp 0x7f09004b
 int id action_First10Fragment_to_Second10Fragment 0x7f09004c
+int id action_First11Fragment_to_Second11Fragment 0x7f090305
 int id action_First2Fragment_to_Second2Fragment 0x7f09004d
 int id action_First3Fragment_to_Second3Fragment 0x7f09004e
 int id action_First4Fragment_to_Second4Fragment 0x7f09004f
@@ -3409,6 +3412,7 @@ int id action_First8Fragment_to_Second8Fragment 0x7f090053
 int id action_First9Fragment_to_Second9Fragment 0x7f090054
 int id action_FirstFragment_to_SecondFragment 0x7f090055
 int id action_Second10Fragment_to_First10Fragment 0x7f090056
+int id action_Second11Fragment_to_First11Fragment 0x7f090306
 int id action_Second2Fragment_to_First2Fragment 0x7f090057
 int id action_Second3Fragment_to_First3Fragment 0x7f090058
 int id action_Second4Fragment_to_First4Fragment 0x7f090059
@@ -3454,6 +3458,7 @@ int id animateToEnd 0x7f09007f
 int id animateToStart 0x7f090080
 int id antiClockwise 0x7f090081
 int id anticipate 0x7f090082
+int id apiCallDemo 0x7f090307
 int id appBar 0x7f090083
 int id appBarLayout 0x7f090084
 int id arc 0x7f090085
@@ -3813,6 +3818,7 @@ int id nav_graph17 0x7f0901e4
 int id nav_graph18 0x7f0901e5
 int id nav_graph19 0x7f0901e6
 int id nav_graph2 0x7f0901e7
+int id nav_graph20 0x7f090308
 int id nav_graph3 0x7f0901e8
 int id nav_graph4 0x7f0901e9
 int id nav_graph5 0x7f0901ea
@@ -3821,6 +3827,7 @@ int id nav_graph7 0x7f0901ec
 int id nav_graph8 0x7f0901ed
 int id nav_graph9 0x7f0901ee
 int id nav_host_fragment_container 0x7f0901ef
+int id nav_host_fragment_content_api_call_demo 0x7f090309
 int id nav_host_fragment_content_bundel_demo 0x7f0901f0
 int id nav_host_fragment_content_fragment_demo 0x7f0901f1
 int id nav_host_fragment_content_load_image_network_and_gallary 0x7f0901f2
@@ -3898,6 +3905,7 @@ int id radial 0x7f0902fb
 int id radio 0x7f090239
 int id radioGroup 0x7f09023a
 int id ratio 0x7f09023b
+int id rcvForApi 0x7f09030a
 int id rectangle 0x7f09023c
 int id rectangleHorizontalOnly 0x7f09023d
 int id rectangleVerticalOnly 0x7f09023e
@@ -4064,6 +4072,12 @@ int id uniform 0x7f0902d9
 int id unlabeled 0x7f0902da
 int id up 0x7f0902db
 int id useLogo 0x7f0902dc
+int id userBirthDate 0x7f09030b
+int id userCity 0x7f09030c
+int id userEmail 0x7f09030d
+int id userImg 0x7f09030e
+int id userName 0x7f09030f
+int id userNumber 0x7f090310
 int id verifiedDataSP 0x7f0902dd
 int id vertical 0x7f0902de
 int id vertical_only 0x7f0902df
@@ -4210,6 +4224,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_api_call_demo 0x7f0c00bd
 int layout activity_bundel_demo 0x7f0c001c
 int layout activity_bundle_prac 0x7f0c001d
 int layout activity_compatible_screen 0x7f0c001e
@@ -4242,9 +4257,11 @@ int layout appbar_layout 0x7f0c0038
 int layout bottom_sheet_lauout 0x7f0c0039
 int layout browser_actions_context_menu_page 0x7f0c003a
 int layout browser_actions_context_menu_row 0x7f0c003b
+int layout card_for_api_call_item 0x7f0c00c1
 int layout card_for_contactview 0x7f0c003c
 int layout card_for_listview 0x7f0c003d
 int layout card_item 0x7f0c003e
+int layout content_api_call_demo 0x7f0c00be
 int layout content_bundel_demo 0x7f0c003f
 int layout content_fragment_demo 0x7f0c0040
 int layout content_load_image_network_and_gallary 0x7f0c0041
@@ -4281,6 +4298,7 @@ int layout fragment_c 0x7f0c005f
 int layout fragment_delete_alert 0x7f0c0060
 int layout fragment_first 0x7f0c0061
 int layout fragment_first10 0x7f0c0062
+int layout fragment_first11 0x7f0c00bf
 int layout fragment_first2 0x7f0c0063
 int layout fragment_first3 0x7f0c0064
 int layout fragment_first4 0x7f0c0065
@@ -4292,6 +4310,7 @@ int layout fragment_first9 0x7f0c006a
 int layout fragment_form_data 0x7f0c006b
 int layout fragment_second 0x7f0c006c
 int layout fragment_second10 0x7f0c006d
+int layout fragment_second11 0x7f0c00c0
 int layout fragment_second2 0x7f0c006e
 int layout fragment_second3 0x7f0c006f
 int layout fragment_second4 0x7f0c0070
@@ -4389,6 +4408,7 @@ int navigation nav_graph17 0x7f100008
 int navigation nav_graph18 0x7f100009
 int navigation nav_graph19 0x7f10000a
 int navigation nav_graph2 0x7f10000b
+int navigation nav_graph20 0x7f100013
 int navigation nav_graph3 0x7f10000c
 int navigation nav_graph4 0x7f10000d
 int navigation nav_graph5 0x7f10000e
