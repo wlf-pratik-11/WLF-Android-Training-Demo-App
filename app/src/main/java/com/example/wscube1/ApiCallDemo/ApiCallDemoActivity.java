@@ -3,10 +3,12 @@ package com.example.wscube1.ApiCallDemo;
 import android.os.Bundle;
 
 import com.example.wscube1.common.CommonFunctions;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -40,6 +42,8 @@ public class ApiCallDemoActivity extends AppCompatActivity {
     private ActivityApiCallDemoBinding binding;
     List<UserModel> allUsersList;
     RecyclerView rcvForApi;
+    ShimmerFrameLayout shimmerFrameLayout;
+    View contentLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,18 +57,29 @@ public class ApiCallDemoActivity extends AppCompatActivity {
         CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), "API Call Demo", true);
         allUsersList = new ArrayList<UserModel>();
 
+        shimmerFrameLayout = findViewById(R.id.shimmerForApiDataCard);
+
         RetrofitInstance.getInstance().apiInterface.getUser().enqueue(new Callback<List<UserModel>>() {
             @Override
             public void onResponse(Call<List<UserModel>> call, Response<List<UserModel>> response) {
+
                 allUsersList = response.body();
                 ApiCallDemoRecyclerViewAdapter adapter = new ApiCallDemoRecyclerViewAdapter(ApiCallDemoActivity.this, allUsersList);
                 rcvForApi.setAdapter(adapter);
+                new Handler().postDelayed(() -> {
+                shimmerFrameLayout.stopShimmer(); // Stop shimmer effect
+                shimmerFrameLayout.setVisibility(View.GONE); // Hide shimmer layout
+                rcvForApi.setVisibility(View.VISIBLE);
+                }, 5000);
+
 
             }
 
             @Override
             public void onFailure(Call<List<UserModel>> call, Throwable throwable) {
                 Log.d("Data Not Arrived..!!","Data Not Arrived..!!");
+//                shimmerFrameLayout.stopShimmer();
+//                shimmerFrameLayout.setVisibility(View.GONE);
             }
         });
 

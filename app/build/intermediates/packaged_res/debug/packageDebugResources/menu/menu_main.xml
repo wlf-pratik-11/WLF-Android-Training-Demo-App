@@ -54,6 +54,10 @@
         android:title="API CAll Demo"
         />
     <item
+        android:id="@+id/servicesDemo"
+        android:title="Android Services Demo"
+        />
+    <item
         android:id="@+id/logOut"
         android:title="Logout"
         />

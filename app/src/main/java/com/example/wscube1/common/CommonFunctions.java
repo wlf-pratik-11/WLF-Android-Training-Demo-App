@@ -22,9 +22,7 @@ public class CommonFunctions {
         View decorView = window.getDecorView(); //set status background black
         decorView.setSystemUiVisibility(decorView.getSystemUiVisibility() & ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);//set status text  light
         TextView toolbarTextView =  activity.findViewById(R.id.toolbarTextView);
-
         toolbarTextView.setText(titleName);
-
         if(showBacButton) {
             Toolbar toolbar =  activity.findViewById(R.id.toolBar);
 

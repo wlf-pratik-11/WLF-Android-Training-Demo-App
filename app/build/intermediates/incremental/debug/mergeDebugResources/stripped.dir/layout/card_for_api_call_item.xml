@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardForApiCAllWithShimmer"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="400dp"
@@ -14,6 +16,7 @@
 
         <ImageView
             android:id="@+id/userImg"
+            android:src="@drawable/user_icon"
             android:layout_width="150dp"
             android:layout_height="200dp"
             android:layout_marginStart="16dp"

@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.wscube1.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,10 +23,14 @@ public final class ActivityApiCallDemoBinding implements ViewBinding {
   @NonNull
   public final RecyclerView rcvForApi;
 
+  @NonNull
+  public final ShimmerFrameLayout shimmerForApiDataCard;
+
   private ActivityApiCallDemoBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull RecyclerView rcvForApi) {
+      @NonNull RecyclerView rcvForApi, @NonNull ShimmerFrameLayout shimmerForApiDataCard) {
     this.rootView = rootView;
     this.rcvForApi = rcvForApi;
+    this.shimmerForApiDataCard = shimmerForApiDataCard;
   }
 
   @Override
@@ -61,7 +66,14 @@ public final class ActivityApiCallDemoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityApiCallDemoBinding((CoordinatorLayout) rootView, rcvForApi);
+      id = R.id.shimmerForApiDataCard;
+      ShimmerFrameLayout shimmerForApiDataCard = ViewBindings.findChildViewById(rootView, id);
+      if (shimmerForApiDataCard == null) {
+        break missingId;
+      }
+
+      return new ActivityApiCallDemoBinding((CoordinatorLayout) rootView, rcvForApi,
+          shimmerForApiDataCard);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

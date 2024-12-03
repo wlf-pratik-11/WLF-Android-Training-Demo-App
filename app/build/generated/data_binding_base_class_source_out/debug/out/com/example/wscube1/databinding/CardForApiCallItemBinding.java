@@ -21,6 +21,9 @@ public final class CardForApiCallItemBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final CardView cardForApiCAllWithShimmer;
+
+  @NonNull
   public final TextView userBirthDate;
 
   @NonNull
@@ -38,10 +41,12 @@ public final class CardForApiCallItemBinding implements ViewBinding {
   @NonNull
   public final TextView userNumber;
 
-  private CardForApiCallItemBinding(@NonNull CardView rootView, @NonNull TextView userBirthDate,
+  private CardForApiCallItemBinding(@NonNull CardView rootView,
+      @NonNull CardView cardForApiCAllWithShimmer, @NonNull TextView userBirthDate,
       @NonNull TextView userCity, @NonNull TextView userEmail, @NonNull ImageView userImg,
       @NonNull TextView userName, @NonNull TextView userNumber) {
     this.rootView = rootView;
+    this.cardForApiCAllWithShimmer = cardForApiCAllWithShimmer;
     this.userBirthDate = userBirthDate;
     this.userCity = userCity;
     this.userEmail = userEmail;
@@ -77,6 +82,8 @@ public final class CardForApiCallItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      CardView cardForApiCAllWithShimmer = (CardView) rootView;
+
       id = R.id.userBirthDate;
       TextView userBirthDate = ViewBindings.findChildViewById(rootView, id);
       if (userBirthDate == null) {
@@ -113,8 +120,8 @@ public final class CardForApiCallItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new CardForApiCallItemBinding((CardView) rootView, userBirthDate, userCity, userEmail,
-          userImg, userName, userNumber);
+      return new CardForApiCallItemBinding((CardView) rootView, cardForApiCAllWithShimmer,
+          userBirthDate, userCity, userEmail, userImg, userName, userNumber);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

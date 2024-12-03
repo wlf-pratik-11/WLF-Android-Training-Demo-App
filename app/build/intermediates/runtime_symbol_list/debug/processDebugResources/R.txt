@@ -3331,6 +3331,7 @@ int id CropProgressBar 0x7f090005
 int id FUNCTION 0x7f090006
 int id First10Fragment 0x7f090007
 int id First11Fragment 0x7f090303
+int id First12Fragment 0x7f090313
 int id First2Fragment 0x7f090008
 int id First3Fragment 0x7f090009
 int id First4Fragment 0x7f09000a
@@ -3350,6 +3351,7 @@ int id SHOW_PROGRESS 0x7f090017
 int id SYM 0x7f090018
 int id Second10Fragment 0x7f090019
 int id Second11Fragment 0x7f090304
+int id Second12Fragment 0x7f090314
 int id Second2Fragment 0x7f09001a
 int id Second3Fragment 0x7f09001b
 int id Second4Fragment 0x7f09001c
@@ -3402,6 +3404,7 @@ int id actionDownUp 0x7f09004a
 int id actionUp 0x7f09004b
 int id action_First10Fragment_to_Second10Fragment 0x7f09004c
 int id action_First11Fragment_to_Second11Fragment 0x7f090305
+int id action_First12Fragment_to_Second12Fragment 0x7f090315
 int id action_First2Fragment_to_Second2Fragment 0x7f09004d
 int id action_First3Fragment_to_Second3Fragment 0x7f09004e
 int id action_First4Fragment_to_Second4Fragment 0x7f09004f
@@ -3413,6 +3416,7 @@ int id action_First9Fragment_to_Second9Fragment 0x7f090054
 int id action_FirstFragment_to_SecondFragment 0x7f090055
 int id action_Second10Fragment_to_First10Fragment 0x7f090056
 int id action_Second11Fragment_to_First11Fragment 0x7f090306
+int id action_Second12Fragment_to_First12Fragment 0x7f090316
 int id action_Second2Fragment_to_First2Fragment 0x7f090057
 int id action_Second3Fragment_to_First3Fragment 0x7f090058
 int id action_Second4Fragment_to_First4Fragment 0x7f090059
@@ -3503,6 +3507,7 @@ int id callMeasure 0x7f0900aa
 int id camera 0x7f0900ab
 int id cancel_button 0x7f0900ac
 int id card1 0x7f0900ad
+int id cardForApiCAllWithShimmer 0x7f090312
 int id cardForContactList 0x7f0900ae
 int id cardTextview 0x7f0900af
 int id carryVelocity 0x7f0900b0
@@ -3819,6 +3824,7 @@ int id nav_graph18 0x7f0901e5
 int id nav_graph19 0x7f0901e6
 int id nav_graph2 0x7f0901e7
 int id nav_graph20 0x7f090308
+int id nav_graph21 0x7f090317
 int id nav_graph3 0x7f0901e8
 int id nav_graph4 0x7f0901e9
 int id nav_graph5 0x7f0901ea
@@ -3834,6 +3840,7 @@ int id nav_host_fragment_content_load_image_network_and_gallary 0x7f0901f2
 int id nav_host_fragment_content_pass_data_one_actiity_to_another 0x7f0901f3
 int id nav_host_fragment_content_recycler_view 0x7f0901f4
 int id nav_host_fragment_content_relative_layout 0x7f0901f5
+int id nav_host_fragment_content_services_demo 0x7f090318
 int id nav_host_fragment_content_shimmer_demo 0x7f0901f6
 int id nav_host_fragment_content_sqlite_demo 0x7f0901f7
 int id nav_host_fragment_content_toast_demo 0x7f0901f8
@@ -3952,10 +3959,12 @@ int id search_voice_btn 0x7f090263
 int id select_dialog_listview 0x7f090264
 int id selected 0x7f090265
 int id selection_type 0x7f090266
+int id servicesDemo 0x7f090319
 int id sharedPreferencesDemo 0x7f090267
 int id sharedValueSet 0x7f090268
 int id sharedValueUnset 0x7f090269
 int id shimmerDemo 0x7f09026a
+int id shimmerForApiDataCard 0x7f090311
 int id shimmer_view_container 0x7f0902ff
 int id shortcut 0x7f09026b
 int id showCustom 0x7f09026c
@@ -3988,6 +3997,7 @@ int id src_over 0x7f090286
 int id standard 0x7f090287
 int id start 0x7f090288
 int id startHorizontal 0x7f090289
+int id startMedia 0x7f09031a
 int id startToEnd 0x7f09028a
 int id startVertical 0x7f09028b
 int id state_aspect_ratio 0x7f09028c
@@ -3996,6 +4006,7 @@ int id state_scale 0x7f09028e
 int id staticLayout 0x7f09028f
 int id staticPostLayout 0x7f090290
 int id stop 0x7f090291
+int id stopMedia 0x7f09031b
 int id stretch 0x7f090292
 int id submenuarrow 0x7f090293
 int id submit_area 0x7f090294
@@ -4024,6 +4035,7 @@ int id textTop 0x7f0902aa
 int id textView 0x7f0902ab
 int id textView2 0x7f0902ac
 int id textView3 0x7f0902ad
+int id textView4 0x7f09031c
 int id text_input_end_icon 0x7f0902ae
 int id text_input_error_icon 0x7f0902af
 int id text_input_start_icon 0x7f0902b0
@@ -4243,6 +4255,7 @@ int layout activity_main 0x7f0c002a
 int layout activity_pass_data_one_actiity_to_another 0x7f0c002b
 int layout activity_recycler_view 0x7f0c002c
 int layout activity_relative_layout 0x7f0c002d
+int layout activity_services_demo 0x7f0c00c2
 int layout activity_shared_preferences 0x7f0c002e
 int layout activity_shimmer_demo 0x7f0c002f
 int layout activity_sign_in 0x7f0c0030
@@ -4268,6 +4281,7 @@ int layout content_load_image_network_and_gallary 0x7f0c0041
 int layout content_pass_data_one_actiity_to_another 0x7f0c0042
 int layout content_recycler_view 0x7f0c0043
 int layout content_relative_layout 0x7f0c0044
+int layout content_services_demo 0x7f0c00c3
 int layout content_shimmer_demo 0x7f0c0045
 int layout content_sqlite_demo 0x7f0c0046
 int layout content_toast_demo 0x7f0c0047
@@ -4299,6 +4313,7 @@ int layout fragment_delete_alert 0x7f0c0060
 int layout fragment_first 0x7f0c0061
 int layout fragment_first10 0x7f0c0062
 int layout fragment_first11 0x7f0c00bf
+int layout fragment_first12 0x7f0c00c4
 int layout fragment_first2 0x7f0c0063
 int layout fragment_first3 0x7f0c0064
 int layout fragment_first4 0x7f0c0065
@@ -4311,6 +4326,7 @@ int layout fragment_form_data 0x7f0c006b
 int layout fragment_second 0x7f0c006c
 int layout fragment_second10 0x7f0c006d
 int layout fragment_second11 0x7f0c00c0
+int layout fragment_second12 0x7f0c00c5
 int layout fragment_second2 0x7f0c006e
 int layout fragment_second3 0x7f0c006f
 int layout fragment_second4 0x7f0c0070
@@ -4409,6 +4425,7 @@ int navigation nav_graph18 0x7f100009
 int navigation nav_graph19 0x7f10000a
 int navigation nav_graph2 0x7f10000b
 int navigation nav_graph20 0x7f100013
+int navigation nav_graph21 0x7f100014
 int navigation nav_graph3 0x7f10000c
 int navigation nav_graph4 0x7f10000d
 int navigation nav_graph5 0x7f10000e
@@ -4447,6 +4464,7 @@ int string abc_shareactionprovider_share_with_application 0x7f130019
 int string abc_toolbar_collapse_description 0x7f13001a
 int string action_settings 0x7f13001b
 int string android_credentials_TYPE_PASSWORD_CREDENTIAL 0x7f13001c
+int string android_services_demo 0x7f130133
 int string androidx_credentials_TYPE_PUBLIC_KEY_CREDENTIAL 0x7f13001d
 int string androidx_startup 0x7f13001e
 int string app_name 0x7f13001f
@@ -4513,6 +4531,7 @@ int string google_api_key 0x7f13005b
 int string google_app_id 0x7f13005c
 int string google_crash_reporting_api_key 0x7f13005d
 int string google_storage_bucket 0x7f13005e
+int string heading 0x7f130134
 int string hello_blank_fragment 0x7f13005f
 int string hide_bottom_view_on_scroll_behavior 0x7f130060
 int string ic_flip_24 0x7f130061
@@ -4709,7 +4728,9 @@ int string second_fragment_label 0x7f13011f
 int string selected 0x7f130120
 int string side_sheet_accessibility_pane_title 0x7f130121
 int string side_sheet_behavior 0x7f130122
+int string startButtonText 0x7f130135
 int string status_bar_notification_info_overflow 0x7f130123
+int string stopButtonText 0x7f130136
 int string switch_role 0x7f130124
 int string tab 0x7f130125
 int string template_percent 0x7f130126

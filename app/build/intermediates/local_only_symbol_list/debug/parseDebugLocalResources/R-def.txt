@@ -21,6 +21,7 @@ drawable ic_launcher_foreground
 drawable user_icon
 id First10Fragment
 id First11Fragment
+id First12Fragment
 id First2Fragment
 id First3Fragment
 id First4Fragment
@@ -32,6 +33,7 @@ id First9Fragment
 id FirstFragment
 id Second10Fragment
 id Second11Fragment
+id Second12Fragment
 id Second2Fragment
 id Second3Fragment
 id Second4Fragment
@@ -44,6 +46,7 @@ id SecondFragment
 id SignIn
 id action_First10Fragment_to_Second10Fragment
 id action_First11Fragment_to_Second11Fragment
+id action_First12Fragment_to_Second12Fragment
 id action_First2Fragment_to_Second2Fragment
 id action_First3Fragment_to_Second3Fragment
 id action_First4Fragment_to_Second4Fragment
@@ -55,6 +58,7 @@ id action_First9Fragment_to_Second9Fragment
 id action_FirstFragment_to_SecondFragment
 id action_Second10Fragment_to_First10Fragment
 id action_Second11Fragment_to_First11Fragment
+id action_Second12Fragment_to_First12Fragment
 id action_Second2Fragment_to_First2Fragment
 id action_Second3Fragment_to_First3Fragment
 id action_Second4Fragment_to_First4Fragment
@@ -82,6 +86,7 @@ id button_first
 id button_second
 id camera
 id card1
+id cardForApiCAllWithShimmer
 id cardForContactList
 id cardTextview
 id clearData
@@ -164,6 +169,7 @@ id nav_graph18
 id nav_graph19
 id nav_graph2
 id nav_graph20
+id nav_graph21
 id nav_graph3
 id nav_graph4
 id nav_graph5
@@ -178,6 +184,7 @@ id nav_host_fragment_content_load_image_network_and_gallary
 id nav_host_fragment_content_pass_data_one_actiity_to_another
 id nav_host_fragment_content_recycler_view
 id nav_host_fragment_content_relative_layout
+id nav_host_fragment_content_services_demo
 id nav_host_fragment_content_shimmer_demo
 id nav_host_fragment_content_sqlite_demo
 id nav_host_fragment_content_toast_demo
@@ -193,14 +200,19 @@ id recyclerviewDemo
 id relativeScreenDemo
 id saveContact
 id saveData
+id servicesDemo
 id sharedPreferencesDemo
 id shimmerDemo
+id shimmerForApiDataCard
 id shimmer_view_container
 id spTitle
 id sqliteDemo
+id startMedia
+id stopMedia
 id textView
 id textView2
 id textView3
+id textView4
 id textview_first
 id textview_second
 id toastDemo
@@ -238,6 +250,7 @@ layout activity_main
 layout activity_pass_data_one_actiity_to_another
 layout activity_recycler_view
 layout activity_relative_layout
+layout activity_services_demo
 layout activity_shared_preferences
 layout activity_shimmer_demo
 layout activity_sign_in
@@ -261,6 +274,7 @@ layout content_load_image_network_and_gallary
 layout content_pass_data_one_actiity_to_another
 layout content_recycler_view
 layout content_relative_layout
+layout content_services_demo
 layout content_shimmer_demo
 layout content_sqlite_demo
 layout content_toast_demo
@@ -274,6 +288,7 @@ layout fragment_delete_alert
 layout fragment_first
 layout fragment_first10
 layout fragment_first11
+layout fragment_first12
 layout fragment_first2
 layout fragment_first3
 layout fragment_first4
@@ -286,6 +301,7 @@ layout fragment_form_data
 layout fragment_second
 layout fragment_second10
 layout fragment_second11
+layout fragment_second12
 layout fragment_second2
 layout fragment_second3
 layout fragment_second4
@@ -312,6 +328,7 @@ navigation nav_graph18
 navigation nav_graph19
 navigation nav_graph2
 navigation nav_graph20
+navigation nav_graph21
 navigation nav_graph3
 navigation nav_graph4
 navigation nav_graph5
@@ -320,6 +337,7 @@ navigation nav_graph7
 navigation nav_graph8
 navigation nav_graph9
 string action_settings
+string android_services_demo
 string app_name
 string close_nav
 string default_web_client_id
@@ -330,6 +348,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string heading
 string hello_blank_fragment
 string lorem_ipsum
 string next
@@ -337,6 +356,8 @@ string open_nav
 string previous
 string project_id
 string second_fragment_label
+string startButtonText
+string stopButtonText
 string title_activity_1
 string title_activity_relative_layout
 style Base.Theme.WSCube1

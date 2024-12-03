@@ -28,6 +28,7 @@ import com.example.wscube1.PassDataDemo.PassDataOneActiityToAnother;
 import com.example.wscube1.RecyclerViewDemo.RecyclerViewActivity;
 import com.example.wscube1.RelativeScreenDemo.CompatibleScreenActivity;
 import com.example.wscube1.SQLiteDemo.SQLiteDemoActivity;
+import com.example.wscube1.ServicesDemo.ServicesDemoActivity;
 import com.example.wscube1.SharedPreferencesDemo.SharedPreferencesActivity;
 import com.example.wscube1.ShimmerDemo.ShimmerDemoActivity;
 import com.example.wscube1.ToastDemo.ToastDemoActivity;
@@ -148,6 +149,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(id==R.id.apiCallDemo){
                     startActivity(new Intent(getApplicationContext(), ApiCallDemoActivity.class));
+                }
+                else if(id==R.id.servicesDemo){
+                    startActivity(new Intent(getApplicationContext(), ServicesDemoActivity.class));
                 }
                 else {
                     Log.d("Pratik Tank","NotWorking2");
