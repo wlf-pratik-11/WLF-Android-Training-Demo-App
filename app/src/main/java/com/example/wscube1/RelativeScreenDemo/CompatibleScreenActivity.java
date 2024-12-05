@@ -20,7 +20,7 @@ public class CompatibleScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compatible_screen);
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), "Compatible Screen Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.compatible_screen_demo),true);
 
         String lstData[] = {
                 "M.S.Dhoni",

@@ -32,7 +32,7 @@ public class WebViewLayout extends AppCompatActivity {
         binding = ActivityWebViewLayoutBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"WebView Layout Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.WebView_Layout_Demo),true);
 
         WebView webView = findViewById(R.id.web);
         webView.loadUrl("https://www.geeksforgeeks.org/how-to-use-webview-in-android/");

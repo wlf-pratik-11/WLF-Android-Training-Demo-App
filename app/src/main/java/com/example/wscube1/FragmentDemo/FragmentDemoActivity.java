@@ -25,7 +25,7 @@ public class FragmentDemoActivity extends AppCompatActivity {
         binding = ActivityFragmentDemoBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), "Fragment Demo", true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.fragment_demo), true);
 
         btnFrag1 = findViewById(R.id.btn1);
         btnFrag2 = findViewById(R.id.btn2);
@@ -34,7 +34,7 @@ public class FragmentDemoActivity extends AppCompatActivity {
         btnFrag1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Button 1 is clicked..!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.toast_button_1), Toast.LENGTH_SHORT).show();
                 replaceFragment(new AFragment());
             }
         });
@@ -42,7 +42,7 @@ public class FragmentDemoActivity extends AppCompatActivity {
         btnFrag2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Button 2 is clicked..!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.toast_button_2), Toast.LENGTH_SHORT).show();
                 replaceFragment(new BFragment());
             }
         });
@@ -50,7 +50,7 @@ public class FragmentDemoActivity extends AppCompatActivity {
         btnFrag3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Button 3 is clicked..!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),  getString(R.string.toast_button_3), Toast.LENGTH_SHORT).show();
                 replaceFragment(new CFragment());
             }
         });

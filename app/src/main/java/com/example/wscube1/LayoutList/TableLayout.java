@@ -29,7 +29,7 @@ public class TableLayout extends AppCompatActivity {
 
         binding = ActivityTableLayoutBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Table Layout Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.Table_Layout_Demo),true);
 
     }
 

@@ -13,13 +13,10 @@ import com.example.wscube1.R;
 import com.example.wscube1.common.CommonFunctions;
 import com.example.wscube1.databinding.AddOrEditContactBinding;
 
-
 public class AddContactPageActivity extends AppCompatActivity {
-    private AddOrEditContactBinding binding;
 
-    Button saveContact;
-    EditText nameAdd,phoneNumberAdd;
-    private String id = null;
+    private AddOrEditContactBinding binding;
+    private String contactId = null;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -27,60 +24,48 @@ public class AddContactPageActivity extends AppCompatActivity {
         binding = AddOrEditContactBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Add/Edit Contact",true);
+        // Change theme for app bar and status bar
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.add_edit_contact_title), true);
 
-        saveContact = findViewById(R.id.saveContact);
-        nameAdd = findViewById(R.id.nameAdd);
-        phoneNumberAdd = findViewById(R.id.phoneNumberAdd);
+        // Initialize UI elements
+        EditText nameAdd = binding.nameAdd;
+        EditText phoneNumberAdd = binding.phoneNumberAdd;
+        Button saveContact = binding.saveContact;
 
-        //region Put Data in Add contact Page Edit Text field if intent Has ID
+        // Check if there is data to edit
         Intent intent = getIntent();
         if (intent.hasExtra("id")) {
-            id = intent.getStringExtra("id");
+            contactId = intent.getStringExtra("id");
             nameAdd.setText(intent.getStringExtra("name"));
             phoneNumberAdd.setText(intent.getStringExtra("phoneNumber"));
         }
-        //endregion
 
-        saveContact.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String name = nameAdd.getText().toString();
-                String phoneNumber = phoneNumberAdd.getText().toString();
+        // Handle save button click
+        saveContact.setOnClickListener(view -> {
+            String name = nameAdd.getText().toString();
+            String phoneNumber = phoneNumberAdd.getText().toString();
 
-                if (name.isEmpty() || phoneNumber.isEmpty()) {
-                    if (name.isEmpty()) {
-                        nameAdd.setError("Name is required");
-                    }
-                    if (phoneNumber.isEmpty()) {
-                        phoneNumberAdd.setError("Phone Number is required");
-                    }
-                    return;
+            // Validation for empty fields
+            if (name.isEmpty() || phoneNumber.isEmpty()) {
+                if (name.isEmpty()) {
+                    nameAdd.setError(getString(R.string.error_name_required));
                 }
-                Bundle bundle = new Bundle();
-                bundle.putString("id",id);
-                bundle.putString("name", name);
-                bundle.putString("phoneNumber", phoneNumber);
-
-                Intent intent = new Intent();
-                intent.putExtras(bundle);
-                setResult(RESULT_OK, intent);
-                finish();
+                if (phoneNumber.isEmpty()) {
+                    phoneNumberAdd.setError(getString(R.string.error_phone_required));
+                }
+                return;
             }
+
+            // Prepare data to send back to the calling activity
+            Bundle bundle = new Bundle();
+            bundle.putString("id", contactId);
+            bundle.putString("name", name);
+            bundle.putString("phoneNumber", phoneNumber);
+
+            Intent resultIntent = new Intent();
+            resultIntent.putExtras(bundle);
+            setResult(RESULT_OK, resultIntent);
+            finish();
         });
-
-
-
     }
 }
-
-
-
-
-
-
-
-
-
-
-

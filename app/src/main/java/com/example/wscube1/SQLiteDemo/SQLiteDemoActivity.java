@@ -53,7 +53,7 @@ public class SQLiteDemoActivity extends AppCompatActivity {
         addContact = findViewById(R.id.addContact);
 
         //region ToolBar
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"SQLite Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.SQLite_Demo),true);
         //endregion
 
         contactListView.setLayoutManager(new LinearLayoutManager(this));
@@ -107,7 +107,6 @@ public class SQLiteDemoActivity extends AppCompatActivity {
                     }
                 break;
             default:
-                Log.d("ADD_CONTACT_REQ_CODE",requestCode+"  "+"RequestCode2");
                 break;
         }
     }

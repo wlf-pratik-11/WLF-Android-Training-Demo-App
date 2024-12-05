@@ -32,7 +32,7 @@ public class BundelDemoActivity extends AppCompatActivity {
         binding = ActivityBundelDemoBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Bundel Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.bundel_demo), true);
 
         btnPassData = findViewById(R.id.btnPassData);
         btnPassNoData = findViewById(R.id.btnPassNoData);
@@ -42,8 +42,8 @@ public class BundelDemoActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 bundle.putString(
-                        "key1",
-                        "Passing Bundle From Main Activity to 2nd Activity"
+                        getString(R.string.key1),
+                        getString(R.string.passing_bundle_with_data)
                 );
                 Intent intent = new Intent(getApplicationContext(), BundlePracActivity.class);
                 intent.putExtras(bundle);
@@ -56,16 +56,14 @@ public class BundelDemoActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
                 bundle.putString(
-                        "key2",
-                        "No Passing Bundle From Main Activity to 2nd Activity"
+                        getString(R.string.key2),
+                        getString(R.string.passing_bundle_no_data)
                 );
                 Intent intent = new Intent(getApplicationContext(), BundlePracActivity.class);
                 intent.putExtras(bundle);
                 startActivity(intent);
             }
         });
-
-
     }
 
     @Override

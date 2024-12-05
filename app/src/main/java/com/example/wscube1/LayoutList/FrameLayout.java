@@ -30,7 +30,7 @@ public class FrameLayout extends AppCompatActivity {
         binding = ActivityFrameLayoutBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Frame Layout Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.Frame_Layout_Demo),true);
 
     }
 

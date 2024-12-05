@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Activity -->
+    <string name="Main_Activity">मुख्य गतिविधि</string>
+    <string name="White_Lable_Fox">व्हाइट लेबल फॉक्स</string>
+    <string name="whitelabelfox123gmail_com">whitelabelfox123@gmail.com</string>
+
+    <!-- Layout List -->
+    <string name="Layout_List">लेआउट सूची</string>
+
+    <!-- GridLayout -->
+    <string name="gridview_layout_demo">ग्रिड व्यू लेआउट डेमो</string>
+    <string name="course_name_dsa">DSA</string>
+    <string name="course_name_java">जावा</string>
+    <string name="course_name_cpp">C++</string>
+    <string name="course_name_python">पायथन</string>
+    <string name="course_name_javascript">जावास्क्रिप्ट</string>
+
+    <!-- ConstraintLayoutDemo -->
+    <string name="Constraint_Layout_Demo">बाधा लेआउट डेमो</string>
+
+    <!-- LayoutDemoActivity -->
+    <string name="layout_demo">लेआउट डेमो</string>
+    <string name="android_linear_layout">एंड्रॉइड रैखिक लेआउट</string>
+    <string name="android_relative_layout">एंड्रॉइड सापेक्ष लेआउट</string>
+    <string name="android_constraint_layout">एंड्रॉइड बाधा लेआउट</string>
+    <string name="android_frame_layout">एंड्रॉइड फ़्रेम लेआउट</string>
+    <string name="android_table_layout">एंड्रॉइड टेबल लेआउट</string>
+    <string name="android_web_view">एंड्रॉइड वेब व्यू</string>
+    <string name="android_listview">एंड्रॉइड लिस्ट व्यू</string>
+    <string name="android_grid_view">एंड्रॉइड ग्रिड व्यू</string>
+
+    <!-- Frame Layout Demo -->
+    <string name="Frame_Layout_Demo">फ़्रेम लेआउट डेमो</string>
+
+    <!-- Linear Layout Demo -->
+    <string name="Linear_Layout_Demo">रैखिक लेआउट डेमो</string>
+
+    <!-- List View Demo -->
+    <string name="listview_layout_demo">लिस्ट व्यू लेआउट डेमो</string>
+
+    <!-- Relative Layout Demo -->
+    <string name="relative_layout_demo">सापेक्ष लेआउट डेमो</string>
+
+    <!-- Table Layout Demo -->
+    <string name="Table_Layout_Demo">टेबल लेआउट डेमो</string>
+
+    <!-- WebView Layout Demo -->
+    <string name="WebView_Layout_Demo">वेब व्यू लेआउट डेमो</string>
+
+    <!-- Fragment Demo -->
+    <string name="fragment_demo">फ़्रैगमेंट डेमो</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_button_1">बटन 1 पर क्लिक किया गया..!!</string>
+    <string name="toast_button_2">बटन 2 पर क्लिक किया गया..!!</string>
+    <string name="toast_button_3">बटन 3 पर क्लिक किया गया..!!</string>
+
+    <!-- Bundel Demo -->
+    <string name="bundel_demo">बंडल डेमो</string>
+    <string name="key1">key1</string>
+    <string name="key2">key2</string>
+    <string name="passing_bundle_with_data">मुख्य गतिविधि से दूसरी गतिविधि में बंडल पास करना</string>
+    <string name="passing_bundle_no_data">मुख्य गतिविधि से दूसरी गतिविधि में बंडल पास नहीं करना</string>
+
+    <!-- Default Text -->
+    <string name="no_string_arrived">कोई स्ट्रिंग नहीं आई..!!</string>
+
+    <!-- Toast Demo -->
+    <string name="toast_demo">टोस्ट डेमो</string>
+    <string name="toast_demo_message">टोस्ट डेमो सफलतापूर्वक चल रहा है..!!</string>
+
+    <!-- Date and Time Formatting -->
+    <string name="date_and_time_formatting">दिनांक और समय स्वरूपण</string>
+
+    <!-- Pass Data from one Activity to another -->
+    <string name="pass_data_demo">पास डेटा डेमो</string>
+    <string name="pass_data_one_to_other_activity">डेटा एक से दूसरे एक्टिविटी में पास करें</string>
+    <string name="name_not_arrived">नाम नहीं आया</string>
+
+    <!-- Relative Screen Demo -->
+    <string name="compatible_screen_demo">संगत स्क्रीन डेमो</string>
+
+    <!-- Shared Preferences Demo -->
+    <string name="shared_preferences_demo">साझा प्राथमिकताएँ डेमो</string>
+    <string name="data_saved">डेटा सफलतापूर्वक सहेजा गया..!!</string>
+    <string name="data_cleared">डेटा साफ़ हो गया है..!!</string>
+
+    <!-- Recycler View Demo -->
+    <string name="recycler_view_demo_title">रीसाइक्लर व्यू डेमो</string>
+
+    <!-- SQLite Demo -->
+    <string name="add_edit_contact_title">संपर्क जोड़ें/संपादित करें</string>
+    <string name="error_name_required">नाम आवश्यक है</string>
+    <string name="error_phone_required">फ़ोन नंबर आवश्यक है</string>
+    <string name="SQLite_Demo">SQLite डेमो</string>
+
+    <!-- Shimmer Demo -->
+    <string name="Shimmer_Demo">शिमर डेमो</string>
+
+    <!-- App and Navigation -->
+    <string name="app_name">WSCube1</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="first_fragment_label">पहला टुकड़ा</string>
+    <string name="second_fragment_label">दूसरा टुकड़ा</string>
+    <string name="next">अगला</string>
+    <string name="previous">पिछला</string>
+
+    <!-- Android Services Demo -->
+    <string name="android_services_demo">एंड्रॉइड सेवाएँ डेमो</string>
+    <string name="heading">एंड्रॉइड में सेवाएँ</string>
+    <string name="startButtonText">सेवा शुरू करें</string>
+    <string name="stopButtonText">सेवा बंद करें</string>
+
+    <string name="open_nav">नेविगेशन ड्रॉअर खोलें</string>
+    <string name="close_nav">नेविगेशन ड्रॉअर बंद करें</string>
+
+    <string name="fragmentMsg">फ़्रैगमेंट डेमो में आपका स्वागत है</string>
+    <string name="multilanguagedemo">Multi Langyage Demo</string>
+
+    <string name="lorem_ipsum">
+        ग्राहक बहुत महत्वपूर्ण है, ग्राहक के पीछे ग्राहक ही रहेगा। चॉकलेट सलाद के लिए. मौरिस
+ जीवन, दर्द कभी-कभी भारी होता है, हँसी के दर्द को पढ़ने की ज़रूरत होती है, इसे बहुत सारी अचल संपत्ति होने दें
+ मैं हंसता भी नहीं. मेसेनास इसके अलावा कोई सदस्य नहीं था, या ऐसा कहा गया था। कक्षा शांत और मैत्रीपूर्ण होने के लिए उपयुक्त है
+ वे हमारे विवाहों के माध्यम से, हमारी हाइमेनियन परियोजनाओं के माध्यम से तटों को मोड़ते हैं। यह किशोरों के लिए सुखद है
+ डायम, या रुट्रम टेलस वल्पुटेट क्विस कुछ लोगों को मुफ्त बसों की जरूरत है, खिलाड़ियों को वित्तपोषण की जरूरत है
+ से सजाने के लिए लेकिन सीएनएन एक मुफ़्त पोर्टल नीति की तरह है। उक्त देश में.
+    </string>
+
+    <string name="title_activity_1">एक्टिविटी1</string>
+    <string name="hello_blank_fragment">नमस्ते खाली टुकड़ा</string>
+    <string name="title_activity_relative_layout">रिलेटिवलेआउट</string>
+</resources>

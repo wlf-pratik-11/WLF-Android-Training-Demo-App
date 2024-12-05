@@ -1,63 +1,134 @@
 <resources>
+    <!-- Main Activity -->
+    <string name="Main_Activity">Main Activity</string>
+    <string name="White_Lable_Fox">White Lable Fox</string>
+    <string name="whitelabelfox123gmail_com">whitelabelfox123@gmail.com</string>
+
+    <!-- Layout List -->
+    <string name="Layout_List">Layout List</string>
+
+    <!-- GridLayout -->
+    <string name="gridview_layout_demo">GridView Layout Demo</string>
+    <string name="course_name_dsa">DSA</string>
+    <string name="course_name_java">JAVA</string>
+    <string name="course_name_cpp">C++</string>
+    <string name="course_name_python">Python</string>
+    <string name="course_name_javascript">Javascript</string>
+
+    <!-- ConstraintLayoutDemo -->
+    <string name="Constraint_Layout_Demo">Constraint Layout Demo</string>
+
+    <!-- LayoutDemoActivity -->
+    <string name="layout_demo">Layout Demo</string>
+    <string name="android_linear_layout">Android Linear Layout</string>
+    <string name="android_relative_layout">Android Relative Layout</string>
+    <string name="android_constraint_layout">Android Constraint Layout</string>
+    <string name="android_frame_layout">Android Frame Layout</string>
+    <string name="android_table_layout">Android Table Layout</string>
+    <string name="android_web_view">Android Web View</string>
+    <string name="android_listview">Android ListView</string>
+    <string name="android_grid_view">Android Grid View</string>
+
+    <!-- Frame Layout Demo -->
+    <string name="Frame_Layout_Demo">Frame Layout Demo</string>
+
+    <!-- Linear Layout Demo -->
+    <string name="Linear_Layout_Demo">Linear Layout Demo</string>
+
+    <!-- List View Demo -->
+    <string name="listview_layout_demo">ListView Layout Demo</string>
+
+    <!-- Relative Layout Demo -->
+    <string name="relative_layout_demo">Relative Layout Demo</string>
+
+    <!-- Table Layout Demo -->
+    <string name="Table_Layout_Demo">Table Layout Demo</string>
+
+    <!-- WebView Layout Demo -->
+    <string name="WebView_Layout_Demo">WebView Layout Demo</string>
+
+    <!-- Fragment Demo -->
+    <string name="fragment_demo">Fragment Demo</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_button_1">Button 1 is clicked..!!</string>
+    <string name="toast_button_2">Button 2 is clicked..!!</string>
+    <string name="toast_button_3">Button 3 is clicked..!!</string>
+
+    <!-- Bundel Demo -->
+    <string name="bundel_demo">Bundel Demo</string>
+    <string name="key1">key1</string>
+    <string name="key2">key2</string>
+    <string name="passing_bundle_with_data">Passing Bundle From Main Activity to 2nd Activity</string>
+    <string name="passing_bundle_no_data">No Passing Bundle From Main Activity to 2nd Activity</string>
+
+    <!-- Default Text -->
+    <string name="no_string_arrived">No String Arrived..!!</string>
+
+    <!-- Toast Demo -->
+    <string name="toast_demo">Toast Demo</string>
+    <string name="toast_demo_message">Toast Demo Running Successfully ..!!</string>
+
+    <!-- Date and Time Formatting -->
+    <string name="date_and_time_formatting">Date And Time Formatting</string>
+
+    <!-- Pass Data from one Activity to another -->
+    <string name="pass_data_demo">Pass Data Demo</string>
+    <string name="pass_data_one_to_other_activity">Pass Data One To Other Activity</string>
+    <string name="name_not_arrived">Name not arrived</string>
+
+    <!-- Relative Screen Demo -->
+    <string name="compatible_screen_demo">Compatible Screen Demo</string>
+
+    <!-- Shared Preferences Demo -->
+    <string name="shared_preferences_demo">Shared Preferences Demo</string>
+    <string name="data_saved">Data Successfully Saved..!!</string>
+    <string name="data_cleared">Data is Cleared..!!</string>
+
+    <!-- Recycler View Demo -->
+    <string name="recycler_view_demo_title">Recycler View Demo</string>
+
+    <!-- SQLite Demo -->
+    <string name="add_edit_contact_title">Add/Edit Contact</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_phone_required">Phone Number is required</string>
+    <string name="SQLite_Demo">SQLite Demo</string>
+
+    <!-- Shimmer Demo -->
+    <string name="Shimmer_Demo">Shimmer Demo</string>
+
+    <!-- App and Navigation -->
     <string name="app_name">WSCube1</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-<!--    Android Services Demo Strings-->
-
+    <!-- Android Services Demo -->
     <string name="android_services_demo">Android Services Demo</string>
     <string name="heading">Services In Android</string>
     <string name="startButtonText">Start the Service</string>
     <string name="stopButtonText">Stop the Service</string>
-
 
     <string name="open_nav">Open Navigation Drawer</string>
     <string name="close_nav">Close Navigation Drawer</string>
 
     <string name="fragmentMsg">Welcome To Fragment Demo</string>
 
-    <string name="lorem_ipsum">
+<!--    Multi Language Demo-->
+    <string name="multilanguagedemo">Multi Language Demo</string>
+
+    <string name="lorem_ipsum" translatable="false">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
         dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
         litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
         diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
     </string>
+
     <string name="title_activity_1">Activity1</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_relative_layout">RelativeLayout</string>
 </resources>

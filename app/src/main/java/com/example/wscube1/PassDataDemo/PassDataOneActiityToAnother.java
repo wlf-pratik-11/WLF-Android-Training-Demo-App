@@ -25,9 +25,8 @@ public class PassDataOneActiityToAnother extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityPassDataOneActiityToAnotherBinding binding;
 
-
-    Button btnFillForm,btnFillForm2;
-    TextView formDataView,formDataView2;
+    Button btnFillForm, btnFillForm2;
+    TextView formDataView, formDataView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,13 +35,12 @@ public class PassDataOneActiityToAnother extends AppCompatActivity {
         binding = ActivityPassDataOneActiityToAnotherBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Pass Data One To Other Activity",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.pass_data_one_to_other_activity), true);
 
         formDataView = findViewById(R.id.formDataView);
         formDataView2 = findViewById(R.id.formDataView2);
 
-
-        Button btnFillForm = findViewById(R.id.btnFillForm);
+        btnFillForm = findViewById(R.id.btnFillForm);
         btnFillForm2 = findViewById(R.id.btnFillForm2);
 
         btnFillForm.setOnClickListener(new View.OnClickListener() {
@@ -73,18 +71,17 @@ public class PassDataOneActiityToAnother extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-
-        switch (requestCode){
+        switch (requestCode) {
             case 1:
-                if(resultCode == RESULT_OK) {
+                if (resultCode == RESULT_OK) {
                     Bundle bundle = data.getExtras();
-                    formDataView.setText(bundle.getString("name","Name not arrived"));
+                    formDataView.setText(bundle.getString("name", getString(R.string.name_not_arrived)));
                 }
                 break;
             case 2:
-                if(resultCode == RESULT_OK){
+                if (resultCode == RESULT_OK) {
                     Bundle bundle = data.getExtras();
-                    formDataView2.setText(bundle.getString("name","Name not arrived"));
+                    formDataView2.setText(bundle.getString("name", getString(R.string.name_not_arrived)));
                 }
                 break;
             default:

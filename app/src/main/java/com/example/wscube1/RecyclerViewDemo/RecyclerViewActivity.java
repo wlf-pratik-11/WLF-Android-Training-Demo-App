@@ -39,7 +39,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
         recyclerViewLayout = binding.recyclerViewLayout;
 
         //ToolBar
-        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), "Recycler View Demo", true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.recycler_view_demo_title), true);
 
         recyclerViewLayout.setLayoutManager(new LinearLayoutManager(this));
 

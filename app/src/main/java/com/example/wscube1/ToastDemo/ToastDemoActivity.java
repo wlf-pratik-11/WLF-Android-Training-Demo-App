@@ -30,14 +30,14 @@ public class ToastDemoActivity extends AppCompatActivity {
         binding = ActivityToastDemoBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Toast Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.toast_demo), true);
 
         Button tostDemoBtn = findViewById(R.id.tostDemoBtn);
 
         tostDemoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Tost Demo Running Successfully ..!!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.toast_demo_message), Toast.LENGTH_SHORT).show();
             }
         });
     }

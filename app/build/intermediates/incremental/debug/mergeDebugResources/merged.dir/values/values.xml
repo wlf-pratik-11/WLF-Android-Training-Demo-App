@@ -2038,6 +2038,16 @@
     <item quantity="one"><ns2:g id="count">%d</ns2:g> new notification</item>
     <item quantity="other"><ns2:g id="count">%d</ns2:g> new notifications</item>
   </plurals>
+    <string name="Constraint_Layout_Demo">Constraint Layout Demo</string>
+    <string name="Frame_Layout_Demo">Frame Layout Demo</string>
+    <string name="Layout_List">Layout List</string>
+    <string name="Linear_Layout_Demo">Linear Layout Demo</string>
+    <string name="Main_Activity">Main Activity</string>
+    <string name="SQLite_Demo">SQLite Demo</string>
+    <string name="Shimmer_Demo">Shimmer Demo</string>
+    <string name="Table_Layout_Demo">Table Layout Demo</string>
+    <string name="WebView_Layout_Demo">WebView Layout Demo</string>
+    <string name="White_Lable_Fox">White Lable Fox</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -2066,8 +2076,17 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
+    <string name="add_edit_contact_title">Add/Edit Contact</string>
     <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Password</string>
+    <string name="android_constraint_layout">Android Constraint Layout</string>
+    <string name="android_frame_layout">Android Frame Layout</string>
+    <string name="android_grid_view">Android Grid View</string>
+    <string name="android_linear_layout">Android Linear Layout</string>
+    <string name="android_listview">Android ListView</string>
+    <string name="android_relative_layout">Android Relative Layout</string>
     <string name="android_services_demo">Android Services Demo</string>
+    <string name="android_table_layout">Android Table Layout</string>
+    <string name="android_web_view">Android Web View</string>
     <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Passkey</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">WSCube1</string>
@@ -2078,6 +2097,7 @@
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string description="An accessibility feedback when the bottom sheet drag handle is clicked [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
     <string description="The content description of bottom sheet drag handles [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="bundel_demo">Bundel Demo</string>
     <string name="call_notification_answer_action">Answer</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Decline</string>
@@ -2110,10 +2130,19 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="compatible_screen_demo">Compatible Screen Demo</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="course_name_cpp">C++</string>
+    <string name="course_name_dsa">DSA</string>
+    <string name="course_name_java">JAVA</string>
+    <string name="course_name_javascript">Javascript</string>
+    <string name="course_name_python">Python</string>
     <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
     <string name="crop_image_activity_title"/>
     <string name="crop_image_menu_crop">Crop</string>
+    <string name="data_cleared">Data is Cleared..!!</string>
+    <string name="data_saved">Data Successfully Saved..!!</string>
+    <string name="date_and_time_formatting">Date And Time Formatting</string>
     <string name="default_error_message">"Invalid input"</string>
     <string name="default_popup_window_title" ns1:ignore="ExtraTranslation">"Pop-Up Window"</string>
     <string name="default_web_client_id" translatable="false">574369455749-c5e96id6s0s06pil8q3kcibhgfn7tcm6.apps.googleusercontent.com</string>
@@ -2123,6 +2152,8 @@
     Error: invalid
   </string>
     <string name="error_icon_content_description">Error</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_phone_required">Phone Number is required</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
@@ -2131,11 +2162,13 @@
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="fragmentMsg">Welcome To Fragment Demo</string>
+    <string name="fragment_demo">Fragment Demo</string>
     <string name="gcm_defaultSenderId" translatable="false">574369455749</string>
     <string name="google_api_key" translatable="false">AIzaSyDXRMastJDcVmXmFfTZWaCqZGS_XWOeRnQ</string>
     <string name="google_app_id" translatable="false">1:574369455749:android:ec51f1d4ab9736d77413ec</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDXRMastJDcVmXmFfTZWaCqZGS_XWOeRnQ</string>
     <string name="google_storage_bucket" translatable="false">wscube1-3ac31.firebasestorage.app</string>
+    <string name="gridview_layout_demo">GridView Layout Demo</string>
     <string name="heading">Services In Android</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
@@ -2148,41 +2181,17 @@
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
     <string name="item_view_role_description">Tab</string>
-    <string name="lorem_ipsum">
+    <string name="key1">key1</string>
+    <string name="key2">key2</string>
+    <string name="layout_demo">Layout Demo</string>
+    <string name="listview_layout_demo">ListView Layout Demo</string>
+    <string name="lorem_ipsum" translatable="false">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
         dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
         litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
         diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
     </string>
     <string name="m3_exceed_max_badge_text_suffix" translatable="false"><ns2:g example="Some te" id="part of a long text">%1$s</ns2:g><ns2:g example="…" id="suffix">%2$s</ns2:g></string>
     <string name="m3_ref_typeface_brand_medium" translatable="false">sans-serif-medium</string>
@@ -2350,14 +2359,21 @@
     <string name="mtrl_switch_track_path" translatable="false">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
     <string description="Button text to indicate that the widget will ignore the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_cancel">Cancel</string>
     <string description="Button text to indicate that the widget will save the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_confirm">OK</string>
+    <string name="multilanguagedemo">Multi Language Demo</string>
+    <string name="name_not_arrived">Name not arrived</string>
     <string name="nav_app_bar_navigate_up_description">Navigate up</string>
     <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
     <string name="navigation_menu">"Navigation menu"</string>
     <string name="next">Next</string>
+    <string name="no_string_arrived">No String Arrived..!!</string>
     <string name="not_selected">Not selected</string>
     <string name="off">Off</string>
     <string name="on">On</string>
     <string name="open_nav">Open Navigation Drawer</string>
+    <string name="pass_data_demo">Pass Data Demo</string>
+    <string name="pass_data_one_to_other_activity">Pass Data One To Other Activity</string>
+    <string name="passing_bundle_no_data">No Passing Bundle From Main Activity to 2nd Activity</string>
+    <string name="passing_bundle_with_data">Passing Bundle From Main Activity to 2nd Activity</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -2370,6 +2386,8 @@
     <string name="project_id" translatable="false">wscube1-3ac31</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
+    <string name="recycler_view_demo_title">Recycler View Demo</string>
+    <string name="relative_layout_demo">Relative Layout Demo</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior
@@ -2378,6 +2396,7 @@
     <string description="Content description for the navigation button to return to the previous screen [CHAR_LIMIT=NONE]" name="searchview_navigation_content_description">Back</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="selected">Selected</string>
+    <string name="shared_preferences_demo">Shared Preferences Demo</string>
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="startButtonText">Start the Service</string>
@@ -2388,6 +2407,11 @@
     <string name="template_percent"><ns2:g id="percentage">%1$d</ns2:g> percent.</string>
     <string name="title_activity_1">Activity1</string>
     <string name="title_activity_relative_layout">RelativeLayout</string>
+    <string name="toast_button_1">Button 1 is clicked..!!</string>
+    <string name="toast_button_2">Button 2 is clicked..!!</string>
+    <string name="toast_button_3">Button 3 is clicked..!!</string>
+    <string name="toast_demo">Toast Demo</string>
+    <string name="toast_demo_message">Toast Demo Running Successfully ..!!</string>
     <string name="tooltip_description">tooltip</string>
     <string name="tooltip_label">show tooltip</string>
     <string name="ucrop_crop">Crop</string>
@@ -2398,6 +2422,7 @@
     <string name="ucrop_mutate_exception_hint" translatable="false">Therefore, override color resource (ucrop_color_toolbar_widget) in your app to make it work on pre-L devices</string>
     <string name="ucrop_rotate">Rotate</string>
     <string name="ucrop_scale">Scale</string>
+    <string name="whitelabelfox123gmail_com">whitelabelfox123@gmail.com</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -9499,11 +9524,11 @@
     <declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
-            <!-- Normal static title text -->
+            
             <enum name="normal" value="0"/>
-            <!-- The action bar will use a selection list for navigation. -->
+            
             <enum name="listMode" value="1"/>
-            <!-- The action bar will use a series of horizontal tabs for navigation. -->
+            
             <enum name="tabMode" value="2"/>
         </attr>
         
@@ -9688,45 +9713,32 @@
   </declare-styleable>
     <declare-styleable name="AppBarLayout_Layout">
     <attr name="layout_scrollFlags">
-      <!-- Disable scrolling on the view. This flag should not be combined with any of the other
-           scroll flags. -->
+      
       <flag name="noScroll" value="0x0"/>
 
-      <!-- The view will be scroll in direct relation to scroll events. This flag needs to be
-           set for any of the other flags to take effect. If any sibling views
-           before this one do not have this flag, then this value has no effect. -->
+      
       <flag name="scroll" value="0x1"/>
 
-      <!-- When exiting (scrolling off screen) the view will be scrolled until it is
-           'collapsed'. The collapsed height is defined by the view's minimum height. -->
+      
       <flag name="exitUntilCollapsed" value="0x2"/>
 
-      <!-- When entering (scrolling on screen) the view will scroll on any downwards
-           scroll event, regardless of whether the scrolling view is also scrolling. This
-           is commonly referred to as the 'quick return' pattern. -->
+      
       <flag name="enterAlways" value="0x4"/>
 
-      <!-- An additional flag for 'enterAlways' which modifies the returning view to
-           only initially scroll back to it's collapsed height. Once the scrolling view has
-           reached the end of it's scroll range, the remainder of this view will be scrolled
-           into view. -->
+      
       <flag name="enterAlwaysCollapsed" value="0x8"/>
 
-      <!-- Upon a scroll ending, if the view is only partially visible then it will be
-           snapped and scrolled to it's closest edge. -->
+      
       <flag name="snap" value="0x10"/>
 
-      <!-- An additional flag to be used with 'snap'. If set, the view will be snapped to its
-           top and bottom margins, as opposed to the edges of the view itself. -->
+      
       <flag name="snapMargins" value="0x20"/>
     </attr>
 
     <attr format="enum" name="layout_scrollEffect">
-      <!-- No effect will be applied to this child when its parent
-           AppBarLayout's offset changes.-->
+      
       <enum name="none" value="0"/>
-      <!-- This view will be compressed (masked and parallaxed) when it reaches
-           the top of the screen and continues to scroll out of view.-->
+      
       <enum name="compress" value="1"/>
     </attr>
 
@@ -9746,22 +9758,17 @@
 
         
         <attr name="tintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -9773,22 +9780,17 @@
         <attr format="color" name="tickMarkTint"/>
         
         <attr name="tickMarkTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and drawable color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -9809,10 +9811,9 @@
         <attr name="android:textAppearance"/>
         
         <attr format="enum" name="autoSizeTextType">
-            <!-- No auto-sizing (default). -->
+            
             <enum name="none" value="0"/>
-            <!-- Uniform horizontal and vertical text size scaling to fit within the
-            container. -->
+            
             <enum name="uniform" value="1"/>
         </attr>
         
@@ -9844,22 +9845,17 @@
         <attr format="color" name="drawableTint"/>
         
         <attr name="drawableTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and drawable color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
         
@@ -10252,13 +10248,13 @@
     <attr format="string" name="badgeText"/>
     <attr format="integer" name="number"/>
     <attr name="badgeGravity">
-      <!-- Gravity.TOP | Gravity.END -->
+      
       <enum name="TOP_END" value="8388661"/>
-      <!-- Gravity.TOP | Gravity.START -->
+      
       <enum name="TOP_START" value="8388659"/>
-      <!-- Gravity.BOTTOM | Gravity.END -->
+      
       <enum name="BOTTOM_END" value="8388693"/>
-      <!-- Gravity.BOTTOM | Gravity.START -->
+      
       <enum name="BOTTOM_START" value="8388691"/>
     </attr>
     
@@ -10274,11 +10270,9 @@
 
     
     <attr name="offsetAlignmentMode">
-      <!-- The offsets begin at the edge of the anchor. -->
+      
       <enum name="edge" value="0"/>
-      <!-- Follows the legacy offset alignment behavior. The horizontal offset begins at a variable
-           permanent inset from the edge of the anchor, and the vertical offset begins at the center
-           of the badge aligned with the edge of the anchor. -->
+      
       <enum name="legacy" value="1"/>
     </attr>
 
@@ -10308,32 +10302,20 @@
     <attr name="trackColor"/>
     
     <attr name="showAnimationBehavior">
-      <!-- No animation used; appears immediately. -->
+      
       <enum name="none" value="0"/>
-      <!--
-        Expands from the bottom edge to the top edge for the linear type;
-        expands from the inner edge to the outer edge for the circular type.
-      -->
+      
       <enum name="outward" value="1"/>
-      <!--
-        Expands from the top edge to the bottom edge for the linear type;
-        expands from the outer edge to the inner edge for the circular type.
-      -->
+      
       <enum name="inward" value="2"/>
     </attr>
     
     <attr name="hideAnimationBehavior">
-      <!-- No animation used; disappears immediately. -->
+      
       <enum name="none" value="0"/>
-      <!--
-        Collapses from the bottom edge to the top edge for the linear type;
-        collapses from the inner edge to the outer edge for the circular type.
-      -->
+      
       <enum name="outward" value="1"/>
-      <!--
-        Collapses from the top edge to the bottom edge for the linear type;
-        collapses from the outer edge to the inner edge for the circular type.
-      -->
+      
       <enum name="inward" value="2"/>
     </attr>
     
@@ -10350,23 +10332,23 @@
     <attr name="elevation"/>
     
     <attr name="fabAlignmentMode">
-      <!-- Mode that aligns the fab to the center. -->
+      
       <enum name="center" value="0"/>
-      <!-- Mode that aligns the fab to the end. -->
+      
       <enum name="end" value="1"/>
     </attr>
     
     <attr name="fabAnchorMode">
-      <!-- Mode that anchors the fab embedded inside the BottomAppBar. -->
+      
       <enum name="embed" value="0"/>
-      <!-- Mode that anchors the fab to be cradled within the top edge of the BottomAppBar. -->
+      
       <enum name="cradle" value="1"/>
     </attr>
     
     <attr name="fabAnimationMode">
-      <!-- Mode that scales the fab down to a point, moves it, then scales the fab back to its normal size. -->
+      
       <enum name="scale" value="0"/>
-      <!-- Mode that slides the fab from one alignment mode to the next. -->
+      
       <enum name="slide" value="1"/>
     </attr>
     
@@ -10391,10 +10373,9 @@
     <attr name="paddingRightSystemWindowInsets"/>
     
     <attr name="menuAlignmentMode">
-      <!-- Mode that aligns the menu automatically to avoid the FAB. Menu will be aligned at the end
-           when the FAB is center aligned, and start when the FAB is end aligned. -->
+      
       <enum name="auto" value="0"/>
-      <!-- Mode that aligns the menu to the start. -->
+      
       <enum name="start" value="1"/>
     </attr>
   </declare-styleable>
@@ -10413,7 +10394,7 @@
     <declare-styleable name="BottomSheetBehavior_Layout">
     
     <attr format="dimension" name="behavior_peekHeight">
-      <!-- Peek at the 16:9 ratio keyline of its parent -->
+      
       <enum name="auto" value="-1"/>
     </attr>
     
@@ -10438,19 +10419,17 @@
     <attr name="backgroundTint"/>
     
     <attr name="behavior_saveFlags">
-      <!-- This flag will preserve the peekHeight on configuration change. -->
+      
       <flag name="peekHeight" value="0x1"/>
-      <!-- This flag will preserve the fitToContents boolean value on configuration change. -->
+      
       <flag name="fitToContents" value="0x2"/>
-      <!-- This flag will preserve the hideable boolean value on configuration change. -->
+      
       <flag name="hideable" value="0x4"/>
-      <!-- This flag will preserve the skipCollapsed boolean value on configuration change. -->
+      
       <flag name="skipCollapsed" value="0x8"/>
-      <!-- This flag will preserve the all the aforementioned values on configuration change. -->
+      
       <flag name="all" value="-1"/>
-      <!-- This flag will not preserve the aforementioned values on configuration change. The only
-           value preserved will be the positional state, e.g. collapsed, hidden, expanded, etc.
-           This is the default behavior. -->
+      
       <flag name="none" value="0"/>
     </attr>
     
@@ -10533,22 +10512,17 @@
 
         
         <attr name="checkMarkTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -10688,17 +10662,9 @@
     <attr format="dimension" name="indicatorInset"/>
     
     <attr name="indicatorDirectionCircular">
-      <!--
-        In the indeterminate mode, the spinner will spin clockwise; in the
-        determinate mode, the indicator will progress from the top (12 o'clock)
-        clockwise.
-      -->
+      
       <enum name="clockwise" value="0"/>
-      <!--
-        In the indeterminate mode, the spinner will spin counter-clockwise; in
-        the determinate mode, the indicator will progress from the top (12
-        o'clock) counter-clockwise.
-      -->
+      
       <enum name="counterclockwise" value="1"/>
     </attr>
   </declare-styleable>
@@ -10755,49 +10721,49 @@
 
     
     <attr name="collapsedTitleGravity">
-      <!-- Push title to the top of its container, not changing its size. -->
+      
       <flag name="top" value="0x30"/>
-      <!-- Push title to the bottom of its container, not changing its size. -->
+      
       <flag name="bottom" value="0x50"/>
-      <!-- Push title to the left of its container, not changing its size. -->
+      
       <flag name="left" value="0x03"/>
-      <!-- Push title to the right of its container, not changing its size. -->
+      
       <flag name="right" value="0x05"/>
-      <!-- Place title in the vertical center of its container, not changing its size. -->
+      
       <flag name="center_vertical" value="0x10"/>
-      <!-- Grow the vertical size of the title if needed so it completely fills its container. -->
+      
       <flag name="fill_vertical" value="0x70"/>
-      <!-- Place title in the horizontal center of its container, not changing its size. -->
+      
       <flag name="center_horizontal" value="0x01"/>
-      <!-- Place the title in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+      
       <flag name="center" value="0x11"/>
-      <!-- Push title to the beginning of its container, not changing its size. -->
+      
       <flag name="start" value="0x00800003"/>
-      <!-- Push title to the end of its container, not changing its size. -->
+      
       <flag name="end" value="0x00800005"/>
     </attr>
 
     
     <attr name="expandedTitleGravity">
-      <!-- Push title to the top of its container, not changing its size. -->
+      
       <flag name="top" value="0x30"/>
-      <!-- Push title to the bottom of its container, not changing its size. -->
+      
       <flag name="bottom" value="0x50"/>
-      <!-- Push title to the left of its container, not changing its size. -->
+      
       <flag name="left" value="0x03"/>
-      <!-- Push title to the right of its container, not changing its size. -->
+      
       <flag name="right" value="0x05"/>
-      <!-- Place title in the vertical center of its container, not changing its size. -->
+      
       <flag name="center_vertical" value="0x10"/>
-      <!-- Grow the vertical size of the title if needed so it completely fills its container. -->
+      
       <flag name="fill_vertical" value="0x70"/>
-      <!-- Place title in the horizontal center of its container, not changing its size. -->
+      
       <flag name="center_horizontal" value="0x01"/>
-      <!-- Place the title in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+      
       <flag name="center" value="0x11"/>
-      <!-- Push title to the beginning of its container, not changing its size. -->
+      
       <flag name="start" value="0x00800003"/>
-      <!-- Push title to the end of its container, not changing its size. -->
+      
       <flag name="end" value="0x00800005"/>
     </attr>
 
@@ -10807,9 +10773,9 @@
     <attr name="title"/>
     
     <attr name="titleCollapseMode">
-      <!-- The expanded title will continuously scale and translate to its final collapsed position. -->
+      
       <enum name="scale" value="0"/>
-      <!-- The expanded title will fade out and translate, and the collapsed title will fade in. -->
+      
       <enum name="fade" value="1"/>
     </attr>
     
@@ -10824,12 +10790,11 @@
   </declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout_Layout">
     <attr name="layout_collapseMode">
-      <!-- The view will act as normal with no collapsing behavior. -->
+      
       <enum name="none" value="0"/>
-      <!-- The view will pin in place. -->
+      
       <enum name="pin" value="1"/>
-      <!-- The view will scroll in a parallax fashion. See the
-           layout_collapseParallaxMultiplier attribute to change the multiplier. -->
+      
       <enum name="parallax" value="2"/>
     </attr>
 
@@ -10855,22 +10820,17 @@
 
         
         <attr name="buttonTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -11489,76 +11449,70 @@
 
         
         <attr name="layout_anchorGravity">
-            <!-- Push object to the top of its container, not changing its size. -->
+            
             <flag name="top" value="0x30"/>
-            <!-- Push object to the bottom of its container, not changing its size. -->
+            
             <flag name="bottom" value="0x50"/>
-            <!-- Push object to the left of its container, not changing its size. -->
+            
             <flag name="left" value="0x03"/>
-            <!-- Push object to the right of its container, not changing its size. -->
+            
             <flag name="right" value="0x05"/>
-            <!-- Place object in the vertical center of its container, not changing its size. -->
+            
             <flag name="center_vertical" value="0x10"/>
-            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            
             <flag name="fill_vertical" value="0x70"/>
-            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            
             <flag name="center_horizontal" value="0x01"/>
-            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            
             <flag name="fill_horizontal" value="0x07"/>
-            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            
             <flag name="center" value="0x11"/>
-            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            
             <flag name="fill" value="0x77"/>
-            <!-- Additional option that can be set to have the top and/or bottom edges of
-                 the child clipped to its container's bounds.
-                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
-                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            
             <flag name="clip_vertical" value="0x80"/>
-            <!-- Additional option that can be set to have the left and/or right edges of
-                 the child clipped to its container's bounds.
-                 The clip will be based on the horizontal gravity: a left gravity will clip the right
-                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            
             <flag name="clip_horizontal" value="0x08"/>
-            <!-- Push object to the beginning of its container, not changing its size. -->
+            
             <flag name="start" value="0x00800003"/>
-            <!-- Push object to the end of its container, not changing its size. -->
+            
             <flag name="end" value="0x00800005"/>
         </attr>
 
         
         <attr format="enum" name="layout_insetEdge">
-            <!-- Don't inset. -->
+            
             <enum name="none" value="0x0"/>
-            <!-- Inset the top edge. -->
+            
             <enum name="top" value="0x30"/>
-            <!-- Inset the bottom edge. -->
+            
             <enum name="bottom" value="0x50"/>
-            <!-- Inset the left edge. -->
+            
             <enum name="left" value="0x03"/>
-            <!-- Inset the right edge. -->
+            
             <enum name="right" value="0x05"/>
-            <!-- Inset the start edge. -->
+            
             <enum name="start" value="0x00800003"/>
-            <!-- Inset the end edge. -->
+            
             <enum name="end" value="0x00800005"/>
         </attr>
         
         <attr name="layout_dodgeInsetEdges">
-            <!-- Don't dodge any edges -->
+            
             <flag name="none" value="0x0"/>
-            <!-- Dodge the top inset edge. -->
+            
             <flag name="top" value="0x30"/>
-            <!-- Dodge the bottom inset edge. -->
+            
             <flag name="bottom" value="0x50"/>
-            <!-- Dodge the left inset edge. -->
+            
             <flag name="left" value="0x03"/>
-            <!-- Dodge the right inset edge. -->
+            
             <flag name="right" value="0x05"/>
-            <!-- Dodge the start inset edge. -->
+            
             <flag name="start" value="0x00800003"/>
-            <!-- Dodge the end inset edge. -->
+            
             <flag name="end" value="0x00800005"/>
-            <!-- Dodge all the inset edges. -->
+            
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
@@ -11664,11 +11618,11 @@
     <attr name="elevation"/>
     
     <attr name="extendStrategy">
-      <!-- Strategy to extend FAB back to the width it shrunk from. -->
+      
       <enum name="auto" value="0"/>
-      <!-- Strategy to extend FAB to wrap content. -->
+      
       <enum name="wrap_content" value="1"/>
-      <!-- Strategy to extend FAB to match parent. -->
+      
       <enum name="match_parent" value="2"/>
     </attr>
     
@@ -11700,11 +11654,11 @@
 
     
     <attr name="fabSize">
-      <!-- A size which will change based on the window size. -->
+      
       <enum name="auto" value="-1"/>
-      <!-- The normal sized button. -->
+      
       <enum name="normal" value="0"/>
-      <!-- The mini sized button. -->
+      
       <enum name="mini" value="1"/>
     </attr>
     
@@ -11753,23 +11707,14 @@
         <attr format="reference" name="fontProviderCerts"/>
         
         <attr name="fontProviderFetchStrategy">
-            <!-- The blocking font fetch works as follows.
-              First, check the local cache, then if the requested font is not cached, request the
-              font from the provider and wait until it is finished.  You can change the length of
-              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-              default typeface will be used instead. -->
+            
             <enum name="blocking" value="0"/>
-            <!-- The async font fetch works as follows.
-              First, check the local cache, then if the requeted font is not cached, trigger a
-              request the font and continue with layout inflation. Once the font fetch succeeds, the
-              target text view will be refreshed with the downloaded font data. The
-              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            
             <enum name="async" value="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
-            <!-- A special value for the timeout. In this case, the blocking font fetching will not
-              timeout and wait until a reply is received from the font provider. -->
+            
             <enum name="forever" value="-1"/>
         </attr>
         
@@ -12145,32 +12090,20 @@
     <declare-styleable name="LinearProgressIndicator">
     
     <attr name="indeterminateAnimationType">
-      <!--
-        The track will be filled with three adjacent segments in iterative different colors.
-        This type is only available when there are three or more indicator
-        colors.
-      -->
+      
       <enum name="contiguous" value="0"/>
-      <!--
-        There will be two disjoint segments in the same color per cycle. The color iterates between cycles.
-      -->
+      
       <enum name="disjoint" value="1"/>
     </attr>
     
     <attr name="indicatorDirectionLinear">
-      <!-- Animated from the left end to the right end of the track. -->
+      
       <enum name="leftToRight" value="0"/>
-      <!-- Animated from the right end to the left end of the track. -->
+      
       <enum name="rightToLeft" value="1"/>
-      <!--
-        Animated from the start position to the end position of the track.
-        This will be same as the leftToRight for API before 17.
-      -->
+      
       <enum name="startToEnd" value="2"/>
-      <!--
-        Animated from the end position to the start position of the track.
-        This will be same as the rightToLeft for API before 17.
-      -->
+      
       <enum name="endToStart" value="3"/>
     </attr>
   </declare-styleable>
@@ -12244,20 +12177,17 @@
     <attr format="dimension" name="iconPadding"/>
     
     <attr name="iconGravity">
-      <!-- Push icon to the start of the button. -->
+      
       <flag name="start" value="0x1"/>
-      <!-- Push the icon to the start of the text keeping a distance equal to
-           {@code iconPadding} from the text. -->
+      
       <flag name="textStart" value="0x2"/>
-      <!-- Push icon to the end of the button. -->
+      
       <flag name="end" value="0x3"/>
-      <!-- Push the icon to the end of the text keeping a distance equal to
-           {@code iconPadding} from the text. -->
+      
       <flag name="textEnd" value="0x4"/>
-      <!-- Push the icon to the top of the button. -->
+      
       <flag name="top" value="0x10"/>
-      <!-- Push the icon to the top of the text keeping a distance equal to
-           {@code iconPadding} from the text. -->
+      
       <flag name="textTop" value="0x20"/>
     </attr>
     
@@ -12330,13 +12260,13 @@
     <attr format="dimension" name="checkedIconMargin"/>
     
     <attr name="checkedIconGravity">
-      <!-- Gravity.TOP | Gravity.END -->
+      
       <enum name="TOP_END" value="8388661"/>
-      <!-- Gravity.TOP | Gravity.START -->
+      
       <enum name="TOP_START" value="8388659"/>
-      <!-- Gravity.BOTTOM | Gravity.END -->
+      
       <enum name="BOTTOM_END" value="8388693"/>
-      <!-- Gravity.BOTTOM | Gravity.START -->
+      
       <enum name="BOTTOM_START" value="8388691"/>
     </attr>
     
@@ -12366,22 +12296,17 @@
     <attr format="reference|color" name="buttonIconTint"/>
     
     <attr name="buttonIconTintMode">
-      <!-- The tint is drawn on top of the drawable.
-           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+      
       <enum name="src_over" value="3"/>
-      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-           color channels are thrown out. [Sa * Da, Sc * Da] -->
+      
       <enum name="src_in" value="5"/>
-      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+      
       <enum name="src_atop" value="9"/>
-      <!-- Multiplies the color and alpha channels of the drawable with those of
-           the tint. [Sa * Da, Sc * Dc] -->
+      
       <enum name="multiply" value="14"/>
-      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+      
       <enum name="screen" value="15"/>
-      <!-- Combines the tint and drawable color and alpha channels, clamping the
-           result to valid color values. Saturate(S + D) -->
+      
       <enum name="add" value="16"/>
     </attr>
     
@@ -12392,11 +12317,11 @@
     <attr format="string" name="errorAccessibilityLabel"/>
     
     <attr name="checkedState">
-      <!-- The unchecked state of the checkbox. -->
+      
       <enum name="unchecked" value="0"/>
-      <!-- The checked state of the checkbox. -->
+      
       <enum name="checked" value="1"/>
-      <!-- The indeterminate state of the checkbox. -->
+      
       <enum name="indeterminate" value="2"/>
     </attr>
   </declare-styleable>
@@ -12437,22 +12362,17 @@
     <attr format="color" name="thumbIconTint"/>
     
     <attr name="thumbIconTintMode">
-      <!-- The tint is drawn on top of the drawable.
-           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+      
       <enum name="src_over" value="3"/>
-      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-           color channels are thrown out. [Sa * Da, Sc * Da] -->
+      
       <enum name="src_in" value="5"/>
-      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+      
       <enum name="src_atop" value="9"/>
-      <!-- Multiplies the color and alpha channels of the drawable with those of
-           the tint. [Sa * Da, Sc * Dc] -->
+      
       <enum name="multiply" value="14"/>
-      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+      
       <enum name="screen" value="15"/>
-      <!-- Combines the tint and drawable color and alpha channels, clamping the
-           result to valid color values. Saturate(S + D) -->
+      
       <enum name="add" value="16"/>
     </attr>
     
@@ -12463,22 +12383,17 @@
     <attr format="color" name="trackDecorationTint"/>
     
     <attr name="trackDecorationTintMode">
-      <!-- The tint is drawn on top of the drawable.
-           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+      
       <enum name="src_over" value="3"/>
-      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-           color channels are thrown out. [Sa * Da, Sc * Da] -->
+      
       <enum name="src_in" value="5"/>
-      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+      
       <enum name="src_atop" value="9"/>
-      <!-- Multiplies the color and alpha channels of the drawable with those of
-           the tint. [Sa * Da, Sc * Dc] -->
+      
       <enum name="multiply" value="14"/>
-      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+      
       <enum name="screen" value="15"/>
-      <!-- Combines the tint and drawable color and alpha channels, clamping the
-           result to valid color values. Saturate(S + D) -->
+      
       <enum name="add" value="16"/>
     </attr>
   </declare-styleable>
@@ -12510,27 +12425,21 @@
     <attr format="boolean" name="logoAdjustViewBounds"/>
     
     <attr name="logoScaleType">
-      <!-- Scale using the image matrix when drawing. See
-           {@link android.widget.ImageView#setImageMatrix(Matrix)}. -->
+      
       <enum name="matrix" value="0"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
+      
       <enum name="fitXY" value="1"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
+      
       <enum name="fitStart" value="2"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
+      
       <enum name="fitCenter" value="3"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
+      
       <enum name="fitEnd" value="4"/>
-      <!-- Center the image in the view, but perform no scaling. -->
+      
       <enum name="center" value="5"/>
-      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
-           (width and height) of the image will be equal to or larger than the corresponding
-           dimension of the view (minus padding). The image is then centered in the view. -->
+      
       <enum name="centerCrop" value="6"/>
-      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
-           dimensions (width and height) of the image will be equal to or less than the
-           corresponding dimension of the view (minus padding). The image is then centered in
-           the view. -->
+      
       <enum name="centerInside" value="7"/>
     </attr>
   </declare-styleable>
@@ -12618,24 +12527,15 @@
 
         
         <attr name="showAsAction">
-            <!-- Never show this item in an action bar, show it in the overflow menu instead.
-                 Mutually exclusive with "ifRoom" and "always". -->
+            
             <flag name="never" value="0"/>
-            <!-- Show this item in an action bar if there is room for it as determined
-                 by the system. Favor this option over "always" where possible.
-                 Mutually exclusive with "never" and "always". -->
+            
             <flag name="ifRoom" value="1"/>
-            <!-- Always show this item in an actionbar, even if it would override
-                 the system's limits of how much stuff to put there. This may make
-                 your action bar look bad on some screens. In most cases you should
-                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". -->
+            
             <flag name="always" value="2"/>
-            <!-- When this item is shown as an action in the action bar, show a text
-                 label with it even if it has an icon representation. -->
+            
             <flag name="withText" value="4"/>
-            <!-- This item's action view collapses to a normal menu
-                 item. When expanded, the action view takes over a
-                 larger segment of its container. -->
+            
             <flag name="collapseActionView" value="8"/>
         </attr>
 
@@ -12659,22 +12559,17 @@
 
         
         <attr name="iconTintMode">
-            <!-- The tint is drawn on top of the icon.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the icon. The icon’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the icon, but with the icon’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the icon with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
 
@@ -12853,14 +12748,13 @@
     <attr name="menu"/>
     
     <attr name="labelVisibilityMode">
-      <!-- Label behaves as "labeled" when there are 3 items or less, or "selected" when there are
-           4 items or more. -->
+      
       <enum name="auto" value="-1"/>
-      <!-- Label is shown on the selected navigation item. -->
+      
       <enum name="selected" value="0"/>
-      <!-- Label is shown on all navigation items. -->
+      
       <enum name="labeled" value="1"/>
-      <!-- Label is not shown on any navigation items. -->
+      
       <enum name="unlabeled" value="2"/>
     </attr>
     
@@ -12900,14 +12794,14 @@
     <attr name="headerLayout"/>
    
     <attr name="menuGravity">
-      <!-- Navigation rail destinations will be aligned as a group at the top. This is the default behavior. -->
-      <!-- Gravity.TOP | Gravity.CENTER_HORIZONTAL-->
+      
+      
       <enum name="top" value="49"/>
-      <!-- Navigation rail destinations will be aligned as a group at the center. -->
-      <!-- Gravity.CENTER -->
+      
+      
       <enum name="center" value="17"/>
-      <!-- Navigation rail destinations will be aligned as a group at the bottom. -->
-      <!-- Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL -->
+      
+      
       <enum name="bottom" value="81"/>
     </attr>
     
@@ -13278,13 +13172,13 @@
     <attr format="dimension" name="haloRadius"/>
     
     <attr name="labelBehavior">
-      <!-- Mode that draws the label floating above the bounds of this view. -->
+      
       <enum name="floating" value="0"/>
-      <!-- Mode that draws the label within the bounds of the view. -->
+      
       <enum name="withinBounds" value="1"/>
-      <!-- Mode that prevents the label from being drawn. -->
+      
       <enum name="gone" value="2"/>
-      <!-- Mode that always draws the label. -->
+      
       <enum name="visible" value="3"/>
     </attr>
     
@@ -13336,9 +13230,9 @@
     <attr format="dimension" name="maxActionInlineWidth"/>
     
     <attr format="enum" name="animationMode">
-      <!-- Mode that corresponds to the slide in and out animations. -->
+      
       <enum name="slide" value="0"/>
-      <!-- Mode that corresponds to the fade in and out animations. -->
+      
       <enum name="fade" value="1"/>
     </attr>
     
@@ -13428,22 +13322,17 @@
         <attr format="color" name="thumbTint"/>
         
         <attr name="thumbTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and drawable color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
         
@@ -13452,22 +13341,17 @@
         <attr format="color" name="trackTint"/>
         
         <attr name="trackTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and drawable color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
         
@@ -13512,13 +13396,13 @@
     <attr format="reference" name="tabIndicator"/>
     
     <attr name="tabIndicatorGravity">
-      <!-- Align indicator to the bottom of this tab layout. -->
+      
       <enum name="bottom" value="0"/>
-      <!-- Align indicator along the center of this tab layout. -->
+      
       <enum name="center" value="1"/>
-      <!-- Align indicator to the top of this tab layout. -->
+      
       <enum name="top" value="2"/>
-      <!-- Stretch indicator to match the height and width of a tab item in this layout. -->
+      
       <enum name="stretch" value="3"/>
     </attr>
     
@@ -13527,17 +13411,11 @@
     <attr format="boolean" name="tabIndicatorFullWidth"/>
     
     <attr name="tabIndicatorAnimationMode">
-      <!-- Animate the selection indicator's left and right bounds in step with
-           each other. -->
+      
       <enum name="linear" value="0"/>
-      <!-- Animate the selection indicator's left and right bounds out of step
-           with each other, decelerating the front and accelerating the back.
-           This causes the indicator to look like it stretches between destinations
-           an then shrinks back down to fit the size of it's target tab. -->
+      
       <enum name="elastic" value="1"/>
-      <!-- Animate the selection indicator by sequentially fading it out from
-           its current destination and then fading it in at its new
-           destination. -->
+      
       <enum name="fade" value="2"/>
     </attr>
     
@@ -13684,19 +13562,15 @@
     <attr format="reference" name="errorIconTint"/>
     
     <attr name="errorIconTintMode">
-      <!-- The tint is drawn on top of the drawable.
-           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+      
       <enum name="src_over" value="3"/>
-      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-           color channels are thrown out. [Sa * Da, Sc * Da] -->
+      
       <enum name="src_in" value="5"/>
-      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+      
       <enum name="src_atop" value="9"/>
-      <!-- Multiplies the color and alpha channels of the drawable with those of
-           the tint. [Sa * Da, Sc * Dc] -->
+      
       <enum name="multiply" value="14"/>
-      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+      
       <enum name="screen" value="15"/>
     </attr>
 
@@ -13748,56 +13622,47 @@
     <attr format="color" name="startIconTint"/>
     
     <attr name="startIconTintMode">
-      <!-- The tint is drawn on top of the drawable.
-           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+      
       <enum name="src_over" value="3"/>
-      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-           color channels are thrown out. [Sa * Da, Sc * Da] -->
+      
       <enum name="src_in" value="5"/>
-      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+      
       <enum name="src_atop" value="9"/>
-      <!-- Multiplies the color and alpha channels of the drawable with those of
-           the tint. [Sa * Da, Sc * Dc] -->
+      
       <enum name="multiply" value="14"/>
-      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+      
       <enum name="screen" value="15"/>
     </attr>
     
     <attr format="dimension" name="startIconMinSize"/>
     
     <attr name="startIconScaleType">
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
+      
       <enum name="fitXY" value="0"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
+      
       <enum name="fitStart" value="1"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
+      
       <enum name="fitCenter" value="2"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
+      
       <enum name="fitEnd" value="3"/>
-      <!-- Center the image in the view, but perform no scaling. -->
+      
       <enum name="center" value="4"/>
-      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
-           (width and height) of the image will be equal to or larger than the corresponding
-           dimension of the view (minus padding). The image is then centered in the view. -->
+      
       <enum name="centerCrop" value="5"/>
-      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
-           dimensions (width and height) of the image will be equal to or less than the
-           corresponding dimension of the view (minus padding). The image is then centered in
-           the view. -->
+      
       <enum name="centerInside" value="6"/>
     </attr>
     
     <attr name="endIconMode">
-      <!-- The view will display a custom icon specified by the user. -->
+      
       <enum name="custom" value="-1"/>
-      <!-- No end icon. -->
+      
       <enum name="none" value="0"/>
-      <!-- The view will display a toggle when the EditText has a password. -->
+      
       <enum name="password_toggle" value="1"/>
-      <!-- The view will display a clear text button while the EditText contains input. -->
+      
       <enum name="clear_text" value="2"/>
-      <!-- The view will display a toggle that displays/hides a dropdown menu. -->
+      
       <enum name="dropdown_menu" value="3"/>
     </attr>
     
@@ -13810,53 +13675,44 @@
     <attr format="color" name="endIconTint"/>
     
     <attr name="endIconTintMode">
-      <!-- The tint is drawn on top of the drawable.
-           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+      
       <enum name="src_over" value="3"/>
-      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-           color channels are thrown out. [Sa * Da, Sc * Da] -->
+      
       <enum name="src_in" value="5"/>
-      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+      
       <enum name="src_atop" value="9"/>
-      <!-- Multiplies the color and alpha channels of the drawable with those of
-           the tint. [Sa * Da, Sc * Dc] -->
+      
       <enum name="multiply" value="14"/>
-      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+      
       <enum name="screen" value="15"/>
     </attr>
     
     <attr format="dimension" name="endIconMinSize"/>
     
     <attr name="endIconScaleType">
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
+      
       <enum name="fitXY" value="0"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
+      
       <enum name="fitStart" value="1"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
+      
       <enum name="fitCenter" value="2"/>
-      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
+      
       <enum name="fitEnd" value="3"/>
-      <!-- Center the image in the view, but perform no scaling. -->
+      
       <enum name="center" value="4"/>
-      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
-           (width and height) of the image will be equal to or larger than the corresponding
-           dimension of the view (minus padding). The image is then centered in the view. -->
+      
       <enum name="centerCrop" value="5"/>
-      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
-           dimensions (width and height) of the image will be equal to or less than the
-           corresponding dimension of the view (minus padding). The image is then centered in
-           the view. -->
+      
       <enum name="centerInside" value="6"/>
     </attr>
 
     
     <attr name="boxBackgroundMode">
-      <!-- Specifies that there should be no box set on the text input area. -->
+      
       <enum name="none" value="0"/>
-      <!-- Filled box mode for the text input box. -->
+      
       <enum name="filled" value="1"/>
-      <!-- Outline box mode for the text input box. -->
+      
       <enum name="outline" value="2"/>
     </attr>
     
@@ -13895,19 +13751,15 @@
     <attr format="color" name="passwordToggleTint"/>
     
     <attr name="passwordToggleTintMode">
-      <!-- The tint is drawn on top of the drawable.
-           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+      
       <enum name="src_over" value="3"/>
-      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-           color channels are thrown out. [Sa * Da, Sc * Da] -->
+      
       <enum name="src_in" value="5"/>
-      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+      
       <enum name="src_atop" value="9"/>
-      <!-- Multiplies the color and alpha channels of the drawable with those of
-           the tint. [Sa * Da, Sc * Dc] -->
+      
       <enum name="multiply" value="14"/>
-      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+      
       <enum name="screen" value="15"/>
     </attr>
   </declare-styleable>
@@ -13945,11 +13797,11 @@
         <attr name="contentInsetEndWithActions"/>
         <attr format="dimension" name="maxButtonHeight"/>
         <attr name="buttonGravity">
-            <!-- Place object in the vertical center of its container, not changing its size. -->
+            
             <flag name="center_vertical" value="0x10"/>
-            <!-- Push object to the top of its container, not changing its size. -->
+            
             <flag name="top" value="0x30"/>
-            <!-- Push object to the bottom of its container, not changing its size. -->
+            
             <flag name="bottom" value="0x50"/>
         </attr>
         
@@ -14082,22 +13934,17 @@
 
         
         <attr name="backgroundTintMode">
-            <!-- The tint is drawn on top of the drawable.
-                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            
             <enum name="src_over" value="3"/>
-            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
-                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            
             <enum name="src_in" value="5"/>
-            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
-                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            
             <enum name="src_atop" value="9"/>
-            <!-- Multiplies the color and alpha channels of the drawable with those of
-                 the tint. [Sa * Da, Sc * Dc] -->
+            
             <enum name="multiply" value="14"/>
-            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            
             <enum name="screen" value="15"/>
-            <!-- Combines the tint and icon color and alpha channels, clamping the
-                 result to valid color values. Saturate(S + D) -->
+            
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>

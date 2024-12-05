@@ -25,13 +25,12 @@ public class BundlePracActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bundle_prac);
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Bundel Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.bundel_demo), true);
 
         txtString = findViewById(R.id.txtString);
 
         Bundle bundle = getIntent().getExtras();
 
-        txtString.setText(bundle.getString("key1","No String Arived..!!"));
-
+        txtString.setText(bundle.getString(getString(R.string.key1), getString(R.string.no_string_arrived)));
     }
 }

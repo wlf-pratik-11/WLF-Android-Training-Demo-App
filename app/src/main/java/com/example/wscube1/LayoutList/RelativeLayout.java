@@ -30,7 +30,6 @@ public class RelativeLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityRelativeLayoutBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        Log.d("Log Of Relative Layout","Log Of Relative Layout");
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Relative Layout Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.relative_layout_demo),true);
     }
 }

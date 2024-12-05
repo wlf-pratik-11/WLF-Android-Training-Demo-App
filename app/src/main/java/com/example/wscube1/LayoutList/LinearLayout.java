@@ -21,7 +21,7 @@ public class LinearLayout extends AppCompatActivity {
         binding = ActivityLayoutListBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_linear_layout);
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Linear Layout Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.Linear_Layout_Demo),true);
 
     }
 }

@@ -24,6 +24,7 @@ import com.example.wscube1.DateTimeDemo.DateAndTimeDemoActivity;
 import com.example.wscube1.FragmentDemo.FragmentDemoActivity;
 import com.example.wscube1.LayoutList.LayoutListActivity;
 import com.example.wscube1.LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity;
+import com.example.wscube1.MultiLanguageDemo.MultiLanguageDemoActivity;
 import com.example.wscube1.PassDataDemo.PassDataOneActiityToAnother;
 import com.example.wscube1.RecyclerViewDemo.RecyclerViewActivity;
 import com.example.wscube1.RelativeScreenDemo.CompatibleScreenActivity;
@@ -67,8 +68,8 @@ public class MainActivity extends AppCompatActivity {
         mainEmail = findViewById(R.id.mainEmail);
 
         SharedPreferences sharedPreferences = getSharedPreferences("accountDetail", MODE_PRIVATE);
-        String name = sharedPreferences.getString("userName", "White Lable Fox");
-        String email = sharedPreferences.getString("userEmail", "whitelabelfox123@gmail.com");
+        String name = sharedPreferences.getString("userName", getString(R.string.White_Lable_Fox));
+        String email = sharedPreferences.getString("userEmail", getString(R.string.whitelabelfox123gmail_com));
         mainName.setText(name);
         mainEmail.setText(email);
 
@@ -127,7 +128,6 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(), ShimmerDemoActivity.class));
                 }
                 else if(id==R.id.logOut){
-                    Log.d("LogOut Button","LogOut Button");
                                 // Sign out from Firebase
                                 mAuth = FirebaseAuth.getInstance();
                                 mAuth.signOut();
@@ -143,7 +143,6 @@ public class MainActivity extends AppCompatActivity {
 
                                 // Redirect to the SignInActivity
                                 Intent intent = new Intent(getApplicationContext(), SignInActivity.class);
-                                Log.d("Pratik Tank","NotWorking2");
                                 startActivity(intent);
                                 finish();  // Close the current activity
                 }
@@ -153,8 +152,8 @@ public class MainActivity extends AppCompatActivity {
                 else if(id==R.id.servicesDemo){
                     startActivity(new Intent(getApplicationContext(), ServicesDemoActivity.class));
                 }
-                else {
-                    Log.d("Pratik Tank","NotWorking2");
+                else if(id==R.id.multiLangDemo){
+                    startActivity(new Intent(getApplicationContext(), MultiLanguageDemoActivity.class));
                 }
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
@@ -169,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
         toggle.syncState();
 
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Main Activity",false);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.Main_Activity),false);
         //endregion
     }
 }

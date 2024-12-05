@@ -23,12 +23,11 @@ public class SharedPreferencesActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivitySharedPreferencesBinding binding;
 
-    Button saveData,clearData;
+    Button saveData, clearData;
     private EditText nameSP, emailSP;
     private CheckBox verifiedDataSP;
     private RadioGroup radioGroup;
     SharedPreferences sharedPreferences;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +43,6 @@ public class SharedPreferencesActivity extends AppCompatActivity {
         saveData = findViewById(R.id.saveData);
         clearData = findViewById(R.id.clearData);
 
-
         try {
             sharedPreferences = getSharedPreferences("MyShredPref", MODE_PRIVATE);
             String name = sharedPreferences.getString("name", "");
@@ -59,6 +57,7 @@ public class SharedPreferencesActivity extends AppCompatActivity {
         } catch (Exception e) {
             Log.d("Radio Button Value", "");
         }
+
         saveData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -72,22 +71,21 @@ public class SharedPreferencesActivity extends AppCompatActivity {
                 editText.putInt("selected_radio_id", radioGroup.getCheckedRadioButtonId());
                 editText.commit();
 
-                Toast.makeText(getApplicationContext(), "Data Successfully Saved..!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.data_saved), Toast.LENGTH_SHORT).show();
 
                 nameSP.setText("");
                 emailSP.setText("");
                 verifiedDataSP.setChecked(false);
                 radioGroup.clearCheck();
-
             }
         });
 
         clearData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SharedPreferences deleteData = getApplicationContext().getSharedPreferences("MyShredPref",MODE_PRIVATE);
+                SharedPreferences deleteData = getApplicationContext().getSharedPreferences("MyShredPref", MODE_PRIVATE);
                 deleteData.edit().clear().commit();
-                Toast.makeText(getApplicationContext(),"Data is Cleared..!!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.data_cleared), Toast.LENGTH_SHORT).show();
 
                 nameSP.setText("");
                 emailSP.setText("");
@@ -96,7 +94,6 @@ public class SharedPreferencesActivity extends AppCompatActivity {
             }
         });
 
-
-        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), "Shared Prefernces Demo", true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.shared_preferences_demo), true);
     }
 }

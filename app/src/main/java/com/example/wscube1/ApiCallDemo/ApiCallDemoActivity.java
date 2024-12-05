@@ -77,7 +77,6 @@ public class ApiCallDemoActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<UserModel>> call, Throwable throwable) {
-                Log.d("Data Not Arrived..!!","Data Not Arrived..!!");
 //                shimmerFrameLayout.stopShimmer();
 //                shimmerFrameLayout.setVisibility(View.GONE);
             }

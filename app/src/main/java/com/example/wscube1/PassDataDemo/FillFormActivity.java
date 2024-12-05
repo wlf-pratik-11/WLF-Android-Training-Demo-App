@@ -20,7 +20,7 @@ public class FillFormActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_fill_form);
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Pass Data Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.pass_data_demo), true);
 
         Button doneFillData = findViewById(R.id.doneFillData);
         EditText nameFillData = findViewById(R.id.nameFillData);
@@ -29,7 +29,7 @@ public class FillFormActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Bundle bundle = new Bundle();
-                bundle.putString("name",nameFillData.getText().toString());
+                bundle.putString("name", nameFillData.getText().toString());
                 Intent intent = new Intent();
                 intent.putExtras(bundle);
                 setResult(RESULT_OK, intent);

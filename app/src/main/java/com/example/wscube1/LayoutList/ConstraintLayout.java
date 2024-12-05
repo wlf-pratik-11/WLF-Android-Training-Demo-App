@@ -29,7 +29,7 @@ public class ConstraintLayout extends AppCompatActivity {
 
         binding = ActivityConstraintLayoutBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Constraint Layout Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.Constraint_Layout_Demo),true);
     }
 
 }

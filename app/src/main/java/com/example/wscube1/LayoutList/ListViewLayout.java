@@ -31,16 +31,16 @@ public class ListViewLayout extends AppCompatActivity {
 
         binding = ActivityListViewLayoutBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"ListView Layout Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.listview_layout_demo),true);
 
         String lstData[] = {
-                "M.S.Dhoni",
-                "Ravindra Jadeja",
-                "Pathirana",
-                "Ruturaj Gayakwad",
-                "Suresh Raina",
-                "Shivam Dube",
-                "Super King",
+                "M.S.Dhoni"         ,
+                "Ravindra Jadeja"   ,
+                "Pathirana"         ,
+                "Ruturaj Gayakwad"  ,
+                "Suresh Raina"      ,
+                "Shivam Dube"       ,
+                "Super King"        ,
                 "Chennai Super"
         };
 

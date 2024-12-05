@@ -21,7 +21,7 @@ public class DateAndTimeDemoActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityDateAndTimeDemoBinding binding;
 
-    TextView dateTimeInLongTextView,format1,format2,format3,format4,format5,format6,format7;
+    TextView dateTimeInLongTextView, format1, format2, format3, format4, format5, format6, format7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,70 +32,54 @@ public class DateAndTimeDemoActivity extends AppCompatActivity {
         Calendar calendar;
         SimpleDateFormat simpleDateFormat;
 
-
-        dateTimeInLongTextView = (TextView) findViewById(R.id.dateTimeLongValue);
-        format1 = (TextView) findViewById(R.id.format1);
-        format2 = (TextView) findViewById(R.id.format2);
-        format3 = (TextView) findViewById(R.id.format3);
-        format4 = (TextView) findViewById(R.id.format4);
-        format5 = (TextView) findViewById(R.id.format5);
-        format6 = (TextView) findViewById(R.id.format6);
-        format7 = (TextView) findViewById(R.id.format7);
+        dateTimeInLongTextView = findViewById(R.id.dateTimeLongValue);
+        format1 = findViewById(R.id.format1);
+        format2 = findViewById(R.id.format2);
+        format3 = findViewById(R.id.format3);
+        format4 = findViewById(R.id.format4);
+        format5 = findViewById(R.id.format5);
+        format6 = findViewById(R.id.format6);
+        format7 = findViewById(R.id.format7);
 
         Long dateValueInLong = System.currentTimeMillis();
-        dateTimeInLongTextView.setText(dateValueInLong.toString());
+        dateTimeInLongTextView.setText(String.valueOf(dateValueInLong));
 
         calendar = Calendar.getInstance();
         simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss aaa z");
-        dateTime = simpleDateFormat.format(calendar.getTime()).toString();
+        dateTime = simpleDateFormat.format(calendar.getTime());
         format1.setText(dateTime);
 
         calendar = Calendar.getInstance();
         simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss aaa z");
-        dateTime = simpleDateFormat.format(calendar.getTime()).toString();
+        dateTime = simpleDateFormat.format(calendar.getTime());
         format2.setText(dateTime);
 
         calendar = Calendar.getInstance();
         simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss aaa z");
-        dateTime = simpleDateFormat.format(calendar.getTime()).toString();
+        dateTime = simpleDateFormat.format(calendar.getTime());
         format3.setText(dateTime);
 
         calendar = Calendar.getInstance();
         simpleDateFormat = new SimpleDateFormat("dd.LLL.yyyy HH:mm:ss aaa z");
-        dateTime = simpleDateFormat.format(calendar.getTime()).toString();
+        dateTime = simpleDateFormat.format(calendar.getTime());
         format4.setText(dateTime);
 
         calendar = Calendar.getInstance();
         simpleDateFormat = new SimpleDateFormat("dd.LLLL.yyyy HH:mm:ss aaa z");
-        dateTime = simpleDateFormat.format(calendar.getTime()).toString();
+        dateTime = simpleDateFormat.format(calendar.getTime());
         format5.setText(dateTime);
 
         calendar = Calendar.getInstance();
         simpleDateFormat = new SimpleDateFormat("E.LLLL.yyyy HH:mm:ss aaa z");
-        dateTime = simpleDateFormat.format(calendar.getTime()).toString();
+        dateTime = simpleDateFormat.format(calendar.getTime());
         format6.setText(dateTime);
 
         calendar = Calendar.getInstance();
         simpleDateFormat = new SimpleDateFormat("EEEE.LLLL.yyyy KK:mm:ss aaa z");
-        dateTime = simpleDateFormat.format(calendar.getTime()).toString();
+        dateTime = simpleDateFormat.format(calendar.getTime());
         format7.setText(dateTime);
 
-
-//        String date="2004-11-01 6:30:00 PM";
-//        SimpleDateFormat spf=new SimpleDateFormat("yyyy-dd-mm hh:mm:ss aaa");
-//        Date newDate= null;
-//        try {
-//            newDate = spf.parse(date);
-//        } catch (ParseException e) {
-//            throw new RuntimeException(e);
-//        }
-//        spf= new SimpleDateFormat("dd/MM/yyyy");
-//        date = spf.format(newDate);
-//        format1.setText(date);
-//
-
-
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Date And Time Foramtting",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.date_and_time_formatting), true);
     }
 
     @Override

@@ -20,14 +20,14 @@ public class LayoutDemoActivity extends AppCompatActivity {
     private ActivityLayoutDemoBinding binding;
     ListView listView;
     String lstData[] = {
-            "Android Linear Layout",
-            "Android Relative Layout",
-            "Android Constraint Layout",
-            "Android Frame Layout",
-            "Android Table Layout",
-            "Android Web View",
-            "Android ListView",
-            "Android Grid View"
+            getString(R.string.android_linear_layout)     ,
+            getString(R.string.android_relative_layout)   ,
+            getString(R.string.android_constraint_layout) ,
+            getString(R.string.android_frame_layout)      ,
+            getString(R.string.android_table_layout)      ,
+            getString(R.string.android_web_view)          ,
+            getString(R.string.android_listview)         ,
+            getString(R.string.android_grid_view)
     };
 
     @Override
@@ -38,7 +38,7 @@ public class LayoutDemoActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Layout Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.layout_demo),true);
 
 
         listView = findViewById(R.id.listView);

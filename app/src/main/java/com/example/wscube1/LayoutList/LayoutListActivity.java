@@ -31,7 +31,7 @@ public class LayoutListActivity extends AppCompatActivity {
         listBtn8 = findViewById(R.id.listBtn8);
 
         // Apply theme changes
-        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), "Layout List",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), getString(R.string.Layout_List),true);
 
 
         // Set the onClickListener for listBtn1

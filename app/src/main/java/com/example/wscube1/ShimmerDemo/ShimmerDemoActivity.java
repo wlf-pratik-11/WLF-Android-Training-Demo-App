@@ -44,7 +44,7 @@ public class ShimmerDemoActivity extends AppCompatActivity {
             contentLayout.setVisibility(View.VISIBLE); // Show actual content
         }, 10000); // 10 seconds
 
-        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),"Shimmer Demo",true);
+        CommonFunctions.appBarAndStatusBarThemeChange(this,this,getWindow(),getString(R.string.Shimmer_Demo),true);
 
     }
 }

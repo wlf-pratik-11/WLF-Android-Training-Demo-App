@@ -58,6 +58,10 @@
         android:title="Android Services Demo"
         />
     <item
+        android:id="@+id/multiLangDemo"
+        android:title="Multi Language Demo"
+        />
+    <item
         android:id="@+id/logOut"
         android:title="Logout"
         />
