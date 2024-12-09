@@ -21,6 +21,9 @@ import androidx.navigation.ui.AppBarConfiguration;
 import com.example.wscube1.ApiCallDemo.ApiCallDemoActivity;
 import com.example.wscube1.BundelDemo.BundelDemoActivity;
 import com.example.wscube1.DateTimeDemo.DateAndTimeDemoActivity;
+import com.example.wscube1.FirebaseDemo.AddCourceActivity;
+import com.example.wscube1.FirebaseDemo.FirebaseDemoActivity;
+import com.example.wscube1.FirebaseImageUpload.UploadAnImageOnFirebaseActivity;
 import com.example.wscube1.FragmentDemo.FragmentDemoActivity;
 import com.example.wscube1.LayoutList.LayoutListActivity;
 import com.example.wscube1.LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity;
@@ -154,6 +157,12 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(id==R.id.multiLangDemo){
                     startActivity(new Intent(getApplicationContext(), MultiLanguageDemoActivity.class));
+                }
+                else if(id==R.id.firebaseDemo){
+                    startActivity(new Intent(getApplicationContext(), FirebaseDemoActivity.class));
+                }
+                else if(id==R.id.firebaseImgUploadDemo){
+                    startActivity(new Intent(getApplicationContext(), UploadAnImageOnFirebaseActivity.class));
                 }
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;

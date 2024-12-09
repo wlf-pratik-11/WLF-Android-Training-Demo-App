@@ -4,7 +4,7 @@
             "outputFile": "com.example.wscube1.app-mergeDebugResources-83:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\c5c51c589cf743e7a0f0761145479cbb\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\667f5636cb92781379eb00e452de1182\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\2ae01745bca5f95c18b888a689c84cd3\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\4fadf740b884bf4e2977117a09841f3b\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

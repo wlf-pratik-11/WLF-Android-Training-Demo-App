@@ -4,7 +4,7 @@
             "outputFile": "com.example.wscube1.app-mergeDebugResources-83:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\1fe69ce922415153d8fdac4b706f5bc8\\transformed\\android-image-cropper-4.3.3\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\ba962141af991e1f5c086bb79f21c07a\\transformed\\android-image-cropper-4.3.3\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\867d65e820ed48b1737769aaee697430\\transformed\\ucrop-2.2.8\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\7e5f9827e1ffb86cb4fe999402d4193b\\transformed\\ucrop-2.2.8\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

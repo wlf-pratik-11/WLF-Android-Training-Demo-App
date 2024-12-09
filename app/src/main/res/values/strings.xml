@@ -116,7 +116,7 @@
 
     <string name="fragmentMsg">Welcome To Fragment Demo</string>
 
-<!--    Multi Language Demo-->
+    <!--    Multi Language Demo-->
     <string name="multilanguagedemo">Multi Language Demo</string>
 
     <string name="lorem_ipsum" translatable="false">

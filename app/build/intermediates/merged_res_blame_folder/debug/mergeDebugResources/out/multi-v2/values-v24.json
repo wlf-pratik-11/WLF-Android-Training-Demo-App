@@ -4,17 +4,7 @@
             "outputFile": "com.example.wscube1.app-mergeDebugResources-83:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\c5c51c589cf743e7a0f0761145479cbb\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\5179e1a90235e5f46a6be7b731be924c\\transformed\\material-1.10.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\a3a0b11dfe254798b11b423435dcad91\\transformed\\material-1.10.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "4,5,6,7,10,13,16,19",
                         "endColumns": "84,98,86,100,10,10,10,10",
                         "endOffsets": "427,526,613,714,913,1126,1327,1542"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\667f5636cb92781379eb00e452de1182\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
                     }
                 }
             ]

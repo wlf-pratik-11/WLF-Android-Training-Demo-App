@@ -30,6 +30,21 @@
         android:theme="@style/Theme.WSCube1"
         tools:targetApi="31">
         <activity
+            android:name=".FirebaseImageUpload.UploadAnImageOnFirebaseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WSCube1" />
+        <activity
+            android:name=".FirebaseDemo.EditCourceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirebaseDemo.AddCourceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WSCube1" />
+        <activity
+            android:name=".FirebaseDemo.FirebaseDemoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WSCube1" />
+        <activity
             android:name=".MultiLanguageDemo.MultiLanguageDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />

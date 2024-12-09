@@ -2,8 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="dBlue">#122D68</color>
+    <color name="dBlue">#010048</color>
     <color name="yellow">#FFEB3B</color>
     <color name="red">#F44336</color>
     <color name="green">#1F7A13</color>
+    <color name="layoutBackground">#0D1E52</color>
+    <color name="lightBlue">#090088</color>
 </resources>

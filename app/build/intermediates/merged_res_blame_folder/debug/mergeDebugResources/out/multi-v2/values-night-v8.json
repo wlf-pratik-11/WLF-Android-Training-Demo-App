@@ -4,7 +4,24 @@
             "outputFile": "com.example.wscube1.app-mergeDebugResources-83:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\5179e1a90235e5f46a6be7b731be924c\\transformed\\material-1.10.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\667f5636cb92781379eb00e452de1182\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,38",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "170,240,324,408,504,606,708,3563",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "235,319,403,499,601,703,797,3647"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\a3a0b11dfe254798b11b423435dcad91\\transformed\\material-1.10.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -37,23 +54,6 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "165"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\c5c51c589cf743e7a0f0761145479cbb\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,11,12,38",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "170,240,324,408,504,606,708,3563",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "235,319,403,499,601,703,797,3647"
                     }
                 }
             ]

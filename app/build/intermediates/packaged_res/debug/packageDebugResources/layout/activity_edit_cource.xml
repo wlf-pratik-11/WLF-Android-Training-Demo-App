@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseDemo.EditCourceActivity">
+<include layout="@layout/appbar_layout"/>
+
+    <ScrollView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="Enter Cource Name :"
+                    app:endIconMode="clear_text"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/courceName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="Enter Cource Price :"
+                    app:shapeAppearance="@style/Rounded"
+                    app:startIconDrawable="@drawable/rupee_sign">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/courcePrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="Enter Cource Suted For :"
+                    app:endIconMode="clear_text"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/courceSutedFor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="Enter Cource Img Link :"
+                    app:endIconMode="clear_text"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/courceImgLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="Enter Cource Link :"
+                    app:endIconMode="clear_text"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/courceLink"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="Enter Cource Description :"
+                    app:endIconMode="clear_text"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/courceDescri"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <LinearLayout
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:id="@+id/updateCource"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="Update Cource"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:id="@+id/deleteCource"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_weight="1"
+                        android:text="Delete Cource" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/updateCourceProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

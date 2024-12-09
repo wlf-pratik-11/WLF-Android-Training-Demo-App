@@ -66,6 +66,21 @@
         android:testOnly="true"
         android:theme="@style/Theme.WSCube1" >
         <activity
+            android:name="com.example.wscube1.FirebaseImageUpload.UploadAnImageOnFirebaseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WSCube1" />
+        <activity
+            android:name="com.example.wscube1.FirebaseDemo.EditCourceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wscube1.FirebaseDemo.AddCourceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WSCube1" />
+        <activity
+            android:name="com.example.wscube1.FirebaseDemo.FirebaseDemoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.WSCube1" />
+        <activity
             android:name="com.example.wscube1.MultiLanguageDemo.MultiLanguageDemoActivity"
             android:exported="false"
             android:theme="@style/Theme.WSCube1" />
@@ -253,6 +268,12 @@
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
@@ -364,6 +385,11 @@
         <activity
             android:name="androidx.activity.ComponentActivity"
             android:exported="true" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.wscube1.com.squareup.picasso"
+            android:exported="false" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"

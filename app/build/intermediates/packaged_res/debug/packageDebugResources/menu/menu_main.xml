@@ -62,6 +62,14 @@
         android:title="Multi Language Demo"
         />
     <item
+        android:id="@+id/firebaseDemo"
+        android:title="Firebase Demo"
+        />
+    <item
+        android:id="@+id/firebaseImgUploadDemo"
+        android:title="Upload An Image On Firebase Demo"
+        />
+    <item
         android:id="@+id/logOut"
         android:title="Logout"
         />
