@@ -141,6 +141,7 @@ attr alpha
 attr alphabeticModifiers
 attr altSrc
 attr alwaysExpand
+attr ambientEnabled
 attr animateCircleAngleTo
 attr animateMenuItems
 attr animateNavigationIcon
@@ -248,6 +249,13 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -777,6 +785,10 @@ attr labelVisibilityMode
 attr largeFontVerticalOffsetAdjustment
 attr lastBaselineToBottomHeight
 attr lastItemDecorated
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr launchSingleTop
 attr layout
 attr layoutDescription
@@ -873,10 +885,14 @@ attr listPreferredItemPaddingEnd
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
+attr liteMode
 attr logo
 attr logoAdjustViewBounds
 attr logoDescription
 attr logoScaleType
+attr mapColorScheme
+attr mapId
+attr mapType
 attr marginHorizontal
 attr marginLeftSystemWindowInsets
 attr marginRightSystemWindowInsets
@@ -1426,11 +1442,20 @@ attr ucrop_grid_stroke_size
 attr ucrop_show_frame
 attr ucrop_show_grid
 attr ucrop_show_oval_crop_frame
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr upDuration
 attr uri
 attr useCompatPadding
 attr useDrawerArrowDrawable
 attr useMaterialThemeColors
+attr useViewLifecycle
 attr values
 attr verticalOffset
 attr verticalOffsetWithText
@@ -1461,6 +1486,7 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
@@ -3350,6 +3376,7 @@ id First15Fragment
 id First16Fragment
 id First17Fragment
 id First18Fragment
+id First19Fragment
 id First2Fragment
 id First3Fragment
 id First4Fragment
@@ -3377,6 +3404,7 @@ id Second15Fragment
 id Second16Fragment
 id Second17Fragment
 id Second18Fragment
+id Second19Fragment
 id Second2Fragment
 id Second3Fragment
 id Second4Fragment
@@ -3439,6 +3467,7 @@ id action_First15Fragment_to_Second15Fragment
 id action_First16Fragment_to_Second16Fragment
 id action_First17Fragment_to_Second17Fragment
 id action_First18Fragment_to_Second18Fragment
+id action_First19Fragment_to_Second19Fragment
 id action_First2Fragment_to_Second2Fragment
 id action_First3Fragment_to_Second3Fragment
 id action_First4Fragment_to_Second4Fragment
@@ -3457,6 +3486,7 @@ id action_Second15Fragment_to_First15Fragment
 id action_Second16Fragment_to_First16Fragment
 id action_Second17Fragment_to_First17Fragment
 id action_Second18Fragment_to_First18Fragment
+id action_Second19Fragment_to_First19Fragment
 id action_Second2Fragment_to_First2Fragment
 id action_Second3Fragment_to_First3Fragment
 id action_Second4Fragment_to_First4Fragment
@@ -3684,6 +3714,7 @@ id fixed
 id flip
 id floating
 id folding_circles
+id follow_system
 id forever
 id formDataView
 id formDataView2
@@ -3708,6 +3739,7 @@ id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
 id gone
+id googleMapDemo
 id google_music_dices
 id google_progress
 id graph
@@ -3724,6 +3756,7 @@ id homeAsUp
 id honorRequest
 id horizontal
 id horizontal_only
+id hybrid
 id ic_flip_24
 id ic_flip_24_horizontally
 id ic_flip_24_vertically
@@ -3814,6 +3847,7 @@ id mainEmail
 id mainName
 id mainProgressBar
 id male
+id map
 id marquee
 id masked
 id match_constraint
@@ -3904,6 +3938,7 @@ id nav_graph24
 id nav_graph25
 id nav_graph26
 id nav_graph27
+id nav_graph28
 id nav_graph3
 id nav_graph4
 id nav_graph5
@@ -3917,6 +3952,7 @@ id nav_host_fragment_content_api_call_demo
 id nav_host_fragment_content_bundel_demo
 id nav_host_fragment_content_firebase_demo
 id nav_host_fragment_content_fragment_demo
+id nav_host_fragment_content_google_map
 id nav_host_fragment_content_load_image_network_and_gallary
 id nav_host_fragment_content_multi_language_demo
 id nav_host_fragment_content_pass_data_one_actiity_to_another
@@ -4021,6 +4057,7 @@ id rotate_scroll_wheel
 id rounded
 id row_index_key
 id rtl
+id satellite
 id saveContact
 id saveData
 id save_non_transition_alpha
@@ -4113,6 +4150,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id terrain
 id text
 id text2
 id textEnd
@@ -4338,6 +4376,7 @@ layout activity_fill_form
 layout activity_firebase_demo
 layout activity_fragment_demo
 layout activity_frame_layout
+layout activity_google_map
 layout activity_grid_view_layout
 layout activity_layout_demo
 layout activity_layout_list
@@ -4376,6 +4415,7 @@ layout content_api_call_demo
 layout content_bundel_demo
 layout content_firebase_demo
 layout content_fragment_demo
+layout content_google_map
 layout content_load_image_network_and_gallary
 layout content_multi_language_demo
 layout content_pass_data_one_actiity_to_another
@@ -4425,6 +4465,7 @@ layout fragment_first15
 layout fragment_first16
 layout fragment_first17
 layout fragment_first18
+layout fragment_first19
 layout fragment_first2
 layout fragment_first3
 layout fragment_first4
@@ -4434,6 +4475,7 @@ layout fragment_first7
 layout fragment_first8
 layout fragment_first9
 layout fragment_form_data
+layout fragment_maps
 layout fragment_second
 layout fragment_second10
 layout fragment_second11
@@ -4444,6 +4486,7 @@ layout fragment_second15
 layout fragment_second16
 layout fragment_second17
 layout fragment_second18
+layout fragment_second19
 layout fragment_second2
 layout fragment_second3
 layout fragment_second4
@@ -4550,6 +4593,7 @@ navigation nav_graph24
 navigation nav_graph25
 navigation nav_graph26
 navigation nav_graph27
+navigation nav_graph28
 navigation nav_graph3
 navigation nav_graph4
 navigation nav_graph5
@@ -6140,6 +6184,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapColorScheme mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop backgroundTint
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType android_popupElevation dropDownBackgroundTint simpleItemLayout simpleItemSelectedColor simpleItemSelectedRippleColor simpleItems

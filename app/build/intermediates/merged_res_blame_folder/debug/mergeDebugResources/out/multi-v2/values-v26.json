@@ -4,7 +4,7 @@
             "outputFile": "com.example.wscube1.app-mergeDebugResources-3:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wlf Rushank\\.gradle\\caches\\8.9\\transforms\\f58511c6eda8631550d75eed14fd8703\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Wlf Rushank\\.gradle\\caches\\8.9\\transforms\\e9df737010a5bc05be5b2e8cc4a6fc5c\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

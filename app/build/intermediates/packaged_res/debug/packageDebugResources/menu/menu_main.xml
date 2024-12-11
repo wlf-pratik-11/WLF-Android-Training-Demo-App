@@ -78,6 +78,10 @@
         android:title="Push Notification Demo"
         />
     <item
+        android:id="@+id/googleMapDemo"
+        android:title="Google Map Demo"
+        />
+    <item
         android:id="@+id/logOut"
         android:title="Logout"
         />

@@ -1,434 +1,458 @@
 [
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_compatible_screen.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_compatible_screen.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_multi_language_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_multi_language_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_pass_data_one_actiity_to_another.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_pass_data_one_actiity_to_another.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\card_for_api_call_item.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\card_for_api_call_item.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_a.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_a.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_delete_alert.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_delete_alert.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_firebase_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_firebase_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first12.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first12.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second16.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second16.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first5.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first5.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_relative_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_relative_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_edit_cource.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_edit_cource.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_textview_for_listview.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_textview_for_listview.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_firebase_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_firebase_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_upload_an_image_on_firebase.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_upload_an_image_on_firebase.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second2.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second2.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first18.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first18.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_toast_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_toast_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_multi_language_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_multi_language_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_services_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_services_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first6.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first6.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first4.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first4.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_add_cource.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_add_cource.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_google_map.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_google_map.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/cource_item.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/cource_item.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_pegination_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_pegination_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first13.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first13.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second9.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second9.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_bundel_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_bundel_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\card_for_listview.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\card_for_listview.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_load_image_network_and_gallary.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_load_image_network_and_gallary.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second10.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second10.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_a.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_a.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_toast_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_toast_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first17.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first17.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/appbar_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/appbar_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\card_for_contactview.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\card_for_contactview.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_relative_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_relative_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_push_notification_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_push_notification_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/card_for_contactview.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/card_for_contactview.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_bundle_prac.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_bundle_prac.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second4.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second4.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second7.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second7.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/add_or_edit_contact.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/add_or_edit_contact.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_list_view_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_list_view_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_fill_form.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_fill_form.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_services_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_services_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_constraint_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_constraint_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_layout_list.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_layout_list.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first10.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first10.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\bottom_sheet_lauout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\bottom_sheet_lauout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_sqlite_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_sqlite_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first5.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first5.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second18.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second18.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second18.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second18.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first4.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first4.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first2.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first2.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first7.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first7.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second15.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second15.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first15.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first15.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_edit_cource.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_edit_cource.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_bottom_sheet_dialog.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_bottom_sheet_dialog.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_sqlite_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_sqlite_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second11.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second11.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_date_and_time_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_date_and_time_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first3.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first3.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_b.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_b.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second5.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second5.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_ucrop.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_ucrop.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first9.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first9.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first8.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first8.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_c.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_c.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first10.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first10.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first16.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first16.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first7.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first7.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second17.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second17.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_linear_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_linear_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_sqlite_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_sqlite_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_upload_an_image_on_firebase.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_upload_an_image_on_firebase.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_api_call_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_api_call_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_google_map.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_google_map.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/user_rv_item.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/user_rv_item.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_shared_preferences.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_shared_preferences.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_fragment_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_fragment_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_recycler_view.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_recycler_view.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_recycler_view.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_recycler_view.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_table_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_table_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_grid_view_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_grid_view_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second17.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second17.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_frame_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_frame_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_api_call_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_api_call_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_layout_list.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_layout_list.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_web_view_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_web_view_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_sign_in.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second2.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second2.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_main.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second11.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second11.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_add_cource.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_add_cource.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second5.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second5.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first18.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first18.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second14.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second14.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_load_image_network_and_gallary.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_load_image_network_and_gallary.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_add_cource.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_add_cource.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_layout_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_layout_demo.xml"
+        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_google_map.xml",
+        "source": "com.example.wscube1.app-main-7:/layout/activity_google_map.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_bundel_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_bundel_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_delete_alert.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_delete_alert.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second8.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second8.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first16.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first16.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second14.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second14.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\card_item.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\card_item.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_textview_for_listview.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_textview_for_listview.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first13.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first13.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/dialog_wait1.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/dialog_wait1.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second8.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second8.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/recler_view_card.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/recler_view_card.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\recler_view_card.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\recler_view_card.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_services_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_services_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first19.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first19.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/card_for_listview.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/card_for_listview.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second3.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second3.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_fragment_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_fragment_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_shimmer_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_shimmer_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_web_view_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_web_view_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_fragment_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_fragment_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_upload_an_image_on_firebase.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_upload_an_image_on_firebase.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_ucrop.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_ucrop.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_pegination_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_pegination_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_grid_view_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_grid_view_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_shimmer_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_shimmer_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_pass_data_one_actiity_to_another.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_pass_data_one_actiity_to_another.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second7.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second7.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_maps.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_maps.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/bottom_sheet_lauout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/bottom_sheet_lauout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_firebase_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_firebase_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second12.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second12.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_api_call_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_api_call_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second10.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second10.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second15.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second15.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_load_image_network_and_gallary.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_load_image_network_and_gallary.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_table_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_table_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first14.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first14.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_shimmer_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_shimmer_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\appbar_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\appbar_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_shared_preferences.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_shared_preferences.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_services_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_services_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_push_notification_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_push_notification_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_frame_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_frame_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_linear_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_linear_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_add_cource.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_add_cource.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first8.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first8.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_bundel_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_bundel_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_date_and_time_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_date_and_time_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_shimmer_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_shimmer_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_list_view_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_list_view_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\dialog_wait1.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\dialog_wait1.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/cource_bottom_sheet.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/cource_bottom_sheet.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second12.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second12.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first2.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first2.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_toast_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_toast_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/card_item.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/card_item.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_constraint_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_constraint_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second16.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second16.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first12.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first12.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_multi_language_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_multi_language_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_sqlite_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_sqlite_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_firebase_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_firebase_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second4.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second4.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_pass_data_one_actiity_to_another.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_pass_data_one_actiity_to_another.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_compatible_screen.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_compatible_screen.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second13.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second13.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_pass_data_one_actiity_to_another.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_pass_data_one_actiity_to_another.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_push_notification_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_push_notification_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_push_notification_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_push_notification_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_b.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_b.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\user_rv_item.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\user_rv_item.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/card_for_api_call_item.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/card_for_api_call_item.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_pegination_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_pegination_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_upload_an_image_on_firebase.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_upload_an_image_on_firebase.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first15.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first15.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_relative_layout.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_relative_layout.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_recycler_view.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_recycler_view.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_form_data.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_form_data.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second19.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second19.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_recycler_view.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_recycler_view.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_relative_layout.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_relative_layout.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_api_call_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_api_call_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_c.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_c.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first17.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first17.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\cource_bottom_sheet.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\cource_bottom_sheet.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_ucrop.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_ucrop.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second3.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second3.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second13.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second13.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_multi_language_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_multi_language_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_form_data.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_form_data.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/activity_bundle_prac.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/activity_bundle_prac.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_second6.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second6.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first11.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first11.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_bundel_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_bundel_demo.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first14.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first14.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first11.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first11.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_pegination_demo.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_pegination_demo.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\cource_item.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\cource_item.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_first.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_first.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first9.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first9.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second6.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second6.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\add_or_edit_contact.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\add_or_edit_contact.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/fragment_second9.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/fragment_second9.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_load_image_network_and_gallary.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_load_image_network_and_gallary.xml"
     },
     {
-        "merged": "com.example.wscube1.app-mergeDebugResources-4:/layout/content_ucrop.xml",
-        "source": "com.example.wscube1.app-main-7:/layout/content_ucrop.xml"
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first3.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_first6.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first6.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_layout_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_layout_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\fragment_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_fragment_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_fragment_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\content_toast_demo.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\content_toast_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-mergeDebugResources-4:\\layout\\activity_fill_form.xml",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_fill_form.xml"
     }
 ]

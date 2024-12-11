@@ -4,7 +4,7 @@
             "outputFile": "com.example.wscube1.app-mergeDebugResources-3:/values-es-rGT/values-es-rGT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wlf Rushank\\.gradle\\caches\\8.9\\transforms\\37bb58977022de2a517aee66b6402c14\\transformed\\android-image-cropper-4.3.3\\res\\values-es-rGT\\values-es-rGT.xml",
+                    "source": "C:\\Users\\Wlf Rushank\\.gradle\\caches\\8.9\\transforms\\5c69ac59fa833b9cbf515ca9aaa8aeb9\\transformed\\android-image-cropper-4.3.3\\res\\values-es-rGT\\values-es-rGT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

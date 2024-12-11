@@ -25,6 +25,7 @@ import com.example.wscube1.FirebaseDemo.AddCourceActivity;
 import com.example.wscube1.FirebaseDemo.FirebaseDemoActivity;
 import com.example.wscube1.FirebaseImageUpload.UploadAnImageOnFirebaseActivity;
 import com.example.wscube1.FragmentDemo.FragmentDemoActivity;
+import com.example.wscube1.GoogleMap.GoogleMapActivity;
 import com.example.wscube1.LayoutList.LayoutListActivity;
 import com.example.wscube1.LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity;
 import com.example.wscube1.MultiLanguageDemo.MultiLanguageDemoActivity;
@@ -171,6 +172,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(id==R.id.pushNotificationDemo){
                     startActivity(new Intent(getApplicationContext(), PushNotificationDemoActivity.class));
+                }
+                else if(id==R.id.googleMapDemo){
+                    startActivity(new Intent(getApplicationContext(), GoogleMapActivity.class));
                 }
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
