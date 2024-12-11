@@ -4,25 +4,48 @@ package com.example.wscube1.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.wscube1.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityUploadAnImageOnFirebaseBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final RelativeLayout rootView;
 
-  private ActivityUploadAnImageOnFirebaseBinding(@NonNull CoordinatorLayout rootView) {
+  @NonNull
+  public final Button btnChoose;
+
+  @NonNull
+  public final Button btnUpload;
+
+  @NonNull
+  public final ImageView imageViewForFirebase;
+
+  @NonNull
+  public final LinearLayout layoutButton;
+
+  private ActivityUploadAnImageOnFirebaseBinding(@NonNull RelativeLayout rootView,
+      @NonNull Button btnChoose, @NonNull Button btnUpload, @NonNull ImageView imageViewForFirebase,
+      @NonNull LinearLayout layoutButton) {
     this.rootView = rootView;
+    this.btnChoose = btnChoose;
+    this.btnUpload = btnUpload;
+    this.imageViewForFirebase = imageViewForFirebase;
+    this.layoutButton = layoutButton;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +66,38 @@ public final class ActivityUploadAnImageOnFirebaseBinding implements ViewBinding
 
   @NonNull
   public static ActivityUploadAnImageOnFirebaseBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btnChoose;
+      Button btnChoose = ViewBindings.findChildViewById(rootView, id);
+      if (btnChoose == null) {
+        break missingId;
+      }
 
-    return new ActivityUploadAnImageOnFirebaseBinding((CoordinatorLayout) rootView);
+      id = R.id.btnUpload;
+      Button btnUpload = ViewBindings.findChildViewById(rootView, id);
+      if (btnUpload == null) {
+        break missingId;
+      }
+
+      id = R.id.imageViewForFirebase;
+      ImageView imageViewForFirebase = ViewBindings.findChildViewById(rootView, id);
+      if (imageViewForFirebase == null) {
+        break missingId;
+      }
+
+      id = R.id.layout_button;
+      LinearLayout layoutButton = ViewBindings.findChildViewById(rootView, id);
+      if (layoutButton == null) {
+        break missingId;
+      }
+
+      return new ActivityUploadAnImageOnFirebaseBinding((RelativeLayout) rootView, btnChoose,
+          btnUpload, imageViewForFirebase, layoutButton);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

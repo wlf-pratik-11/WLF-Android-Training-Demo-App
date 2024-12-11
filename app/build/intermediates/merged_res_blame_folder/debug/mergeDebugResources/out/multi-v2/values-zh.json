@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.wscube1.app-mergeDebugResources-83:/values-zh/values-zh.xml",
+            "outputFile": "com.example.wscube1.app-mergeDebugResources-3:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\ba962141af991e1f5c086bb79f21c07a\\transformed\\android-image-cropper-4.3.3\\res\\values-zh\\values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,135,182,234,276,333,388,440,490",
-                        "endColumns": "79,46,51,41,56,54,51,49,57",
-                        "endOffsets": "130,177,229,271,328,383,435,485,543"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Pratik\\.gradle\\caches\\8.9\\transforms\\7e5f9827e1ffb86cb4fe999402d4193b\\transformed\\ucrop-2.2.8\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Wlf Rushank\\.gradle\\caches\\8.9\\transforms\\27dd673ef0a49a950c34e0648fb626c3\\transformed\\ucrop-2.2.8\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "548,590,644,698,745,789",
                         "endColumns": "41,53,53,46,43,42",
                         "endOffsets": "585,639,693,740,784,827"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wlf Rushank\\.gradle\\caches\\8.9\\transforms\\37bb58977022de2a517aee66b6402c14\\transformed\\android-image-cropper-4.3.3\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,135,182,234,276,333,388,440,490",
+                        "endColumns": "79,46,51,41,56,54,51,49,57",
+                        "endOffsets": "130,177,229,271,328,383,435,485,543"
                     }
                 }
             ]

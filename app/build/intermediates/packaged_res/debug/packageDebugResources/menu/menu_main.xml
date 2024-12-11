@@ -70,6 +70,14 @@
         android:title="Upload An Image On Firebase Demo"
         />
     <item
+        android:id="@+id/paginationDemo"
+        android:title="Pagination Demo"
+        />
+    <item
+        android:id="@+id/pushNotificationDemo"
+        android:title="Push Notification Demo"
+        />
+    <item
         android:id="@+id/logOut"
         android:title="Logout"
         />

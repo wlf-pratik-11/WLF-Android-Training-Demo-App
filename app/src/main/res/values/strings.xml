@@ -4,6 +4,8 @@
     <string name="White_Lable_Fox">White Lable Fox</string>
     <string name="whitelabelfox123gmail_com">whitelabelfox123@gmail.com</string>
 
+    <string name="msg_token_fmt" translatable="false"></string>
+
     <!-- Layout List -->
     <string name="Layout_List">Layout List</string>
 

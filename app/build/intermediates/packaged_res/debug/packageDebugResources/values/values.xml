@@ -68,6 +68,7 @@
         diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
         ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
     </string>
+    <string name="msg_token_fmt" translatable="false"/>
     <string name="multilanguagedemo">Multi Language Demo</string>
     <string name="name_not_arrived">Name not arrived</string>
     <string name="next">Next</string>

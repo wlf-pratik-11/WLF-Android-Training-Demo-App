@@ -7,16 +7,16 @@
     android:fitsSystemWindows="true"
     tools:context=".FirebaseImageUpload.UploadAnImageOnFirebaseActivity">
 
-    <include layout="@layout/appbar_layout"/>
+    <include layout="@layout/appbar_layout" />
 
     <LinearLayout
         android:id="@+id/layout_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
         android:orientation="horizontal"
         android:weightSum="2"
-        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -55,7 +55,7 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imgView"
+        android:id="@+id/imageViewForFirebase"
         android:layout_width="390dp"
         android:layout_height="718dp"
         android:layout_below="@+id/layout_button"

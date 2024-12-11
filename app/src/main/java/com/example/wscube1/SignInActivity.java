@@ -131,10 +131,12 @@ public class SignInActivity extends AppCompatActivity {
                             editor.commit();
 
                             // Proceed to MainActivity after successful login
+
                             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                             startActivity(intent);
                             finish();
                         } else {
+                            Log.d("Not arrived..!!","Not arrived..!!");
                             Toast.makeText(SignInActivity.this, "Login failed", Toast.LENGTH_SHORT).show();
                         }
                     }

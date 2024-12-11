@@ -29,6 +29,8 @@ import com.example.wscube1.LayoutList.LayoutListActivity;
 import com.example.wscube1.LoadImageNetworkAndGallaryDemo.LoadImageNetworkAndGallaryActivity;
 import com.example.wscube1.MultiLanguageDemo.MultiLanguageDemoActivity;
 import com.example.wscube1.PassDataDemo.PassDataOneActiityToAnother;
+import com.example.wscube1.PeginationDemo.PeginationDemoActivity;
+import com.example.wscube1.PushNotificationDemo.PushNotificationDemoActivity;
 import com.example.wscube1.RecyclerViewDemo.RecyclerViewActivity;
 import com.example.wscube1.RelativeScreenDemo.CompatibleScreenActivity;
 import com.example.wscube1.SQLiteDemo.SQLiteDemoActivity;
@@ -163,6 +165,12 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(id==R.id.firebaseImgUploadDemo){
                     startActivity(new Intent(getApplicationContext(), UploadAnImageOnFirebaseActivity.class));
+                }
+                else if(id==R.id.paginationDemo){
+                    startActivity(new Intent(getApplicationContext(), PeginationDemoActivity.class));
+                }
+                else if(id==R.id.pushNotificationDemo){
+                    startActivity(new Intent(getApplicationContext(), PushNotificationDemoActivity.class));
                 }
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
