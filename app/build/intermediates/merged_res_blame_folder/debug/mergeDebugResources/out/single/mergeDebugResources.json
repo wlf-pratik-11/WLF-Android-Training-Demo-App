@@ -180,12 +180,12 @@
         "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\activity_bundle_prac.xml"
     },
     {
-        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\layout_fragment_first17.xml.flat",
-        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first17.xml"
-    },
-    {
         "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\navigation_nav_graph6.xml.flat",
         "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\navigation\\nav_graph6.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\layout_fragment_first17.xml.flat",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_first17.xml"
     },
     {
         "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\layout_fragment_first2.xml.flat",
@@ -250,6 +250,10 @@
     {
         "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\drawable_download.png.flat",
         "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\drawable\\download.png"
+    },
+    {
+        "merged": "com.example.wscube1.app-debug-5:/drawable_white_background.xml.flat",
+        "source": "com.example.wscube1.app-main-7:/drawable/white_background.xml"
     },
     {
         "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -538,6 +542,10 @@
     {
         "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\layout_fragment_second.xml.flat",
         "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\drawable_location.png.flat",
+        "source": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-main-7:\\drawable\\location.png"
     },
     {
         "merged": "C:\\Users\\Wlf Rushank\\.gradle\\daemon\\8.9\\com.example.wscube1.app-debug-5:\\navigation_nav_graph22.xml.flat",

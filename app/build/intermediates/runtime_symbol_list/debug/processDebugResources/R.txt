@@ -3254,6 +3254,7 @@ int drawable ic_password 0x7f0800bb
 int drawable ic_rotate_left_24 0x7f0800bc
 int drawable ic_rotate_right_24 0x7f0800bd
 int drawable ic_search_black_24 0x7f0800be
+int drawable location 0x7f080121
 int drawable m3_appbar_background 0x7f0800bf
 int drawable m3_avd_hide_password 0x7f0800c0
 int drawable m3_avd_show_password 0x7f0800c1
@@ -3352,6 +3353,7 @@ int drawable ucrop_vector_loader 0x7f08011d
 int drawable ucrop_vector_loader_animated 0x7f08011e
 int drawable ucrop_wrapper_controls_shape 0x7f08011f
 int drawable user_icon 0x7f080120
+int drawable white_background 0x7f080122
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
@@ -3520,6 +3522,7 @@ int id addContact 0x7f0900a4
 int id addCource 0x7f0900a5
 int id addCourceFloatingButton 0x7f0900a6
 int id addCourceProgressBar 0x7f0900a7
+int id addressTV 0x7f09037f
 int id adjust_height 0x7f0900a8
 int id adjust_width 0x7f0900a9
 int id alertCardView 0x7f0900aa
@@ -3733,6 +3736,7 @@ int id fram1 0x7f090179
 int id frost 0x7f09017a
 int id fullscreen_header 0x7f09017b
 int id gallery 0x7f09017c
+int id getCurruntPosition 0x7f090380
 int id getImage 0x7f09017d
 int id ghost_view 0x7f09017e
 int id ghost_view_holder 0x7f09017f
@@ -4070,6 +4074,7 @@ int id scrollIndicatorDown 0x7f0902cb
 int id scrollIndicatorUp 0x7f0902cc
 int id scrollView 0x7f0902cd
 int id scrollable 0x7f0902ce
+int id searchView 0x7f090381
 int id search_badge 0x7f0902cf
 int id search_bar 0x7f0902d0
 int id search_button 0x7f0902d1
@@ -4129,6 +4134,7 @@ int id state_rotate 0x7f090306
 int id state_scale 0x7f090307
 int id staticLayout 0x7f090308
 int id staticPostLayout 0x7f090309
+int id static_marker 0x7f09037e
 int id stop 0x7f09030a
 int id stopMedia 0x7f09030b
 int id stretch 0x7f09030c
@@ -4474,7 +4480,6 @@ int layout fragment_first7 0x7f0c0087
 int layout fragment_first8 0x7f0c0088
 int layout fragment_first9 0x7f0c0089
 int layout fragment_form_data 0x7f0c008a
-int layout fragment_maps 0x7f0c008b
 int layout fragment_second 0x7f0c008c
 int layout fragment_second10 0x7f0c008d
 int layout fragment_second11 0x7f0c008e

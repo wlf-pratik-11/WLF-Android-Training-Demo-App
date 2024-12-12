@@ -20,9 +20,11 @@ drawable googleicon
 drawable headerbkg
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable location
 drawable rupee
 drawable rupee_sign
 drawable user_icon
+drawable white_background
 id CourceBottomSheet
 id CourceDescripton
 id CourceImage
@@ -116,6 +118,7 @@ id addContact
 id addCource
 id addCourceFloatingButton
 id addCourceProgressBar
+id addressTV
 id alertCardView
 id apiCallDemo
 id appBar
@@ -179,6 +182,7 @@ id fragC
 id fragmentDemo
 id fram1
 id gallery
+id getCurruntPosition
 id getImage
 id googleMapDemo
 id google_progress
@@ -295,6 +299,7 @@ id recyclerviewDemo
 id relativeScreenDemo
 id saveContact
 id saveData
+id searchView
 id servicesDemo
 id sharedPreferencesDemo
 id shimmerDemo
@@ -303,6 +308,7 @@ id shimmer_view_container
 id spTitle
 id sqliteDemo
 id startMedia
+id static_marker
 id stopMedia
 id textView
 id textView2
@@ -419,7 +425,6 @@ layout fragment_first7
 layout fragment_first8
 layout fragment_first9
 layout fragment_form_data
-layout fragment_maps
 layout fragment_second
 layout fragment_second10
 layout fragment_second11

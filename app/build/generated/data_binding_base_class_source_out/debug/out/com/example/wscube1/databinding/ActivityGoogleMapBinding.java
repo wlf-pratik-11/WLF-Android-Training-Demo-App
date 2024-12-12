@@ -4,33 +4,49 @@ package com.example.wscube1.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
+import android.widget.SearchView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentContainerView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.wscube1.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityGoogleMapBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final FragmentContainerView map;
+  public final TextView addressTV;
 
-  private ActivityGoogleMapBinding(@NonNull LinearLayout rootView,
-      @NonNull FragmentContainerView map) {
+  @NonNull
+  public final FloatingActionButton getCurruntPosition;
+
+  @NonNull
+  public final SearchView searchView;
+
+  @NonNull
+  public final ImageView staticMarker;
+
+  private ActivityGoogleMapBinding(@NonNull ConstraintLayout rootView, @NonNull TextView addressTV,
+      @NonNull FloatingActionButton getCurruntPosition, @NonNull SearchView searchView,
+      @NonNull ImageView staticMarker) {
     this.rootView = rootView;
-    this.map = map;
+    this.addressTV = addressTV;
+    this.getCurruntPosition = getCurruntPosition;
+    this.searchView = searchView;
+    this.staticMarker = staticMarker;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -55,13 +71,32 @@ public final class ActivityGoogleMapBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.map;
-      FragmentContainerView map = ViewBindings.findChildViewById(rootView, id);
-      if (map == null) {
+      id = R.id.addressTV;
+      TextView addressTV = ViewBindings.findChildViewById(rootView, id);
+      if (addressTV == null) {
         break missingId;
       }
 
-      return new ActivityGoogleMapBinding((LinearLayout) rootView, map);
+      id = R.id.getCurruntPosition;
+      FloatingActionButton getCurruntPosition = ViewBindings.findChildViewById(rootView, id);
+      if (getCurruntPosition == null) {
+        break missingId;
+      }
+
+      id = R.id.searchView;
+      SearchView searchView = ViewBindings.findChildViewById(rootView, id);
+      if (searchView == null) {
+        break missingId;
+      }
+
+      id = R.id.static_marker;
+      ImageView staticMarker = ViewBindings.findChildViewById(rootView, id);
+      if (staticMarker == null) {
+        break missingId;
+      }
+
+      return new ActivityGoogleMapBinding((ConstraintLayout) rootView, addressTV,
+          getCurruntPosition, searchView, staticMarker);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
