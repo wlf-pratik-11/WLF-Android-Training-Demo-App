@@ -3736,6 +3736,7 @@ id fragment_container_view_tag
 id fram1
 id frost
 id fullscreen_header
+id gMapLayout
 id gallery
 id getCurruntPosition
 id getImage

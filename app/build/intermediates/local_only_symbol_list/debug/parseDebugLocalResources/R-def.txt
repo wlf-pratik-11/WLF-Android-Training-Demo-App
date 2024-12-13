@@ -181,6 +181,7 @@ id fragB
 id fragC
 id fragmentDemo
 id fram1
+id gMapLayout
 id gallery
 id getCurruntPosition
 id getImage

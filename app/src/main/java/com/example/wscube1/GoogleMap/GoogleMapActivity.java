@@ -14,6 +14,7 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 
+import com.example.wscube1.LayoutList.ConstraintLayout;
 import com.example.wscube1.common.CommonFunctions;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -39,6 +40,7 @@ import android.widget.Toast;
 import com.example.wscube1.databinding.ActivityGoogleMapBinding;
 import com.example.wscube1.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.io.IOException;
 import java.util.List;
@@ -51,6 +53,7 @@ public class GoogleMapActivity extends AppCompatActivity implements OnMapReadyCa
     TextView addressTV;
     ImageView static_marker;
     SearchView searchView;
+    ConstraintLayout gMapLayout;
     FloatingActionButton getCurruntPosition;
 
     private int REQUEST_LOCATION = 99;
@@ -75,6 +78,8 @@ public class GoogleMapActivity extends AppCompatActivity implements OnMapReadyCa
         getCurruntPosition = findViewById(R.id.getCurruntPosition);
         static_marker = findViewById(R.id.static_marker);
         searchView = findViewById(R.id.searchView);
+
+
 
         CommonFunctions.appBarAndStatusBarThemeChange(this, this, getWindow(), "Google Map Demo", true);
 
@@ -104,6 +109,9 @@ public class GoogleMapActivity extends AppCompatActivity implements OnMapReadyCa
                     LatLng latLng = new LatLng(address.getLatitude(),address.getLongitude());
                     mMap.addMarker(new MarkerOptions().position(latLng).title(searchingLocation));
                     mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,15f));
+
+                    Snackbar snackbar = Snackbar.make(findViewById(R.id.gMapLayout), "Search Result :"+address.getLocality(), Snackbar.LENGTH_SHORT);
+                    snackbar.show();
                 }
 
                 return false;

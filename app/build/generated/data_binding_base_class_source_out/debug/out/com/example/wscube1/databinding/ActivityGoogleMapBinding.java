@@ -26,6 +26,9 @@ public final class ActivityGoogleMapBinding implements ViewBinding {
   public final TextView addressTV;
 
   @NonNull
+  public final ConstraintLayout gMapLayout;
+
+  @NonNull
   public final FloatingActionButton getCurruntPosition;
 
   @NonNull
@@ -35,10 +38,11 @@ public final class ActivityGoogleMapBinding implements ViewBinding {
   public final ImageView staticMarker;
 
   private ActivityGoogleMapBinding(@NonNull ConstraintLayout rootView, @NonNull TextView addressTV,
-      @NonNull FloatingActionButton getCurruntPosition, @NonNull SearchView searchView,
-      @NonNull ImageView staticMarker) {
+      @NonNull ConstraintLayout gMapLayout, @NonNull FloatingActionButton getCurruntPosition,
+      @NonNull SearchView searchView, @NonNull ImageView staticMarker) {
     this.rootView = rootView;
     this.addressTV = addressTV;
+    this.gMapLayout = gMapLayout;
     this.getCurruntPosition = getCurruntPosition;
     this.searchView = searchView;
     this.staticMarker = staticMarker;
@@ -77,6 +81,8 @@ public final class ActivityGoogleMapBinding implements ViewBinding {
         break missingId;
       }
 
+      ConstraintLayout gMapLayout = (ConstraintLayout) rootView;
+
       id = R.id.getCurruntPosition;
       FloatingActionButton getCurruntPosition = ViewBindings.findChildViewById(rootView, id);
       if (getCurruntPosition == null) {
@@ -95,7 +101,7 @@ public final class ActivityGoogleMapBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGoogleMapBinding((ConstraintLayout) rootView, addressTV,
+      return new ActivityGoogleMapBinding((ConstraintLayout) rootView, addressTV, gMapLayout,
           getCurruntPosition, searchView, staticMarker);
     }
     String missingId = rootView.getResources().getResourceName(id);
